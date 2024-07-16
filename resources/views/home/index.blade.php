@@ -1,0 +1,405 @@
+@extends('layouts.homepage')
+
+<div class="row">
+    <div class="col-xs-12 no-padd">
+        <div class="container-fluid top-banner no-padd  big fullheight light">
+            <img src="/img/home/home-bg-300s.jpg" class="s-img-switch" alt="top-banner image" />
+            <span class="overlay"></span>
+            <div class="content">
+                <div class="prague-svg-animation-text"></div>
+                <div class="subtitle">Where Design Meets Perfection</div>
+                <h1 class="title"> Redefining NYC Living with Architectural Excellence.</h1>
+                <div class="description">
+                    <p>Elevating NYC Luxury Living
+                        through Unparalleled Craftsmanship</p>
+                </div>
+                <a href="work-grid.html" class="a-btn creative" target=" _blank">
+                    <span class="a-btn-line "></span>EXPLORE IT</a>
+            </div>
+            <div class="top-banner-cursor"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container no-padd">
+    <div class="row-fluid  margin-lg-140t margin-sm-70t">
+        <div class="col-sm-8 col-lg-offset-0 no-padd col-lg-4 col-md-offset-0 col-md-5 col-sm-offset-2 col-xs-12  margin-lg-65t margin-sm-0t">
+            <div class="vc_column-inner margin-minus-left">
+                <div class="prague-counter  alone_item no-figure">
+
+                    <div class="figures ">
+                        <!-- triangle -->
+                    </div>
+
+                    <div class="counter-outer" style="padding:15px;">
+
+                        <img src="#" data-lazy-src="/img/home/stock-photo-66175729.jpg" alt="experience image"
+                             class="prague-counter-img s-img-switch">
+
+                        <div class="numbers">
+                            <svg>
+                                <defs>
+                                    <mask id="coming_mask_0" x="0" y="0">
+                                        <rect class="coming-alpha" x="0" y="0" width="100%" height="100%"></rect>
+                                        <text class="count number" x="50%" y="45%" text-anchor="middle"
+                                              alignment-baseline="middle">25</text>
+                                        <text class="count title" x="50%" y="70%" text-anchor="middle"
+                                              alignment-baseline="middle">YEARS OF EXPERIENCE</text>
+                                    </mask>
+                                </defs>
+                                <rect style="-webkit-mask: url(#coming_mask_0); mask: url(#coming_mask_0);" class="base"
+                                      x="0" y="0" width="100%" height="100%"></rect>
+                            </svg>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" no-padd col-sm-12 col-lg-offset-1 col-lg-7 col-md-offset-0 col-md-7 col-sm-offset-0 col-xs-12  margin-sm-20t">
+            <div class="heading  left dark">
+
+                <div class="subtitle ">ABOUT US</div>
+                <h2 class="title">Break out of your routine with<br />
+                    a global perspective.</h2>
+                <div class="content ">
+                    <p>Based on collective work and shared knowledge, Architecture-Studio aims to favour
+                        dialogue and debate, to transform individual knowledge into increased creative
+                        potential.</p>
+                    <p>Our Studio is a architecture practice based in Prague, Chech and Venice. Today, it
+                        includes 150 architects, urban planners, landscape and interior designers of 25
+                        different nationalities. The company principle of Architecture-Studio is the collective
+                        conception. From the very beginning, the practice has believed in the virtues of
+                        exchange, crossing ideas, common effort, shred knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="margin-lg-20t margin-sm-30t">
+    <div class="container">
+        <div class="row">
+
+            <div class="column colum-container col-sm-12 no-padd margin-lg-20b">
+                <div class="heading  left dark">
+
+                    <div class="subtitle ">LAST PROJECTS</div>
+                    <h2 class="title">Make it with passion.</h2>
+                </div>
+            </div>
+
+            <div class="no-padd-left no-padd-right margin-lg-20t">
+                <div class="wrapper">
+                    <div data-unique-key="139714cb2b9c35c987d2544328454258" class="js-load-more" data-start-page="1"
+                         data-max-page="5" data-next-link="http://prague.loc/page/2/">
+                        <div class="row prague_list prague_count_col1 prague_gap_col10  no-footer-content no-figure prague-load-wrapper"
+                             data-columns="prague_count_col1" data-gap="prague_gap_col10">
+                            <div class="project-list-item">
+                                <div class="project-list-outer">
+
+                                    <div class="project-list-wrapper">
+
+                                        <div class="project-list-img">
+                                            <!-- 51f1b143659493.57f77d5c9619a -->
+                                            <img src="#" data-lazy-src="/img/home/projects/01/17W64TH_LOWRES_450w.jpeg" class="s-img-switch"
+                                                 alt="seascape-villa image" />
+                                        </div>
+
+                                        <div class="project-list-content">
+
+                                            <div class="project-list-category">2022</div>
+                                            <h3 class="project-list-title"><a href="seascape-villa.html" target="_self">Project #1</a></h3>
+                                            <div class="project-list-excerpt">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            </div>
+                                            <a href="seascape-villa.html" class="project-list-link a-btn-arrow-2"
+                                               target="_self">
+                                                <span class="arrow-right"></span>
+                                                READ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-list-item  column_paralax">
+                                <div class="project-list-outer">
+
+                                    <div class="project-list-wrapper">
+
+                                        <div class="project-list-img">
+                                            <img src="#" data-lazy-src="/img/home/projects/02/17W64TH_LOWRES_450w.jpg"
+                                                 class="s-img-switch" alt="Project #2" />
+                                        </div>
+
+                                        <div class="project-list-content">
+
+                                            <div class="project-list-category">2024</div>
+
+
+                                            <h3 class="project-list-title"><a href="european-lard-station.html"
+                                                                              target="_self">Project #2</a></h3>
+                                            <div class="project-list-excerpt">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                            </div>
+
+                                            <a href="european-lard-station.html" class="project-list-link a-btn-arrow-2"
+                                               target="_self">
+                                                <span class="arrow-right"></span>
+                                                READ</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-list-item">
+                                <div class="project-list-outer">
+
+
+                                    <div class="project-list-wrapper">
+
+                                        <div class="project-list-img">
+                                            <img src="#" data-lazy-src="/img/home/projects/03/17W64TH_LOWRES_450w.jpg" class="s-img-switch"
+                                                 alt="yabroudi-villa image" />
+                                        </div>
+
+                                        <div class="project-list-content">
+
+                                            <div class="project-list-category">2021</div>
+
+                                            <h3 class="project-list-title"><a href="yabroudi-villa.html" target="_self">Project #3</a></h3>
+                                            <div class="project-list-excerpt">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            </div>
+
+                                            <a href="yabroudi-villa.html" class="project-list-link a-btn-arrow-2"
+                                               target="_self">
+                                                <span class="arrow-right"></span>
+                                                READ</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-list-item">
+                                <div class="project-list-outer">
+
+
+                                    <div class="project-list-wrapper">
+
+                                        <div class="project-list-img">
+                                            <img src="#" data-lazy-src="/img/home/projects/04/IMG_6562_450w.jpg"
+                                                 class="s-img-switch" alt="cultural-complex-centre image" />
+                                        </div>
+
+                                        <div class="project-list-content">
+
+                                            <div class="project-list-category">2019</div>
+
+
+                                            <h3 class="project-list-title"><a href="cultural-complex-centre.html"
+                                                                              target="_self">Project #4</a></h3>
+                                            <div class="project-list-excerpt">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                            </div>
+
+                                            <a href="cultural-complex-centre.html" class="project-list-link a-btn-arrow-2"
+                                               target="_self">
+                                                <span class="arrow-right"></span>
+                                                READ</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-list-item  column_paralax">
+                                <div class="project-list-outer">
+
+                                    <div class="project-list-wrapper">
+
+                                        <div class="project-list-img">
+                                            <img src="#" data-lazy-src="/img/home/projects/05/IMG_7078_450w.jpg" class="s-img-switch" alt="dalbourne-villa image"/>
+                                        </div>
+
+                                        <div class="project-list-content">
+
+                                            <div class="project-list-category">2011</div>
+
+
+                                            <h3 class="project-list-title"><a href="dalbourne-villa.html" target="_self">Project #5</a></h3>
+                                            <div class="project-list-excerpt">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                            </div>
+
+                                            <a href="dalbourne-villa.html" class="project-list-link a-btn-arrow-2"
+                                               target="_self">
+                                                <span class="arrow-right"></span>
+                                                READ</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-list-item">
+                                <div class="project-list-outer">
+
+
+                                    <div class="project-list-wrapper">
+
+                                        <div class="project-list-img">
+                                            <img src="#" data-lazy-src="/img/home/c5854644221919.580bb620ecb87.jpg"
+                                                 class="s-img-switch" alt="amman-rotana-hotel image" />
+                                        </div>
+
+                                        <div class="project-list-content">
+
+                                            <div class="project-list-category">2015</div>
+
+
+                                            <h3 class="project-list-title"><a href="amman-rotana-hotel.html" target="_self">Amman
+                                                    Rotana Hotel</a></h3>
+                                            <div class="project-list-excerpt">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            </div>
+
+                                            <a href="amman-rotana-hotel.html" class="project-list-link a-btn-arrow-2"
+                                               target="_self">
+                                                <span class="arrow-right"></span>
+                                                READ</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="heading  left dark container">
+
+    <div class="subtitle ">TESTIMONIALS</div>
+    <h2 class="title">They love us.</h2>
+
+</div>
+
+<div class="container">
+
+    <div class="row  row-fluid margin-lg-10t margin-lg-145b margin-sm-70b">
+
+        <div class="testimonials-wrapper  no-figure">
+            <div class="testimonials-swiper swiper-container" data-speed='2000' data-loop='1' data-autoplay='3000'
+                 data-center='0' data-mode='vertical' data-slides-per-view='1' data-lg-slides='1,0' data-md-slides='1,0'
+                 data-sm-slides='1,0' data-xs-slides='1,0'>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonials-item">
+
+                            <span class="testimonials-icon fa fa fa-quote-right"></span>
+
+                            <blockquote class="testimonials-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </blockquote>
+                            <h4 class="testimonials-author">Mark Eganberg</h4>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonials-item">
+
+                            <span class="testimonials-icon fa fa fa-quote-right"></span>
+
+                            <blockquote class="testimonials-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </blockquote>
+                            <h4 class="testimonials-author">Jennifer Hilbertson</h4>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonials-item">
+
+                            <span class="testimonials-icon fa fa fa-quote-right"></span>
+
+                            <blockquote class="testimonials-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </blockquote>
+                            <h4 class="testimonials-author">Lesley Grand</h4>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonials-item">
+
+                            <span class="testimonials-icon fa fa fa-quote-right"></span>
+
+                            <blockquote class="testimonials-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </blockquote>
+                            <h4 class="testimonials-author">John Frick</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="testimonials-pagination-wrapper">
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
