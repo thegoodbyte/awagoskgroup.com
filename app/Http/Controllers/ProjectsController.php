@@ -23,7 +23,7 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_park_ave() {
-
+        return view('projects/manhattan_park_ave');
     }
 
     public function manhattan_riverside_blvd() {

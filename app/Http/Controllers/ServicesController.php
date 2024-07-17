@@ -13,5 +13,19 @@ class ServicesController extends Controller
         return view('home/index');
     }
 
+    public function remodeling_renovations() {
+        return view('services/remodeling_renovations');
+
+    }
+
+    public function custom_kithens() {
+
+    }
+
+    public function custom_bathrooms() {
+
+    }
+
+
 
 }

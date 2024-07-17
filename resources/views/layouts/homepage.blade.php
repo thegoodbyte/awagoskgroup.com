@@ -10,7 +10,7 @@
     </div>
 </div>
 <!--/PRELOADER-->
-@include('partials.header')
+@include('partials.header-default')
 
 <!--MAIN BODY-->
 

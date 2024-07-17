@@ -48,7 +48,7 @@
                                     href="#">Services</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-2355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2355"><a
-                                            href="work-list.html">Remodeling and Renovations</a></li>
+                                            href="/services/renovations-remodeling">Remodeling and Renovations</a></li>
                                     <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2333"><a
                                             href="work-grid.html">Custom Kitchens</a></li>
                                     <li id="menu-item-2334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2334"><a
