@@ -15,11 +15,11 @@ class ProjectsController extends Controller
 
 
     public function manhattan_west_64th() {
-
+        return view('projects/manhattan_west_64th');
     }
 
-    public function brooklyn_warrent_str() {
-
+    public function brooklyn_warren_str() {
+        return view('projects/brooklyn_warren_st');
     }
 
     public function manhattan_park_ave() {
@@ -27,10 +27,10 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_riverside_blvd() {
-
+        return view('projects/manhattan_riverside_blvd');
     }
     public function manhattan_wooster_st() {
-
+        return view('projects/manhattan_wooster_st');
     }
 
 
