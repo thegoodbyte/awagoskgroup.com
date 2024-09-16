@@ -50,17 +50,17 @@
                                     <li id="menu-item-2355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2355"><a
                                             href="/services/renovations-remodeling">Remodeling and Renovations</a></li>
                                     <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2333"><a
-                                            href="work-grid.html">Custom Kitchens</a></li>
+                                            href="/services/custom-kitchens">Custom Kitchens</a></li>
                                     <li id="menu-item-2334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2334"><a
-                                            href="work-masonry.html">Outdoor living spaces</a></li>
+                                            href="services/custom-living-spaces">Outdoor living spaces</a></li>
                                     <li id="menu-item-2332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2332"><a
-                                            href="work-film-strip.html">Custom bathrooms</a></li>
+                                            href="/services/custom-bathrooms">Custom bathrooms</a></li>
                                     <li id="menu-item-2356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2356"><a
-                                            href="work-category-list.html">Stairways</a></li>
+                                            href="/services/stairways">Stairways</a></li>
                                     <li id="menu-item-2348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2348"><a
-                                            href="work-timeline-list.html">Custom Spaces</a></li>
+                                            href="/services/custom-spacesl">Custom Spaces</a></li>
                                     <li id="menu-item-2347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2347"><a
-                                            href="work-timeline-images.html">Smart Home Integration:</a></li>
+                                            href="/services/smart-home-integration">Smart Home Integration:</a></li>
                                     <li id="menu-item-2589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2589"><a
                                             href="fullscreen-projects.html">Work Fullscreen</a></li>
                                 </ul>

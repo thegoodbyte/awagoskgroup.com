@@ -5,7 +5,7 @@
 <div class="prague-loader">
     <div class="prague-loader-wrapper">
         <div class="prague-loader-bar">
-            AWA Gosk Group
+             AWA Gosk &nbsp; &nbsp;
         </div>
     </div>
 </div>

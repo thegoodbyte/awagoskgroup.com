@@ -62,17 +62,26 @@
             <div class="heading  left dark">
 
                 <div class="subtitle ">ABOUT US</div>
-                <h2 class="title">Break out of your routine with<br />
-                    a global perspective.</h2>
+                <h2 class="title">Building New York City Dreams</h2>
                 <div class="content ">
-                    <p>Based on collective work and shared knowledge, Architecture-Studio aims to favour
-                        dialogue and debate, to transform individual knowledge into increased creative
-                        potential.</p>
-                    <p>Our Studio is a architecture practice based in Prague, Chech and Venice. Today, it
-                        includes 150 architects, urban planners, landscape and interior designers of 25
-                        different nationalities. The company principle of Architecture-Studio is the collective
-                        conception. From the very beginning, the practice has believed in the virtues of
-                        exchange, crossing ideas, common effort, shred knowledge.</p>
+                    <p>With over 25 years of experience transforming New York City's most prestigious homes, our master
+                        craftsmanship has earned a reputation for excellence in high-end residential remodeling.
+                        From custom kitchens that blend functionality with elegance to luxurious bathrooms that rival five-star spas,
+                        we bring our clients' visions to life with meticulous attention to detail.
+                    </p>
+
+                    <p>
+                        Our portfolio showcases a diverse range of projects, including sophisticated outdoor living spaces,
+                        grand staircases that make a statement, and smart home integrations that elevate modern living.
+                        Our commitment to quality craftsmanship and client satisfaction has made us the go-to choice for
+                        discerning homeowners across the city.
+                    </p>
+
+                    <p>
+
+                        Whether you're dreaming of a complete home renovation or a
+                        bespoke custom space, we have the expertise and creativity to exceed your expectations and create a
+                        living environment that truly reflects your style and needs.</p>
                 </div>
             </div>
         </div>

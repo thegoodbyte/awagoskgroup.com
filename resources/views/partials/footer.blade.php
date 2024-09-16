@@ -9,7 +9,7 @@
                 <div class="prague-logo">
                     <a href="/">
                         <img src="#" data-lazy-src="/img/home/logo-white.png" class="attachment-full size-full"
-                             alt="logo" /> </a>
+                             alt="logo" /> AWA Gosk Group</a>
                 </div>
 
                 <div class="footer-main-content">

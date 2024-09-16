@@ -73,7 +73,7 @@
 
             <!-- Footer copyright -->
             <div class="footer-copyright">
-                <p>PRAGUE (C) 2019 ALL RIGHTS RESERVED</p>
+                <p>AWA Gosk Group (C) 2024 ALL RIGHTS RESERVED</p>
             </div>
             <!-- End footer copyright -->
 

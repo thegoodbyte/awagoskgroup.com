@@ -26,6 +26,10 @@ class ServicesController extends Controller
 
     }
 
+    public function custom_living_spaces() {
+
+    }
+
 
 
 }

@@ -4,12 +4,12 @@
              data-speed="1000" data-autoplay-speed="0" data-fade="1" data-for=".project-detail-thumb-slider"
              data-width="0" data-slides="1">
 
-            @foreach($images  as $image)
-                <div class="project-detail-main-slide slick-slide">
-                    <img src="<?php $path . $image?>"
-                         class="s-img-switch" alt="slider image" />
-                </div>
-            @endforeach
+{{--            @foreach($images  as $image)--}}
+{{--                <div class="project-detail-main-slide slick-slide">--}}
+{{--                    <img src="<?php $path . $image?>"--}}
+{{--                         class="s-img-switch" alt="slider image" />--}}
+{{--                </div>--}}
+{{--            @endforeach--}}
             <div class="project-detail-main-slide slick-slide">
                 <img src="/img/projects_gallery/01_17W64TH_LOWRES/17W64TH_LOWRES_01.jpg"
                      class="s-img-switch" alt="slider image" />
