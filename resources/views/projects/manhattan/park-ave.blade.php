@@ -4,84 +4,10 @@
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
 
-            <div class="project-detail-slider margin-lg-0t margin-sm-100t margin-xs-75b no-padd-bottom">
-                <div class="project-detail-slider-banner">
-                    <div class="project-detail-main-slider slick-slider" data-key="1" data-arrows="0" data-autoplay="0"
-                         data-speed="1000" data-autoplay-speed="0" data-fade="1" data-for=".project-detail-thumb-slider"
-                         data-width="0" data-slides="1">
-
-                            @foreach($images['images'] as $image)
-                                @php  $image = '/img/projects_gallery/' . $image  @endphp
-                                <div class="project-detail-main-slide slick-slide">
-                                    <img src="{{ $image }}" class="s-img-switch" alt="slider image" />
-                                </div>
-                            @endforeach
-
-                    </div>
-
-                    <div class="project-detail-thumb-slider slick-slider" data-key="1" data-arrows="0"
-                         data-autoplay="0" data-speed="1000" data-autoplay-speed="5000" data-for=".project-detail-main-slider"
-                         data-width="0" data-focus="1" data-vertical="1" data-vertical-swiping="1" data-slides="6">
-
-
-                            @foreach($images['thumbs'] as $image)
-                                @php  $image = '/img/projects_gallery/' . $image  @endphp
-                                <div class="project-detail-main-slide slick-slide">
-                                    <img src="{{ $image }}" class="s-img-switch" alt="slider image" />
-                                </div>
-                            @endforeach
-
-
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_01-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image" />--}}
-{{--                        </div>--}}
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_02-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image"  />--}}
-{{--                        </div>--}}
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_03-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image"/>--}}
-{{--                        </div>--}}
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_04-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image" />--}}
-{{--                        </div>--}}
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_05-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image" />--}}
-{{--                        </div>--}}
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_06-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image" />--}}
-{{--                        </div>--}}
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_07-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image" />--}}
-{{--                        </div>--}}
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_08-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image" />--}}
-{{--                        </div>--}}
-{{--                        <div class="project-detail-main-slide slick-slide">--}}
-{{--                            <img src="/img/projects_gallery/01_17W64TH_LOWRES/thumbs/17W64TH_LOWRES_09-250w.jpg"--}}
-{{--                                 class="s-img-switch" alt="slider image" />--}}
-{{--                        </div>--}}
-
-                    </div>
-                </div>
-            </div>
-
-{{--            @include('components.projects.gallery', [--}}
-{{--                'path' => '/img/projects_gallery/',--}}
-{{--                'images' =>  [--}}
-{{--                '17W64TH_LOWRES_01.jpg',--}}
-{{--                '17W64TH_LOWRES_02.jpg',--}}
-{{--                '17W64TH_LOWRES_03.jpg',--}}
-{{--                '17W64TH_LOWRES_04.jpg',--}}
-{{--]])--}}
-{{--        </div>--}}
+            @include('components.projects.gallery', [
+                'images' =>  $images
+                ])
+        </div>
     </div>
 </div>
 

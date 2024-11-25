@@ -4,50 +4,10 @@
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
 
-            <div class="project-detail-slider margin-lg-0t margin-sm-100t margin-xs-75b no-padd-bottom">
-                <div class="project-detail-slider-banner">
-                    <div class="project-detail-main-slider slick-slider" data-key="1" data-arrows="0" data-autoplay="0"
-                         data-speed="1000" data-autoplay-speed="0" data-fade="1" data-for=".project-detail-thumb-slider"
-                         data-width="0" data-slides="1">
-
-                        <div class="project-detail-main-slide slick-slide">
-                            @foreach($images as $image)
-                                <div class="project-detail-main-slide slick-slide">
-                                    <img src="{{ $image }}" class="s-img-switch" alt="slider image" />
-                                </div>
-                            @endforeach
-                        </div>
-
-
-
-                    </div>
-
-                    <div class="project-detail-thumb-slider slick-slider" data-key="1" data-arrows="0"
-                         data-autoplay="0" data-speed="1000" data-autoplay-speed="5000" data-for=".project-detail-main-slider"
-                         data-width="0" data-focus="1" data-vertical="1" data-vertical-swiping="1" data-slides="6">
-
-                        <div class="project-detail-main-slide slick-slide">
-                            @foreach($images as $image)
-                                <div class="project-detail-main-slide slick-slide">
-                                    <img src="{{ $image }}" class="s-img-switch" alt="slider image" />
-                                </div>
-                            @endforeach
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-{{--            @include('components.projects.gallery', [--}}
-{{--                'path' => '/img/projects_gallery/',--}}
-{{--                'images' =>  [--}}
-{{--                '17W64TH_LOWRES_01.jpg',--}}
-{{--                '17W64TH_LOWRES_02.jpg',--}}
-{{--                '17W64TH_LOWRES_03.jpg',--}}
-{{--                '17W64TH_LOWRES_04.jpg',--}}
-{{--]])--}}
-{{--        </div>--}}
+            @include('components.projects.gallery', [
+                'images' =>  $images
+                ])
+        </div>
     </div>
 </div>
 
@@ -103,7 +63,7 @@
                             YEAR </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                2016
+                                2022
                             </p>
                         </div>
                     </div>
@@ -114,7 +74,7 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Minsk, Belarus
+                                Park Ave, Manhattan, NYC, NY
                             </p>
                         </div>
                     </div>
@@ -125,7 +85,7 @@
                             CREATIVE DIRECTOR </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Andrus' Bezden
+                                Wojciech Gosk
                             </p>
                         </div>
                     </div>
@@ -136,7 +96,7 @@
                             VISUALIZATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Sasha Hamolin
+                                Wojciech Gosk
                             </p>
                         </div>
                     </div>
