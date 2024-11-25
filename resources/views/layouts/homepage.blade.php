@@ -5,7 +5,7 @@
 <div class="prague-loader">
     <div class="prague-loader-wrapper">
         <div class="prague-loader-bar">
-             AWA Gosk &nbsp; &nbsp;
+             AWA Gosk Group &nbsp; &nbsp;
         </div>
     </div>
 </div>
@@ -14,14 +14,7 @@
 
 <!--MAIN BODY-->
 
-
-
-
-
 @yield('content')
-
-
-
 
 <!--/MAIN BODY-->
 @include('partials.footer')

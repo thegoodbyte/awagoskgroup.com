@@ -114,14 +114,14 @@
 
                                         <div class="project-list-img">
                                             <!-- 51f1b143659493.57f77d5c9619a -->
-                                            <img src="#" data-lazy-src="/img/home/projects/01/17W64TH_LOWRES_450w.jpeg" class="s-img-switch"
-                                                 alt="seascape-villa image" />
+                                            <a href="/projects/manhattan/west-64th" target="_self"><img src="#" data-lazy-src="/img/home/projects/01/17W64TH_LOWRES_450w.jpeg" class="s-img-switch"
+                                                                                                        alt="seascape-villa image" /></a>
                                         </div>
 
                                         <div class="project-list-content">
 
                                             <div class="project-list-category">2022</div>
-                                            <h3 class="project-list-title"><a href="seascape-villa.html" target="_self">Project #1</a></h3>
+                                            <h3 class="project-list-title"><a href="/projects/manhattan/west-64th" target="_self">West 64th, Manhattan</a></h3>
                                             <div class="project-list-excerpt">
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

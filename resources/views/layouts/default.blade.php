@@ -63,8 +63,8 @@
 
                 <div class="footer-info-block-content">
                     <p><a href="tel:+7(885)5896985">+7 (885) 589 69 85</a></p>
-                    <p><a href="mailto:prague-architects@info.com">prague-architects@info.com</a></p>
-                    <p>Litačka, Jungmannova 35/29, Nové Město,Czech Republic</p>
+                    <p><a href="mailto:prague-architects@info.com">info@awagoskgroup.com</a></p>
+                    <p></p>
                 </div>
 
             </div>

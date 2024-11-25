@@ -24,22 +24,22 @@
                                     href="#">Projects</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-2313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313"><a
-                                            href="/projects/manhattan-park-ave">Park Ave, Manhattan</a>
+                                            href="/projects/manhattan/park-ave">Park Ave, Manhattan</a>
 
                                     </li>
                                     <li id="menu-item-2336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2336"><a
-                                            href="/projects/brooklyn-warren-st/">Warren St, Brooklyn</a>
+                                            href="/projects/brooklyn/warren-st/">Warren St, Brooklyn</a>
                                     </li>
 
                                     <li id="menu-item-2315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2315"><a
-                                            href="/projects/manhattan-west-64th">West 64th, Manhattan</a>
+                                            href="/projects/manhattan/west-64th">West 64th, Manhattan</a>
                                     </li>
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan-wooster-st">Wooster St, Manhattan</a>
+                                            href="/projects/manhattan/wooster-st">Wooster St, Manhattan</a>
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan-riverside-blvd">Riverside Blvd, Manhattan</a>
+                                            href="/projects/manhattan/riverside-blvd">Riverside Blvd, Manhattan</a>
                                     </li>
                                 </ul>
                             </li>
