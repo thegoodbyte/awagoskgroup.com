@@ -17,7 +17,7 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft">INTERIOR / EXTERIOR</div>
-                <h2 class="title  text-alight-lft">Park Avenue /  Manhattan</h2>
+                <h2 class="title  text-alight-lft">Riverside Boulevard / Manhattan</h2>
                 <div class="content text-alight-lft">
                     <p>We propose creating a multifunctional space where you can make a choice: either
                         to
@@ -74,7 +74,7 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Park Ave, NYC, NY
+                                Park Ave, Manhattan, NYC, NY
                             </p>
                         </div>
                     </div>

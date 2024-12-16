@@ -15,7 +15,7 @@ class ProjectsController extends Controller
 
 
     public function manhattan_west_64th() {
-        $images['image_path'] = '/img/projects_gallery/01_17W64TH_LOWRES/';
+        $images['image_path'] = '/img/projects-galleries/manhattan/west-64th/galleries/main/01_17W64TH_LOWRES/';
         $images['images'] = [
             '17W64TH_LOWRES_01-1600w.jpg',
             '17W64TH_LOWRES_02-1600w.jpg',
@@ -48,8 +48,8 @@ class ProjectsController extends Controller
     }
 
     public function brooklyn_warren_st() {
-        $images['image_path'] = '/img/projects_gallery/brooklyn/warren_st/';
-        $images['images'] = [
+        $images['galleries']['main']['image_path'] = '/img/projects-galleries/brooklyn/warren-st/galleries/main/';
+        $images['galleries']['main']['images'] = [
             '18_entr-IMG_7633-1600w.jpg' => [
                 'sizes' =>  [
                     '400' => '18_entr-IMG_7633-400w.jpg',
@@ -73,8 +73,8 @@ class ProjectsController extends Controller
             '11_room-IMG_4218-1200h.jpg'=> [],
             '15_mould-IMG_7621-1200h.jpg'=> []
         ];
-        $images['thumbs_dir'] = '_thumbs/';
-        $images['thumbs'] = [
+        $images['galleries']['main']['thumbs_dir'] = '_thumbs/';
+        $images['galleries']['main']['thumbs'] = [
             '18_entr-IMG_7633-1200h.jpg',
             '01_entr-68928944856__8FA551E7-3A1A-4ABA-816E-7D926EDC2CB4-1200h.jpg',
             '02_room-IMG_0444-1600w.jpg',
@@ -95,7 +95,7 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_park_ave() {
-        $images['image_path'] = '/img/projects_gallery/01_17W64TH_LOWRES/';
+        $images['image_path'] = '/img/projects-galleries/manhattan/west-64th/galleries/main/01_17W64TH_LOWRES/';
         $images['images'] = [
             '17W64TH_LOWRES_01-1600w.jpg',
             '17W64TH_LOWRES_02-1600w.jpg',
@@ -128,7 +128,7 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_riverside_blvd() {
-        $images['image_path'] = '/img/projects_gallery/01_17W64TH_LOWRES/';
+        $images['image_path'] = '/img/projects-galleries/manhattan/west-64th/galleries/main/01_17W64TH_LOWRES/';
         $images['images'] = [
             '17W64TH_LOWRES_01-1600w.jpg',
             '17W64TH_LOWRES_02-1600w.jpg',
@@ -158,8 +158,8 @@ class ProjectsController extends Controller
         ];
         return view('projects/manhattan/riverside-blvd', ['images' => $images] );
     }
-    public function manhattan_wooster_st() {
-        $images['image_path'] = '/img/projects_gallery/01_17W64TH_LOWRES/';
+    public function manhattan_64th_st() {
+        $images['image_path'] = '/img/projects-galleries/manhattan/west-64th/galleries/main/01_17W64TH_LOWRES/';
         $images['images'] = [
             '17W64TH_LOWRES_01-1600w.jpg',
             '17W64TH_LOWRES_02-1600w.jpg',
@@ -190,7 +190,86 @@ class ProjectsController extends Controller
         return view('projects/manhattan/wooster-st', ['images' => $images]);
     }
 
+    public function manhattan_sorens() {
+        $images['galleries']['main']['image_path'] = '/img/projects-galleries/manhattan/sorens/galleries/main/';
+        $images['galleries']['main']['images'] = [
+            '01_IMG_1346-1600w.jpg' => [],
+            '02_IMG_9388-1200h.jpg' => [],
+            '03_IMG_9390-1200h.jpg' => [],
+            '04_IMG_9394-1200h.jpg' => [],
+            '05_IMG_9396-1200h.jpg' => [],
+            '06_IMG_9398-1200h.jpg' => [],
+            '07_IMG_9399-1200h.jpg' => [],
+            '08_c003_IMG_0127-1600w.jpg' => [],
+            '09_IMG_1347-1600w.jpg' => [],
+            '10_MG_6999-1600w.jpg => []',
+            '11_c003-dwall-IMG_7001-1600w.jpg' => [],
+            '12_dwall-IMG_7002-1600w.jpg' => [],
+            '13_lights-IMG_7005-1200h.jpg' => [],
+            '14_IMG_9384-1200h.jpg' => [],
+            '15_IMG_9386-1200h.jpg' => [],
+            '16_IMG_9389-1200h.jpg' => [],
+            '17_IMG_9392-1200h.jpg' => [],
+            '18_IMG_9397-1200h.jpg' => []
+        ];
+        $images['galleries']['main']['thumbs_dir'] = 'thumbs/';
+        $images['galleries']['main']['thumbs'] = [
+            '01_IMG_1346-1600w.jpg',
+            '02_IMG_9388-1200h.jpg',
+            '03_IMG_9390-1200h.jpg',
+            '04_IMG_9394-1200h.jpg',
+            '05_IMG_9396-1200h.jpg',
+            '06_IMG_9398-1200h.jpg',
+            '07_IMG_9399-1200h.jpg',
+            '08_c003_IMG_0127-1600w.jpg',
+            '09_IMG_1347-1600w.jpg',
+            '10_MG_6999-1600w.jpg',
+            '11_c003-dwall-IMG_7001-1600w.jpg',
+            '12_dwall-IMG_7002-1600w.jpg',
+            '13_lights-IMG_7005-1200h.jpg',
+            '14_IMG_9384-1200h.jpg',
+            '15_IMG_9386-1200h.jpg',
+            '16_IMG_9389-1200h.jpg',
+            '17_IMG_9392-1200h.jpg',
+            '18_IMG_9397-1200h.jpg',
+        ];
+        return view('projects/manhattan/sorens', ['images' => $images]);
+    }
 
+    public function manhattan_wooster_st() {
+
+        return view('projects/manhattan/soho-wooster');
+    }
+
+    public function manhattan_wooster_st_bath() {
+        $images['galleries']['bath']['image_path'] = '/img/projects-galleries/manhattan/wooster/galleries/bath/';
+        $images['galleries']['bath']['images'] = [
+            '19_bath-IMG_6571 2-1600w.jpg' => [],
+            '21_bath-IMG_6651 2-1600w.jpg' => [],
+            '22_bath-IMG_6653 2-1600w.jpg' => [],
+            '23_bath-IMG_6654-1600h.jpg' => [],
+            '26_bath-IMG_6657-1600h.jpg' => [],
+            '27_bath-IMG_6658 2-1600h.jpg' => [],
+            '29_bath-IMG_6662 2-1600h.jpg' => [],
+            '33_bath-IMG_6570.JPG' => [],
+            '34_bath-IMG_6571-1600w.jpg' => [],
+            '35_bath-IMG_6572-1600h.jpg' => [],
+        ];
+        $images['galleries']['bath']['thumbs_dir'] = 'thumbs/';
+        $images['galleries']['bath']['thumbs'] = [
+            '19_bath-IMG_6571 2-1600w.jpg',
+            '21_bath-IMG_6651 2-1600w.jpg',
+            '22_bath-IMG_6653 2-1600w.jpg',
+            '23_bath-IMG_6654-1600h.jpg',
+            '26_bath-IMG_6657-1600h.jpg',
+            '27_bath-IMG_6658 2-1600h.jpg',
+            '29_bath-IMG_6662 2-1600h.jpg',
+            '33_bath-IMG_6570.JPG',
+            '34_bath-IMG_6571-1600w.jpg',
+            '35_bath-IMG_6572-1600h.jpg',
+        ];
+        return view('projects/manhattan/wooster-st-bath', ['images' => $images]);
+    }
 
 
 }

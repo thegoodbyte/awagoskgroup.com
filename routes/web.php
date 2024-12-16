@@ -22,7 +22,11 @@ Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_
 Route::get('/projects/manhattan/west-64th',[ProjectsController::class,'manhattan_west_64th']);
 Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st']);
 Route::get('/projects/manhattan/riverside-blvd',[ProjectsController::class,'manhattan_riverside_blvd']);
-Route::get('/projects/brooklyn/warrent-st',[ProjectsController::class,'brooklyn_warrent_st']);
+Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st']);
+Route::get('/projects/manhattan/wooster-st/bath',[ProjectsController::class,'manhattan_wooster_st_bath']);
+Route::get('/projects/manhattan/sorens',[ProjectsController::class,'manhattan_sorens']);
+
+Route::get('/projects/brooklyn/warren-st',[ProjectsController::class,'brooklyn_warren_st']);
 
 // services
 Route::get('/services/renovations-remodeling',[ServicesController::class,'remodeling_renovations']);

@@ -5,7 +5,7 @@
         <div class="col-sm-12 no-padd">
 
             @include('components.projects.gallery', [
-                'images' =>  $images
+                'images' =>  $images['galleries']['main']
                 ])
         </div>
     </div>

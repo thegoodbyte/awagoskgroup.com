@@ -4,13 +4,48 @@
              data-speed="1000" data-autoplay-speed="0" data-fade="1" data-for=".project-detail-thumb-slider"
              data-width="0" data-slides="1">
 
-            @foreach($images['images'] as $image)
+            @foreach($images['images'] as $image => $imgSizes)
                 @php  $image = $images['image_path']  . $image  @endphp
+                <!-- Image Starts -->
                 <div class="project-detail-main-slide slick-slide">
-                    <img src="{{ $image }}" class="s-img-switch" alt="slider image" />
-                </div>
-            @endforeach
+{{--                    <img--}}
+{{--                        srcset = ""--}}
+{{--                        sizes = "(max-width: 480px) 480px"--}}
+{{--                        src="{{ $image }}"--}}
+{{--                        class="s-img-switch" alt="slider image" />--}}
+{{--                    <picture>--}}
+{{--                            @if (!empty($imgSizes['sizes']))--}}
+{{--                                @php //print_r( $imgSizes ) @endphp--}}
 
+{{--                                 @foreach($imgSizes['sizes'] as $size => $imgSizePath)--}}
+{{--                                    @php //print_r( $imgSizes['sizes'] ) @endphp--}}
+{{--                                    <source srcset="{{ $images['image_path'] . $imgSizePath }}" media="(max-width: {{$size}}px)">--}}
+{{--                                 @endforeach--}}
+{{--                            @endif--}}
+{{--                        <img--}}
+{{--                            src="{{ $image }}"--}}
+{{--                            class="s-img-switch" alt="slider image" />--}}
+{{--                    </picture>--}}
+
+                    <img srcset="
+                         @if (!empty($imgSizes['sizes']))
+                            @foreach($imgSizes['sizes'] as $size => $imgSizePath)
+                                {{  $images['image_path'] . $imgSizePath }} {{ $size }}w,
+                            @endforeach
+                         @endif"
+                    sizes="
+                        @if (!empty($imgSizes['sizes']))
+                            @foreach ($imgSizes['sizes'] as $size => $imgSizePath)
+                                (max-width: {{  $size }}px) {{ $size }}px
+                            @endforeach
+                         @endif
+                        "
+                         src="{{ $image }}"
+                         class="s-img-switch" alt="slider image" />
+
+                </div>
+                <!-- Image ends -->
+            @endforeach
         </div>
 
         <div class="project-detail-thumb-slider slick-slider" data-key="1" data-arrows="0"

@@ -35,11 +35,15 @@
                                             href="/projects/manhattan/west-64th">West 64th, Manhattan</a>
                                     </li>
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan/wooster-st">Wooster St, Manhattan</a>
+                                            href="/projects/manhattan/wooster-st/bath">Wooster St, Manhattan (Bath) </a>
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
                                             href="/projects/manhattan/riverside-blvd">Riverside Blvd, Manhattan</a>
+                                    </li>
+
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="/projects/manhattan/sorens">Sorens / Tribeca / Manhattan</a>
                                     </li>
                                 </ul>
                             </li>

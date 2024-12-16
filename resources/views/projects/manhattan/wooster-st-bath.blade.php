@@ -5,7 +5,7 @@
         <div class="col-sm-12 no-padd">
 
             @include('components.projects.gallery', [
-                'images' =>  $images
+                'images' =>  $images['galleries']['bath']
                 ])
         </div>
     </div>
@@ -16,19 +16,34 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">INTERIOR / EXTERIOR</div>
-                <h2 class="title  text-alight-lft">Park Avenue /  Manhattan</h2>
+                <div class="subtitle  text-alight-lft">INTERIOR</div>
+                <h2 class="title  text-alight-lft">Wooster Street - Bath Remodeling</h2>
                 <div class="content text-alight-lft">
-                    <p>We propose creating a multifunctional space where you can make a choice: either
-                        to
-                        retire or be together with everybody. The space, clear of all unnecessary
-                        items,
-                        will take you to another dimension and help you to get tuned to a calm repose.
-                        Lot’s of light and air. In the center of the room there is a functional zoning
-                        volume, a white cube, dividing the entire living room into 5 zones: active
-                        pastime
-                        area, TV area, dressing area, secluded relaxation area and the central area –
-                        relaxation area, located inside the white volume.</p>
+
+                    <!--
+                    Exceptional Bathroom Remodeling for NYC’s Finest Apartments and Penthouses
+                    -->
+                    <p>Transforming a bathroom into a space of elegance and functionality is no
+                        easy task. For our clients in New York City’s finest apartments and
+                        penthouses, we bring vision and precision to every detail, working
+                        hand-in-hand with top architects to create truly exceptional results.
+                        From the moment you step into our remodeled bathrooms, you'll notice the
+                        seamless blend of modern design, high-quality materials, and thoughtful craftsmanship.
+                    </p>
+
+                    <p>
+                        Each bathroom features stunning design elements, such as custom-built vanities,
+                        state-of-the-art fixtures, and spa-like showers with bespoke tiling and innovative
+                        storage solutions. The careful attention to layout and design ensures that each element
+                        serves a purpose, while maintaining a sense of luxury and sophistication.
+                    </p>
+
+                    <p>
+                        Whether you are looking to update your master bath or completely revamp your entire
+                        space, we approach every project with the utmost dedication to quality and aesthetics,
+                        making sure every detail exceeds your expectations. Our ability to combine practicality
+                        with style results in a bathroom that not only meets the highest standards but offers a
+                        serene and functional retreat within your home.</p>
                 </div>
             </div>
         </div>
@@ -74,7 +89,7 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Park Ave, NYC, NY
+                                Park Ave, Manhattan, NYC, NY
                             </p>
                         </div>
                     </div>
