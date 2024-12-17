@@ -23,13 +23,14 @@
                             <li id="menu-item-2310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2310"><a
                                     href="#">Projects</a>
                                 <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313">
+                                        <span style = "font-weight: bold;color:#fff;padding: 3px; ">Manhattan</span>
+                                    </li>
                                     <li id="menu-item-2313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313"><a
                                             href="/projects/manhattan/park-ave">Park Ave, Manhattan</a>
 
                                     </li>
-                                    <li id="menu-item-2336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2336"><a
-                                            href="/projects/brooklyn/warren-st/">Warren St, Brooklyn</a>
-                                    </li>
+
 
                                     <li id="menu-item-2315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2315"><a
                                             href="/projects/manhattan/west-64th">West 64th, Manhattan</a>
@@ -44,6 +45,18 @@
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
                                             href="/projects/manhattan/sorens">Sorens / Tribeca / Manhattan</a>
+                                    </li>
+
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313">
+                                        <span style = "font-weight: bold;color:#fff;padding: 3px; ">Brooklyn</span>
+                                    </li>
+
+                                    <li id="menu-item-2336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2336"><a
+                                            href="/projects/brooklyn/warren-st/">Warren St, Brooklyn</a>
+                                    </li>
+
+                                    <li id="menu-item-2336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2336"><a
+                                            href="/projects/brooklyn/warren-st/">Water St, Brooklyn</a>
                                     </li>
                                 </ul>
                             </li>
