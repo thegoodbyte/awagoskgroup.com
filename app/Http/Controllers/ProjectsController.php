@@ -49,50 +49,55 @@ class ProjectsController extends Controller
     }
 
     public function brooklyn_warren_st() {
-        $images['galleries']['main']['image_path'] = '/img/projects-galleries/brooklyn/warren-st/galleries/main/';
-        $images['galleries']['main']['images'] = [
-            '18_entr-IMG_7633-1600w.jpg' => [
-                'sizes' =>  [
-                    '400' => '18_entr-IMG_7633-400w.jpg',
-                    '600' => '18_entr-IMG_7633-600w.jpg',
-                    '900' => '18_entr-IMG_7633-900w.jpg',
-                    '1200' => '18_entr-IMG_7633-1200w.jpg',
-                    '1600' => '18_entr-IMG_7633-1600w.jpg',
-                ]
-            ],
-            '01_entr-68928944856__8FA551E7-3A1A-4ABA-816E-7D926EDC2CB4-1200h.jpg' => [],
-            '02_room-IMG_0444-1600w.jpg'=> [],
-            '02-a-entr-window-68928944205__10EE5245-2E1F-4C52-A313-92D80C4F16CB-1200h.jpg'=> [],
-            '03_room-IMG_0448-1200h.jpg'=> [],
-            '04_room-IMG_0449-1200h.jpg'=> [],
-            '05_room-IMG_0450-1200h.jpg'=> [],
-            '06_mould-IMG_0451-1200h.jpg'=> [],
-            '07_bath-IMG_0452-1200h.jpg'=> [],
-            '08_mould-IMG_0453-1200h.jpg'=> [],
-            '09_stairs-IMG_0454-1200h.jpg'=> [],
-            '10_kitchen-IMG_4217_1200h.jpg'=> [],
-            '11_room-IMG_4218-1200h.jpg'=> [],
-            '15_mould-IMG_7621-1200h.jpg'=> []
-        ];
-        $images['galleries']['main']['thumbs_dir'] = '_thumbs/';
-        $images['galleries']['main']['thumbs'] = [
-            '18_entr-IMG_7633-1200h.jpg',
-            '01_entr-68928944856__8FA551E7-3A1A-4ABA-816E-7D926EDC2CB4-1200h.jpg',
-            '02_room-IMG_0444-1600w.jpg',
-            '02-a-entr-window-68928944205__10EE5245-2E1F-4C52-A313-92D80C4F16CB-1200h.jpg',
-            '03_room-IMG_0448-1200h.jpg',
-            '04_room-IMG_0449-1200h.jpg',
-            '05_room-IMG_0450-1200h.jpg',
-            '06_mould-IMG_0451-1200h.jpg',
-            '07_bath-IMG_0452-1200h.jpg',
-            '08_mould-IMG_0453-1200h.jpg',
-            '09_stairs-IMG_0454-1200h.jpg',
-            '10_kitchen-IMG_4217_1200h.jpg',
-            '11_room-IMG_4218-1200h.jpg',
-            '15_mould-IMG_7621-1200h.jpg'
-        ];
 
-        return view('projects/brooklyn/warren-st', ['images' => $images]);
+        $diw = new DirectoryImage('/img/projects-galleries/brooklyn/warren-st/galleries/main/');
+        $galleries['galleries']['main'] = $diw->getGalleryArray();
+
+//
+//        $images['galleries']['main']['image_path'] = '/img/projects-galleries/brooklyn/warren-st/galleries/main/';
+//        $images['galleries']['main']['images'] = [
+//            '18_entr-IMG_7633-1600w.jpg' => [
+//                'sizes' =>  [
+//                    '400' => '18_entr-IMG_7633-400w.jpg',
+//                    '600' => '18_entr-IMG_7633-600w.jpg',
+//                    '900' => '18_entr-IMG_7633-900w.jpg',
+//                    '1200' => '18_entr-IMG_7633-1200w.jpg',
+//                    '1600' => '18_entr-IMG_7633-1600w.jpg',
+//                ]
+//            ],
+//            '01_entr-68928944856__8FA551E7-3A1A-4ABA-816E-7D926EDC2CB4-1200h.jpg' => [],
+//            '02_room-IMG_0444-1600w.jpg'=> [],
+//            '02-a-entr-window-68928944205__10EE5245-2E1F-4C52-A313-92D80C4F16CB-1200h.jpg'=> [],
+//            '03_room-IMG_0448-1200h.jpg'=> [],
+//            '04_room-IMG_0449-1200h.jpg'=> [],
+//            '05_room-IMG_0450-1200h.jpg'=> [],
+//            '06_mould-IMG_0451-1200h.jpg'=> [],
+//            '07_bath-IMG_0452-1200h.jpg'=> [],
+//            '08_mould-IMG_0453-1200h.jpg'=> [],
+//            '09_stairs-IMG_0454-1200h.jpg'=> [],
+//            '10_kitchen-IMG_4217_1200h.jpg'=> [],
+//            '11_room-IMG_4218-1200h.jpg'=> [],
+//            '15_mould-IMG_7621-1200h.jpg'=> []
+//        ];
+//        $images['galleries']['main']['thumbs_dir'] = '_thumbs/';
+//        $images['galleries']['main']['thumbs'] = [
+//            '18_entr-IMG_7633-1200h.jpg',
+//            '01_entr-68928944856__8FA551E7-3A1A-4ABA-816E-7D926EDC2CB4-1200h.jpg',
+//            '02_room-IMG_0444-1600w.jpg',
+//            '02-a-entr-window-68928944205__10EE5245-2E1F-4C52-A313-92D80C4F16CB-1200h.jpg',
+//            '03_room-IMG_0448-1200h.jpg',
+//            '04_room-IMG_0449-1200h.jpg',
+//            '05_room-IMG_0450-1200h.jpg',
+//            '06_mould-IMG_0451-1200h.jpg',
+//            '07_bath-IMG_0452-1200h.jpg',
+//            '08_mould-IMG_0453-1200h.jpg',
+//            '09_stairs-IMG_0454-1200h.jpg',
+//            '10_kitchen-IMG_4217_1200h.jpg',
+//            '11_room-IMG_4218-1200h.jpg',
+//            '15_mould-IMG_7621-1200h.jpg'
+//        ];
+
+        return view('projects/brooklyn/warren-st', ['images' => $galleries]);
     }
 
     public function manhattan_park_ave() {
@@ -194,13 +199,12 @@ class ProjectsController extends Controller
     public function manhattan_sorens() {
 
         $di = new DirectoryImage('/img/projects-galleries/manhattan/sorens/galleries/main/');
-        $diw = new DirectoryImage('/img/projects-galleries/brooklyn/warren-st/galleries/main/');
 
-        echo '<pre>';
+        //echo '<pre>';
 
         $galleries['galleries']['main'] = $di->getGalleryArray();
-        $galleries['galleries']['second'] = $diw->getGalleryArray();
-        print_r($galleries);
+
+       // print_r($galleries);
 //
 //        $images['galleries']['main']['image_path'] = '/img/projects-galleries/manhattan/sorens/galleries/main/';
 //        $images['galleries']['main']['images'] = [
