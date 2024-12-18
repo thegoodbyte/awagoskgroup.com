@@ -10,13 +10,12 @@ class DirectoryImage {
 
     private $thumbs = [];
 
-    public function __construct($path) {
+    public function __construct($imagesPath) {
 
         //$this->name = $name;
-        $this->path = $path;
+        $this->path = $imagesPath;
 
         $this->files = $this->read();
-
 
         $this->thumbs = $this->readThumbs(null, false);
 
