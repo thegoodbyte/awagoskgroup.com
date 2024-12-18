@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Components\DirectoryImage;
 
 class ProjectsController extends Controller
 {
@@ -191,49 +192,61 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_sorens() {
-        $images['galleries']['main']['image_path'] = '/img/projects-galleries/manhattan/sorens/galleries/main/';
-        $images['galleries']['main']['images'] = [
-            '01_IMG_1346-1600w.jpg' => [],
-            '02_IMG_9388-1200h.jpg' => [],
-            '03_IMG_9390-1200h.jpg' => [],
-            '04_IMG_9394-1200h.jpg' => [],
-            '05_IMG_9396-1200h.jpg' => [],
-            '06_IMG_9398-1200h.jpg' => [],
-            '07_IMG_9399-1200h.jpg' => [],
-            '08_c003_IMG_0127-1600w.jpg' => [],
-            '09_IMG_1347-1600w.jpg' => [],
-            '10_MG_6999-1600w.jpg => []',
-            '11_c003-dwall-IMG_7001-1600w.jpg' => [],
-            '12_dwall-IMG_7002-1600w.jpg' => [],
-            '13_lights-IMG_7005-1200h.jpg' => [],
-            '14_IMG_9384-1200h.jpg' => [],
-            '15_IMG_9386-1200h.jpg' => [],
-            '16_IMG_9389-1200h.jpg' => [],
-            '17_IMG_9392-1200h.jpg' => [],
-            '18_IMG_9397-1200h.jpg' => []
-        ];
-        $images['galleries']['main']['thumbs_dir'] = 'thumbs/';
-        $images['galleries']['main']['thumbs'] = [
-            '01_IMG_1346-1600w.jpg',
-            '02_IMG_9388-1200h.jpg',
-            '03_IMG_9390-1200h.jpg',
-            '04_IMG_9394-1200h.jpg',
-            '05_IMG_9396-1200h.jpg',
-            '06_IMG_9398-1200h.jpg',
-            '07_IMG_9399-1200h.jpg',
-            '08_c003_IMG_0127-1600w.jpg',
-            '09_IMG_1347-1600w.jpg',
-            '10_MG_6999-1600w.jpg',
-            '11_c003-dwall-IMG_7001-1600w.jpg',
-            '12_dwall-IMG_7002-1600w.jpg',
-            '13_lights-IMG_7005-1200h.jpg',
-            '14_IMG_9384-1200h.jpg',
-            '15_IMG_9386-1200h.jpg',
-            '16_IMG_9389-1200h.jpg',
-            '17_IMG_9392-1200h.jpg',
-            '18_IMG_9397-1200h.jpg',
-        ];
-        return view('projects/manhattan/sorens', ['images' => $images]);
+
+        $di = new DirectoryImage('/img/projects-galleries/manhattan/sorens/galleries/main/');
+        $diw = new DirectoryImage('/img/projects-galleries/brooklyn/warren-st/galleries/main/');
+
+        echo '<pre>';
+
+        $galleries['galleries']['main'] = $di->getGalleryArray();
+        $galleries['galleries']['second'] = $diw->getGalleryArray();
+        print_r($galleries);
+//
+//        $images['galleries']['main']['image_path'] = '/img/projects-galleries/manhattan/sorens/galleries/main/';
+//        $images['galleries']['main']['images'] = [
+//            '01_IMG_1346-1600w.jpg' => [],
+//            '02_IMG_9388-1200h.jpg' => [],
+//            '03_IMG_9390-1200h.jpg' => [],
+//            '04_IMG_9394-1200h.jpg' => [],
+//            '05_IMG_9396-1200h.jpg' => [],
+//            '06_IMG_9398-1200h.jpg' => [],
+//            '07_IMG_9399-1200h.jpg' => [],
+//            '08_c003_IMG_0127-1600w.jpg' => [],
+//            '09_IMG_1347-1600w.jpg' => [],
+//            '10_MG_6999-1600w.jpg => []',
+//            '11_c003-dwall-IMG_7001-1600w.jpg' => [],
+//            '12_dwall-IMG_7002-1600w.jpg' => [],
+//            '13_lights-IMG_7005-1200h.jpg' => [],
+//            '14_IMG_9384-1200h.jpg' => [],
+//            '15_IMG_9386-1200h.jpg' => [],
+//            '16_IMG_9389-1200h.jpg' => [],
+//            '17_IMG_9392-1200h.jpg' => [],
+//            '18_IMG_9397-1200h.jpg' => []
+//        ];
+//        $images['galleries']['main']['thumbs_dir'] = 'thumbs/';
+//        $images['galleries']['main']['thumbs'] = [
+//            '01_IMG_1346-1600w.jpg',
+//            '02_IMG_9388-1200h.jpg',
+//            '03_IMG_9390-1200h.jpg',
+//            '04_IMG_9394-1200h.jpg',
+//            '05_IMG_9396-1200h.jpg',
+//            '06_IMG_9398-1200h.jpg',
+//            '07_IMG_9399-1200h.jpg',
+//            '08_c003_IMG_0127-1600w.jpg',
+//            '09_IMG_1347-1600w.jpg',
+//            '10_MG_6999-1600w.jpg',
+//            '11_c003-dwall-IMG_7001-1600w.jpg',
+//            '12_dwall-IMG_7002-1600w.jpg',
+//            '13_lights-IMG_7005-1200h.jpg',
+//            '14_IMG_9384-1200h.jpg',
+//            '15_IMG_9386-1200h.jpg',
+//            '16_IMG_9389-1200h.jpg',
+//            '17_IMG_9392-1200h.jpg',
+//            '18_IMG_9397-1200h.jpg',
+//        ];
+
+       // print_r($galleries);
+        return view('projects/manhattan/sorens', ['images' => $galleries]);
     }
 
     public function manhattan_wooster_st() {
