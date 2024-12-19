@@ -149,7 +149,7 @@
                                 <div class="blog-list-content">
                                     <div class="blog-list-post-date">
                                         2 years ago </div>
-                                    <h3 class="blog-list-post-title"><a href="http://prague.loc/creature-interior/"
+                                    <h3 class="blog-list-post-title"><a href="/"
                                                                         target="_self">Custom Kitchens</a></h3>
                                     <div class="blog-list-post-excerpt">
                                         <p>

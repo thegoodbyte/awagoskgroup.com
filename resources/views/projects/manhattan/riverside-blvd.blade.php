@@ -4,9 +4,12 @@
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
 
-            @include('components.projects.gallery', [
-                'images' =>  $images
-                ])
+            @if (! empty($images['galleries']['main']['images']))
+                @include('components.projects.gallery', [
+                    'images' =>  $images['galleries']['main']
+                    ])
+
+            @endif
         </div>
     </div>
 </div>

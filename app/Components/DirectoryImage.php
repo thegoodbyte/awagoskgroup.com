@@ -67,6 +67,8 @@ class DirectoryImage {
                 // Close the directory handle
                 closedir($handle);
 
+
+
                return $files;
             } else {
                 echo "Unable to open directory.";

@@ -21,6 +21,10 @@ class ProjectsController extends Controller
 
         $galleries['galleries']['main'] = $di->getGalleryArray();
 
+        #####echo '<pre />';
+
+        #####print_r($galleries);
+
         return view($viewPath, ['images' => $galleries]);
 
     }
@@ -51,7 +55,7 @@ class ProjectsController extends Controller
 
     public function manhattan_riverside_blvd() {
 
-        $galleryPath =  '/img/projects-galleries/manhattan/park-ave/galleries/main/';
+        $galleryPath =  '/img/projects-galleries/manhattan/riverside-blvd/galleries/main/';
         $viewPath = 'projects/manhattan/riverside-blvd';
 
         return $this->returnGalleryView($viewPath, $galleryPath);
@@ -60,7 +64,7 @@ class ProjectsController extends Controller
 
     public function manhattan_64th_st() {
 
-        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/main/01_17W64TH_LOWRES/';
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/main/';
         $viewPath = 'projects/manhattan/wooster-st';
 
         return $this->returnGalleryView($viewPath, $galleryPath);

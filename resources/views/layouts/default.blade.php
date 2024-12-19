@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Visdionary Architecture Constructiona &amp; Remodeling - AWA Gosk Group - New York City</title>
+    <title>Visionary Architecture Constructiona &amp; Remodeling - AWA Gosk Group - New York City</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no" />
 
@@ -43,8 +43,9 @@
         <div class="footer-top-content">
             <div class="prague-footer-main-block">
                 <div class="prague-logo">
-                    <a href="http://prague.loc/">
-                        <img src="#" data-lazy-src="/img/home/logo-white.png" class="attachment-full size-full" alt="logo" />
+                    <a href="/">
+{{--                        <img src="#" data-lazy-src="/img/home/logo-white.png" class="attachment-full size-full" alt="logo" />--}}
+                        Awa Gosk Gruup Inc.
                     </a>
                 </div>
 
@@ -62,7 +63,7 @@
                 <h6 class="footer-info-block-title">GET IN TOUCH</h6>
 
                 <div class="footer-info-block-content">
-                    <p><a href="tel:+7(885)5896985">+7 (885) 589 69 85</a></p>
+                    <p><a href="tel:+17188630943">+1 (718( 863 0943</a></p>
                     <p><a href="mailto:prague-architects@info.com">info@awagoskgroup.com</a></p>
                     <p></p>
                 </div>
