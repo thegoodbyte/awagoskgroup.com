@@ -12711,7 +12711,18 @@ a:hover, a:focus {
 
 .project-detail-fullscreen .slick-list .slick-track .project-detail-main-slide {
   height: 100%;
+
 }
+
+project-detail-main-slider .slick-slider .project-detail-main-slide {
+    background-size: contain !important;
+}
+
+.slick-slide {
+    background-size: contain !important;
+    background-position: center center;
+}
+
 
 .project-detail-fullscreen .slick-arrow {
   position: absolute;

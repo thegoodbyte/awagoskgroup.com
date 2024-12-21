@@ -15,11 +15,11 @@ class ProjectsController extends Controller
         return view('projects/index');
     }
 
-    private function returnGalleryView($viewPath, $galleryPath) : View {
+    private function returnGalleryView($viewPath, $galleryPath, $gallery = 'main') : View {
 
         $di = new DirectoryImage($galleryPath);
 
-        $galleries['galleries']['main'] = $di->getGalleryArray();
+        $galleries['galleries'][$gallery] = $di->getGalleryArray();
 
         #####echo '<pre />';
 
@@ -40,10 +40,15 @@ class ProjectsController extends Controller
 
     public function brooklyn_warren_st() {
 
-        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/main/';
-        $viewPath = 'projects/brooklyn/warren-st';
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/test/';
+        $viewPath = 'projects.brooklyn.warren-st';
 
-        return $this->returnGalleryView($viewPath, $galleryPath);
+        return $this->returnGalleryView($viewPath, $galleryPath, 'test');
+    }
+
+    public function brooklyn_water_st() {
+
+        return view('projects.brooklyn.water-st');
     }
 
     public function manhattan_park_ave() {
@@ -56,7 +61,7 @@ class ProjectsController extends Controller
     public function manhattan_riverside_blvd() {
 
         $galleryPath =  '/img/projects-galleries/manhattan/riverside-blvd/galleries/main/';
-        $viewPath = 'projects/manhattan/riverside-blvd';
+        $viewPath = 'projects.manhattan.riverside-blvd';
 
         return $this->returnGalleryView($viewPath, $galleryPath);
 

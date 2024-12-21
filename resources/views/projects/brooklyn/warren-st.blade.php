@@ -5,8 +5,14 @@
         <div class="col-sm-12 no-padd">
 
             @include('components.projects.gallery', [
-                'images' =>  $images['galleries']['main']
+                'images' =>  $images['galleries']['test']
                 ])
+
+
+
+            <!-- ### position of the gallery ### -->
+            <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+
         </div>
     </div>
 </div>
@@ -24,7 +30,7 @@
                         retire or be together with everybody. The space, clear of all unnecessary
                         items,
                         will take you to another dimension and help you to get tuned to a calm repose.
-                        Lot’s of light and air. In the center of the room there is a functional zoning
+                        Lot\’s of light and air. In the center of the room there is a functional zoning
                         volume, a white cube, dividing the entire living room into 5 zones: active
                         pastime
                         area, TV area, dressing area, secluded relaxation area and the central area –
@@ -122,3 +128,13 @@
     </div>
 </div>
 <!--/MAIN BODY-->
+{{--<script>--}}
+{{--    const slides = document.querySelectorAll('.project-detail-main-slide');--}}
+{{--    slides.forEach(slide => {--}}
+{{--        slide.style.backgroundSize = 'contain';--}}
+{{--        slide.style.backgroundPosition = 'center center';--}}
+{{--    });--}}
+
+{{--    console,log('CSS ran!');--}}
+
+{{--</script>--}}

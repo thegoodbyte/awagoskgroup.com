@@ -27,6 +27,7 @@ Route::get('/projects/manhattan/wooster-st/bath',[ProjectsController::class,'man
 Route::get('/projects/manhattan/sorens',[ProjectsController::class,'manhattan_sorens']);
 
 Route::get('/projects/brooklyn/warren-st',[ProjectsController::class,'brooklyn_warren_st']);
+Route::get('/projects/brooklyn/water-st',[ProjectsController::class,'brooklyn_water_st']);
 
 // services
 Route::get('/services/renovations-remodeling',[ServicesController::class,'remodeling_renovations']);

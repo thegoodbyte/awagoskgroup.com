@@ -24,7 +24,7 @@
 <div class="prague-loader">
     <div class="prague-loader-wrapper">
         <div class="prague-loader-bar">
-            PRAGUE
+            AWA Gosk Group
         </div>
     </div>
 </div>
