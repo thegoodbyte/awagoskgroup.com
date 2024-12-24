@@ -4,9 +4,13 @@
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
 
+{{--            @php--}}
+{{--                print_r($data['galleries']);--}}
+{{--                exit;--}}
+{{--            @endphp--}}
             @include('components.projects.gallery', [
                 'galleries' =>  $data['galleries'],
-                'galleryName' => $data['galleryName']
+                'name'=> $data['galleryName']
                 ])
         </div>
     </div>
@@ -17,19 +21,11 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">INTERIOR / EXTERIOR</div>
-                <h2 class="title  text-alight-lft">Sorens St. / Tribeca</h2>
+                <div class="subtitle  text-alight-lft">EXTERIOR </div>
+                <h2 class="title  text-alight-lft">W64th St: Outdoor Living NYC</h2>
                 <div class="content text-alight-lft">
-                    <p>We propose creating a multifunctional space where you can make a choice: either
-                        to
-                        retire or be together with everybody. The space, clear of all unnecessary
-                        items,
-                        will take you to another dimension and help you to get tuned to a calm repose.
-                        Lot’s of light and air. In the center of the room there is a functional zoning
-                        volume, a white cube, dividing the entire living room into 5 zones: active
-                        pastime
-                        area, TV area, dressing area, secluded relaxation area and the central area –
-                        relaxation area, located inside the white volume.</p>
+                    {{ $data['content'] }}
+                    <p>{{ $data['content']['paragraphs'][0] }}</p>
                 </div>
             </div>
         </div>
@@ -37,16 +33,7 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>Under the cube there are withdrawable soft modules, and inside the cube there is
-                        a
-                        live tree that is illuminated from the above roof window. This is a place for
-                        solitude, meditation and relaxation. Thus, with the help of withdrawable
-                        modules,
-                        you can create different zones for conversations, board games, and the one who
-                        needs to retire can go and have a rest under the tree. Also, we do not forget
-                        about
-                        a place for storing clothes. There is a cabinet along one of the many-many
-                        walls.</p>
+                    <p>{{ $data['content']['paragraphs'][1] }}</p>
                 </div>
             </div>
         </div>
@@ -64,7 +51,7 @@
                             YEAR </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                2022
+                                2023
                             </p>
                         </div>
                     </div>
@@ -75,7 +62,7 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Park Ave, Manhattan, NYC, NY
+                                West 64th, Manhattan, NYC, NY
                             </p>
                         </div>
                     </div>

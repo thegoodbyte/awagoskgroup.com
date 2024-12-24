@@ -3,10 +3,14 @@
         <div class="project-detail-main-slider slick-slider" data-key="1" data-arrows="0" data-autoplay="0"
              data-speed="1000" data-autoplay-speed="0" data-fade="1" data-for=".project-detail-thumb-slider"
              data-width="0" data-slides="1">
-
-            @if ( !empty($galleries[$name]['images']))
-                @foreach($galleries[$name]['images'] as $index => $image)
-                    @php  $image = $galleries[$name]['image_path']  . DIRECTORY_SEPARATOR . $image['filename']  @endphp
+{{--            @php--}}
+{{--            echo '<pre />';--}}
+{{--                print_r($galleries);--}}
+{{--                exit;--}}
+{{--            @endphp--}}
+            @if ( !empty($galleries[$galleryName]['images']))
+                @foreach($galleries[$galleryName]['images'] as $index => $image)
+                    @php  $image = $galleries[$galleryName]['image_path']  . DIRECTORY_SEPARATOR . $image['filename']  @endphp
                     <!-- Image Starts -->
                     <div class="project-detail-main-slide slick-slide">
     {{--                    <img--}}
@@ -58,12 +62,13 @@
              data-autoplay="0" data-speed="1000" data-autoplay-speed="5000" data-for=".project-detail-main-slider"
              data-width="0" data-focus="1" data-vertical="1" data-vertical-swiping="1" data-slides="6">
 
-            @if ( !empty($galleries[$name]['thumbs']))
 
-                @foreach($galleries[$name]['thumbs'] as $image)
+            @if ( !empty($galleries[$galleryName]['thumbs']))
+
+                @foreach($galleries[$galleryName]['thumbs'] as $image)
 
                     @if (!empty($image['filename']))
-                        @php  $image = $galleries[$name]['image_path'] . DIRECTORY_SEPARATOR . $galleries[$name]['thumbs_dir'] . DIRECTORY_SEPARATOR . $image['filename']  @endphp
+                        @php  $image = $galleries[$galleryName]['image_path'] . DIRECTORY_SEPARATOR . $galleries[$galleryName]['thumbs_dir'] . DIRECTORY_SEPARATOR . $image['filename']  @endphp
                         <div class="project-detail-main-slide slick-slide">
                             <img src="{{ $image }}" class="s-img-switch" alt="slider image" />
                         </div>

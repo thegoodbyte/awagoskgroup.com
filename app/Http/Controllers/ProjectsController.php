@@ -16,13 +16,50 @@ class ProjectsController extends Controller
         return view('projects/index');
     }
 
-    private function returnGalleryView($viewPath, $galleryPath, $gallery = 'main') : View {
+    private function returnGalleryView($viewPath, $galleryPath, $galleryName = 'main') : View {
 
         $di = new DirectoryImage($galleryPath);
 
-        $galleries[$gallery] = $di->getGalleryArray();
+        $galleries[$galleryName] = $di->getGalleryArray();
 
-        return view($viewPath, ['galleries' => $galleries, 'name' => $gallery]);
+
+
+        $data['galleries'] = $galleries;
+        $data['galleryName'] = $galleryName;
+
+
+//        echo '<pre />';
+//       print_r($mixedData['galleryName']);
+//
+//        exit;
+        return view($viewPath,['data' =>  $data]);
+
+    }
+
+    private function readJsonFile($jsonFilePath) {
+
+        // Check if file exists
+        if (!file_exists($jsonFilePath)) {
+            return ['error' => 'JSON file ' . $jsonFilePath . ' not found'];
+        }
+
+        // Read the JSON file
+        $jsonContent = file_get_contents($jsonFilePath);
+
+        // Check if file reading was successful
+        if ($jsonContent === false) {
+            return ['error' => 'Unable to read JSON file'];
+        }
+
+        // Decode JSON to PHP array
+        $data = json_decode($jsonContent, true);
+
+        // Check if JSON decoding was successful
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            return ['error' => 'JSON decode error: ' . json_last_error_msg()];
+        }
+
+        return $data;
 
     }
 
@@ -129,6 +166,26 @@ class ProjectsController extends Controller
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             return view('errors.404', ['message' => 'W64th WIP: Kitchen Gallery']);
+        }
+    }
+
+    public function manhattan_west_64th_st_wip_bath() {
+
+
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/bath';
+        $viewPath = 'projects.manhattan.west-64th.wip.bath';
+
+        $contentPathFile  = public_path() . $galleryPath . DIRECTORY_SEPARATOR . 'content.json';
+        ////$content = $this->readJsonFile($contentPathFile);
+
+//        echo '<pre /';
+//        print_r($content['content']['paragraphs'][1]);
+//        exit;
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath, 'bath');
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.404', ['message' => 'W64th WIP: Bath Gallery']);
         }
     }
 

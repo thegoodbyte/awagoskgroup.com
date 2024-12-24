@@ -10,6 +10,8 @@
                     "@php echo $message @endphp" <br />
                     was not found ..<br /> [ 404 ]</h2>
 
+                {{ $error }}
+
             </div>
         </div>
     </div>
