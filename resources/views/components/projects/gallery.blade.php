@@ -4,9 +4,9 @@
              data-speed="1000" data-autoplay-speed="0" data-fade="1" data-for=".project-detail-thumb-slider"
              data-width="0" data-slides="1">
 
-            @if( !empty($images['images']))
-                @foreach($images['images'] as $image => $imgSizes)
-                    @php  $image = $images['image_path']  . $image  @endphp
+            @if ( !empty($galleries[$name]['images']))
+                @foreach($galleries[$name]['images'] as $index => $image)
+                    @php  $image = $galleries[$name]['image_path']  . DIRECTORY_SEPARATOR . $image['filename']  @endphp
                     <!-- Image Starts -->
                     <div class="project-detail-main-slide slick-slide">
     {{--                    <img--}}
@@ -31,7 +31,7 @@
                         <img srcset="
                              @if (!empty($imgSizes['sizes']))
                                 @foreach($imgSizes['sizes'] as $size => $imgSizePath)
-                                    {{  $images['image_path'] . $imgSizePath }} {{ $size }}w,
+                                    {{  $galleries['image_path'] . $imgSizePath }} {{ $size }}w,
                                 @endforeach
                              @endif"
                         sizes="
@@ -50,6 +50,7 @@
             @else
 
                     <h2 align = "center">This gallery has no images</h2>
+
             @endif
         </div>
 
@@ -57,12 +58,16 @@
              data-autoplay="0" data-speed="1000" data-autoplay-speed="5000" data-for=".project-detail-main-slider"
              data-width="0" data-focus="1" data-vertical="1" data-vertical-swiping="1" data-slides="6">
 
-            @if( !empty($images['thumbs']))
-                @foreach($images['thumbs'] as $image)
-                    @php  $image = $images['image_path'] . $images['thumbs_dir'] . $image  @endphp
-                    <div class="project-detail-main-slide slick-slide">
-                        <img src="{{ $image }}" class="s-img-switch" alt="slider image" />
-                    </div>
+            @if ( !empty($galleries[$name]['thumbs']))
+
+                @foreach($galleries[$name]['thumbs'] as $image)
+
+                    @if (!empty($image['filename']))
+                        @php  $image = $galleries[$name]['image_path'] . DIRECTORY_SEPARATOR . $galleries[$name]['thumbs_dir'] . DIRECTORY_SEPARATOR . $image['filename']  @endphp
+                        <div class="project-detail-main-slide slick-slide">
+                            <img src="{{ $image }}" class="s-img-switch" alt="slider image" />
+                        </div>
+                    @endif
                 @endforeach
             @endif
         </div>

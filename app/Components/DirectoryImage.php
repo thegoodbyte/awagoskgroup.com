@@ -12,27 +12,96 @@ class DirectoryImage {
 
     public function __construct($imagesPath) {
 
+
         //$this->name = $name;
         $this->path = $imagesPath;
 
-        $this->files = $this->read();
+        $fsPath = public_path() . $imagesPath;
 
-        $this->thumbs = $this->readThumbs(null, false);
+
+        //$this->files = $this->read();
+        $this->files = $this->readImages($fsPath);
+
+       // $this->thumbs = $this->readThumbs(null, false);
+        $this->thumbs = $this->readThumbs($fsPath, 'thumbs');
+
+
+
+
+    }
+
+    private function readJsonFile($jsonFilePath) {
+
+            // Check if file exists
+            if (!file_exists($jsonFilePath)) {
+                return ['error' => 'JSON file not found'];
+            }
+
+            // Read the JSON file
+            $jsonContent = file_get_contents($jsonFilePath);
+
+            // Check if file reading was successful
+            if ($jsonContent === false) {
+                return ['error' => 'Unable to read JSON file'];
+            }
+
+            // Decode JSON to PHP array
+            $data = json_decode($jsonContent, true);
+
+            // Check if JSON decoding was successful
+            if (json_last_error() !== JSON_ERROR_NONE) {
+                return ['error' => 'JSON decode error: ' . json_last_error_msg()];
+            }
+
+            return $data;
+
+    }
+
+    private function readThumbs($directory, $thumbsDir = 'thumbs', $file = 'thumbs.json') {
+
+        $path = $directory . DIRECTORY_SEPARATOR . $thumbsDir . DIRECTORY_SEPARATOR . $file;
+        if (!file_exists($path)) {
+            //echo "file $path does not exist";
+            throw new \Exception("file $path does not exist");
+        }
+        //return $this->read($directory, $asArray);
+        $data =  $this->readJsonFile($path);
+        // TODO : add check if we have 'images' key
 
 //        echo '<pre />';
-//        print_r($this->getGalleryArray());
-
-
-    }
-
-    private function readThumbs($directory, $asArray = false) {
-        if (is_null($directory)) {
-            $directory = $this->path  . $this->thumbsDir;
+//        print_r($data);
+        if ( !array_key_exists( 'images', $data )) {
+            throw new \Exception("Missing node images");
         }
-        return $this->read($directory, $asArray);
+
+        if ( array_key_exists( 'error', $data )) {
+
+            throw new \Exception($data['error']);
+            echo $data['error'];
+            $data['images'] = [];
+            return $data;
+        }
+        return $data['images'];
     }
 
-    public function read($directory = null, $asArray  = true) {
+
+    public function readImages($directory, $file = 'images.json') : array {
+        $path  = $directory . DIRECTORY_SEPARATOR . $file;
+        //echo $path;
+        if (!file_exists($path)) {
+            echo "file $path does not exist";
+        }
+        $data =  $this->readJsonFile($path);
+      // TODO : add check if we have 'images' key
+
+        if ( !isset( $data['images'] )) {
+            echo "Missing images node";
+        }
+        return $data['images'];
+    }
+
+
+    public function readDirectory($directory = null, $asArray  = true) {
         ####echo "Read called [$directory]";
         if (is_null($directory)) {
             $directory = $this->path;

@@ -6405,14 +6405,14 @@ a:hover, a:focus {
           box-shadow: none;
   margin: 0;
   position: relative;
-  background-image: url("../img/arrow-btn.png");
+  background-image: url("/img/arrow-btn.png");
   background-repeat: no-repeat;
   background-position: 100% 43%;
 }
 
 .prague-formidable .frm_forms.with_frm_style .frm_button_submit:hover {
   background-color: transparent;
-  background-image: url("../img/arrow-btn.png");
+  background-image: url("/img/arrow-btn.png");
   background-repeat: no-repeat;
   background-position: 100% 43%;
   border: none;
@@ -9100,7 +9100,7 @@ a:hover, a:focus {
 
 .project-timeline-exh-nav .timeline-exh-nav-item .timeline-exh-nav-link {
   min-height: 69px;
-  background: url("../img/lines-simple.png") 100% 6px no-repeat;
+  background: url("/img/lines-simple.png") 100% 6px no-repeat;
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
@@ -9116,12 +9116,12 @@ a:hover, a:focus {
 
 .project-timeline-exh-nav .timeline-exh-nav-item .timeline-exh-nav-link:hover {
   color: #7e7d7d;
-  background-image: url("../img/lines-hover.png");
+  background-image: url("/img/lines-hover.png");
 }
 
 .project-timeline-exh-nav .timeline-exh-nav-item.active .timeline-exh-nav-link {
   color: #111111;
-  background-image: url("../img/lines-active.png");
+  background-image: url("/img/lines-active.png");
 }
 
 .project-timeline-exh-content {
@@ -10224,7 +10224,7 @@ a:hover, a:focus {
           box-shadow: none;
   margin: 0;
   position: relative;
-  background-image: url("../img/arrow-btn.png");
+  background-image: url("/img/arrow-btn.png");
   background-repeat: no-repeat;
   background-position: 100% 43%;
 }
@@ -12056,7 +12056,7 @@ a:hover, a:focus {
 .imp-tooltip .squares-button, .squares-container .squares-button {
   letter-spacing: 1.5px;
   padding-right: 40px !important;
-  background-image: url(../img/arrow-btn.png);
+  background-image: url(/img/arrow-btn.png);
   background-repeat: no-repeat;
   background-position: 100% 43%;
 }
@@ -12504,7 +12504,7 @@ a:hover, a:focus {
   height: 24px;
   margin: -20px 0 0 -20px;
   background-color: transparent;
-  background-image: url("../img/before-icon.png");
+  background-image: url("/img/before-icon.png");
   background-repeat: no-repeat;
   background-position: center;
   border: 10px solid rgba(0, 0, 0, 0.65);
@@ -13868,7 +13868,7 @@ project-detail-main-slider .slick-slider .project-detail-main-slide {
   background-color: white;
   color: #111111;
   line-height: 19px;
-  background-image: url(../img/arrow-btn.png);
+  background-image: url(/img/arrow-btn.png);
   background-repeat: no-repeat;
   background-position: 93% 50%;
 }
@@ -13889,7 +13889,7 @@ project-detail-main-slider .slick-slider .project-detail-main-slide {
   font-weight: 700;
   background-color: transparent;
   border: none;
-  background-image: url(../img/arrow-btn.png);
+  background-image: url(/img/arrow-btn.png);
   background-repeat: no-repeat;
   background-position: 100% 43%;
 }
@@ -14244,7 +14244,7 @@ project-detail-main-slider .slick-slider .project-detail-main-slide {
   height: 40px;
   border: 1px solid #cccccc;
   outline: none;
-  background-image: url(../img/arrow-down.png);
+  background-image: url("/img/arrow-down.png");
   background-repeat: no-repeat;
   background-position: 91% center;
   -o-text-overflow: ellipsis;
@@ -14711,7 +14711,7 @@ project-detail-main-slider .slick-slider .project-detail-main-slide {
   height: 46px;
   border: 1px solid #cccccc;
   outline: none;
-  background-image: url(../img/arrow-down.png);
+  background-image: url(/img/arrow-down.png);
   background-repeat: no-repeat;
   background-position: 91% center;
   -o-text-overflow: ellipsis;
