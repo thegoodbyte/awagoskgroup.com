@@ -1,0 +1,36 @@
+{
+    "images": [
+        {
+            "filename": "01.JPG",
+            "id": 1
+        },
+        {
+            "filename": "08.JPG",
+            "id": 8
+        },
+        {
+            "filename": "12.JPG",
+            "id": 12
+        },
+        {
+            "filename": "13.JPG",
+            "id": 13
+        },
+        {
+            "filename": "375.JPG",
+            "id": 375
+        },
+        {
+            "filename": "404.JPG",
+            "id": 404
+        },
+        {
+            "filename": "405.JPG",
+            "id": 405
+        },
+        {
+            "filename": "406.JPG",
+            "id": 406
+        }
+    ]
+}

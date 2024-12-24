@@ -61,25 +61,18 @@ class DirectoryImage {
 
         $path = $directory . DIRECTORY_SEPARATOR . $thumbsDir . DIRECTORY_SEPARATOR . $file;
         if (!file_exists($path)) {
-            //echo "file $path does not exist";
             throw new \Exception("file $path does not exist");
         }
-        //return $this->read($directory, $asArray);
-        $data =  $this->readJsonFile($path);
-        // TODO : add check if we have 'images' key
 
-//        echo '<pre />';
-//        print_r($data);
+        $data =  $this->readJsonFile($path);
+
+
         if ( !array_key_exists( 'images', $data )) {
             throw new \Exception("Missing node images");
         }
 
         if ( array_key_exists( 'error', $data )) {
-
             throw new \Exception($data['error']);
-            echo $data['error'];
-            $data['images'] = [];
-            return $data;
         }
         return $data['images'];
     }
@@ -87,15 +80,14 @@ class DirectoryImage {
 
     public function readImages($directory, $file = 'images.json') : array {
         $path  = $directory . DIRECTORY_SEPARATOR . $file;
-        //echo $path;
         if (!file_exists($path)) {
-            echo "file $path does not exist";
+            throw new \Exception("file $path does not exist");
         }
         $data =  $this->readJsonFile($path);
       // TODO : add check if we have 'images' key
 
         if ( !isset( $data['images'] )) {
-            echo "Missing images node";
+            throw new \Exception("Missing images node");
         }
         return $data['images'];
     }
