@@ -156,18 +156,7 @@ class ProjectsController extends Controller
 
     }
 
-    public function manhattan_west_64th_st_wip_kitchen() {
 
-
-        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/kitchen';
-        $viewPath = 'projects.manhattan.west-64th.wip.kitchen';
-        try {
-            return $this->returnGalleryView($viewPath, $galleryPath, 'kitchen');
-        } catch (\Exception $e) {
-            Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'W64th WIP: Kitchen Gallery']);
-        }
-    }
 
     public function manhattan_west_64th_st_wip_bath() {
 
@@ -261,6 +250,19 @@ class ProjectsController extends Controller
 
         try {
             return $this->returnGalleryView($viewPath, $galleryPath, 'interior');
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_west_64th_st_wip_kitchen() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/kitchen';
+        $viewPath = 'projects.manhattan.west-64th.wip.kitchen';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath, 'kitchen');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             return view('errors.error', ['message' => $e->getMessage()]);
