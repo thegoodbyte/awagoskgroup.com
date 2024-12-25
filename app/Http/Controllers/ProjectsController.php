@@ -241,6 +241,19 @@ class ProjectsController extends Controller
         }
     }
 
+    public function manhattan_west_64th_st_wip_generic() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/generic';
+        $viewPath = 'projects.manhattan.west-64th.wip.generic';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath, 'generic');
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
 
     public function manhattan_sorens() {
 

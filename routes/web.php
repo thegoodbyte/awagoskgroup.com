@@ -32,6 +32,7 @@ Route::get('/projects/manhattan/west-64th/wip/custom-cabinetry',[ProjectsControl
 Route::get('/projects/manhattan/west-64th/wip/drywall',[ProjectsController::class,'manhattan_west_64th_st_wip_drywall']);
 Route::get('/projects/manhattan/west-64th/wip/exterior',[ProjectsController::class,'manhattan_west_64th_st_wip_exterior']);
 Route::get('/projects/manhattan/west-64th/wip/floors',[ProjectsController::class,'manhattan_west_64th_st_wip_floors']);
+Route::get('/projects/manhattan/west-64th/wip/generic-work',[ProjectsController::class,'manhattan_west_64th_st_wip_generic']);
 
 
 Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st']);
