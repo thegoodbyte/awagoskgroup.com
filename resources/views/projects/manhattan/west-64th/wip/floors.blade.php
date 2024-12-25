@@ -17,16 +17,18 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">CUSTOM CABINETRY </div>
-                <h2 class="title  text-alight-lft">Handcrafted Excellence, <br />Built In</h2>
+                <div class="subtitle  text-alight-lft">FLOORS </div>
+                <h2 class="title  text-alight-lft">Building Beauty From Ground Up</h2>
                 <div class="content text-alight-lft">
-                    <p>From luxurious kitchens to sophisticated bathrooms and elegant wardrobes,
-                        our master craftsmen create bespoke cabinetry that transforms your space into a
-                        masterpiece of both form and function. Each piece is meticulously designed and
-                        handcrafted in our workshop, where we combine time-honored woodworking techniques
-                        with modern precision tools. Our artisans work closely with you to select the finest
-                        materials, from exotic hardwoods to premium finishes, ensuring every detail aligns
-                        perfectly with your vision and lifestyle needs.</p>
+                    <p>In every renovation project, the foundation of exceptional
+                        design begins with impeccable flooring installation. Our skilled craftsmen
+                        bring decades of experience to every floor installation, whether it's laying
+                        premium hardwood planks, installing custom decorative details, or creating
+                        seamless transitions between spaces. We take pride in our meticulous approach to
+                        subfloor preparation, ensuring perfect leveling and addressing any underlying issues
+                        to guarantee a flawless foundation that will stand the test of time. From selecting
+                        the highest quality materials to executing precise installations, our attention to
+                        detail sets us apart.</p>
                 </div>
             </div>
         </div>
@@ -34,15 +36,15 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>Whether it's a sleek, modern kitchen with innovative storage solutions,
-                        a spa-like bathroom vanity with integrated lighting, or a custom wardrobe
-                        with personalized organizational systems, our cabinetry is built to stand
-                        the test of time. We pride ourselves on creating pieces that not only serve as
-                        beautiful focal points in your home but also provide practical, intelligently
-                        designed storage that enhances your daily life. Each cabinet, drawer, and shelf
-                        is crafted with exacting standards, featuring dovetail joints, soft-close mechanisms,
-                        and customized interior configurations that reflect our unwavering commitment to
-                        quality and craftsmanship.</p>
+                    <p>The true mark of our flooring expertise can be seen in the fine details -
+                        from custom-fitted heating vent covers that blend seamlessly with the
+                        flooring design to perfectly mitred corners and transitions. Our team specializes
+                        in working within the unique challenges of New York City residential spaces, expertly
+                        managing building requirements, sound insulation needs, and the integration of modern
+                        comfort systems beneath beautiful surfaces. Whether we're installing engineered hardwood,
+                        luxury vinyl, or custom flooring solutions, each project showcases our commitment to
+                        creating floors that not only look stunning but provide lasting durability for our
+                        discerning clients.</p>
                 </div>
             </div>
         </div>

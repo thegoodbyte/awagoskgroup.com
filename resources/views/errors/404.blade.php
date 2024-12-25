@@ -6,11 +6,9 @@
 
             <div class="project-detail-block-outer">
 
-                <h2 style = "margin-top: 300px;margin-bottom: 300px; color: #9f3d3d;">We apologize,  <br />but the page:
+                <h2 style = "margin-top: 300px;margin-bottom: 300px; color: #9f3d3d;">We apologize,  <br />but the page
 {{--                    "{{ $message }}" <br />--}}
                     was not found ..<br /> [ 404 ]</h2>
-
-
             </div>
         </div>
     </div>

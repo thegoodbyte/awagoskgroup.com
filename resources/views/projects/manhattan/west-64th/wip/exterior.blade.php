@@ -4,6 +4,10 @@
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
 
+{{--            @php--}}
+{{--                print_r($data['galleries']);--}}
+{{--                exit;--}}
+{{--            @endphp--}}
             @include('components.projects.gallery', [
                 'galleries' =>  $data['galleries'],
                 'galleryName' => $data['galleryName']
@@ -17,16 +21,17 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">CUSTOM CABINETRY </div>
-                <h2 class="title  text-alight-lft">Handcrafted Excellence, <br />Built In</h2>
+                <div class="subtitle  text-alight-lft">EXTERIOR </div>
+                <h2 class="title  text-alight-lft">Transforming From Outside In</h2>
                 <div class="content text-alight-lft">
-                    <p>From luxurious kitchens to sophisticated bathrooms and elegant wardrobes,
-                        our master craftsmen create bespoke cabinetry that transforms your space into a
-                        masterpiece of both form and function. Each piece is meticulously designed and
-                        handcrafted in our workshop, where we combine time-honored woodworking techniques
-                        with modern precision tools. Our artisans work closely with you to select the finest
-                        materials, from exotic hardwoods to premium finishes, ensuring every detail aligns
-                        perfectly with your vision and lifestyle needs.</p>
+                    <p>In the vibrant tapestry of New York City's skyline, we specialize in transforming
+                        underutilized rooftops and exterior spaces into breathtaking urban sanctuaries.
+                        Working in close collaboration with leading architects, our team expertly navigates
+                        the unique challenges of NYC outdoor renovations, from landmark regulations to
+                        building code requirements, creating sophisticated spaces that maximize every square foot.
+                        Each project is thoughtfully designed to capture stunning city views while providing
+                        intimate spaces for relaxation, entertainment, and year-round outdoor living that
+                        elevates the luxury lifestyle our discerning clients expect.</p>
                 </div>
             </div>
         </div>
@@ -34,15 +39,14 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>Whether it's a sleek, modern kitchen with innovative storage solutions,
-                        a spa-like bathroom vanity with integrated lighting, or a custom wardrobe
-                        with personalized organizational systems, our cabinetry is built to stand
-                        the test of time. We pride ourselves on creating pieces that not only serve as
-                        beautiful focal points in your home but also provide practical, intelligently
-                        designed storage that enhances your daily life. Each cabinet, drawer, and shelf
-                        is crafted with exacting standards, featuring dovetail joints, soft-close mechanisms,
-                        and customized interior configurations that reflect our unwavering commitment to
-                        quality and craftsmanship.</p>
+                    <p>Our portfolio showcases a range of extraordinary transformations, from sleek modern terraces
+                        with custom architectural elements to lush garden retreats complete with outdoor kitchens
+                        and sophisticated lighting systems. We pride ourselves on our ability to seamlessly integrate
+                        indoor and outdoor living spaces through innovative design solutions, premium materials,
+                        and expert craftsmanship. Whether it's installing custom pergolas, creating vertical gardens,
+                        or implementing state-of-the-art outdoor entertainment systems, our team ensures each detail
+                        contributes to creating an exceptional outdoor living experience that allows our clients to
+                        enjoy New York City's magic from their own private paradise.</p>
                 </div>
             </div>
         </div>

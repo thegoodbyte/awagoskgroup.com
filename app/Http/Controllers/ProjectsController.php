@@ -101,7 +101,7 @@ class ProjectsController extends Controller
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'Riverside Blvd Gallery']);
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
     }
 
@@ -209,6 +209,32 @@ class ProjectsController extends Controller
 
         try {
             return $this->returnGalleryView($viewPath, $galleryPath, 'drywall');
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_west_64th_st_wip_exterior() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/exterior';
+        $viewPath = 'projects.manhattan.west-64th.wip.exterior';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath, 'exterior');
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_west_64th_st_wip_floors() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/floors';
+        $viewPath = 'projects.manhattan.west-64th.wip.floors';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath, 'floors');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             return view('errors.error', ['message' => $e->getMessage()]);
