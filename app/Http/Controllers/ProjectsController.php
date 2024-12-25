@@ -171,7 +171,6 @@ class ProjectsController extends Controller
 
     public function manhattan_west_64th_st_wip_bath() {
 
-
         $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/bath';
         $viewPath = 'projects.manhattan.west-64th.wip.bath';
 
@@ -185,12 +184,31 @@ class ProjectsController extends Controller
             return $this->returnGalleryView($viewPath, $galleryPath, 'bath');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'W64th WIP: Bath Gallery']);
+          //  return view('errors.404', ['message' => 'Sorens Gallery']);
+            echo $e->getMessage();
         }
     }
 
+    public function manhattan_west_64th_st_wip_cabinetry() {
 
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/cabinetry';
+        $viewPath = 'projects.manhattan.west-64th.wip.cabinetry';
 
+//echo __LINE__;
+//exit;
+        try {
+
+            return $this->returnGalleryView($viewPath, $galleryPath, 'cabinetry');
+
+        } catch (\Exception $e) {
+//            echo  $e->getMessage();
+//
+//            exit;
+            Log::error($e->getMessage());
+              return view('errors.error', ['message' => $e->getMessage()]);
+
+        }
+    }
 
 
     public function manhattan_sorens() {

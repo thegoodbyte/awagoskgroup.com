@@ -21,14 +21,16 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">BATH </div>
-                <h2 class="title  text-alight-lft">Crafting Your Dream,<br /> Step by Step</h2>
+                <div class="subtitle  text-alight-lft">CUSTOM CABINETRY </div>
+                <h2 class="title  text-alight-lft">Handcrafted Excellence, <br />Built In</h2>
                 <div class="content text-alight-lft">
-                    <p>Behind every stunning bathroom transformation lies a story of dedication, expertise,
-                        and meticulous attention to detail. Our gallery invites you behind the scenes, where
-                        skilled craftsmen tackle each project with precision and care. From the careful demolition of
-                        outdated spaces to the intricate installation of premium fixtures, every step showcases our commitment
-                        to excellence and the artistry involved in creating exceptional bathrooms</p>
+                    <p>From luxurious kitchens to sophisticated bathrooms and elegant wardrobes,
+                        our master craftsmen create bespoke cabinetry that transforms your space into a
+                        masterpiece of both form and function. Each piece is meticulously designed and
+                        handcrafted in our workshop, where we combine time-honored woodworking techniques
+                        with modern precision tools. Our artisans work closely with you to select the finest
+                        materials, from exotic hardwoods to premium finishes, ensuring every detail aligns
+                        perfectly with your vision and lifestyle needs.</p>
                 </div>
             </div>
         </div>
@@ -36,12 +38,15 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>These work-in-progress images capture the true essence of our craft –
-                        the careful tile setting, the precise plumbing installations, and the thorough waterproofing that
-                        ensures lasting quality. Our team of experienced professionals approaches each phase with unwavering
-                        attention to detail, ensuring that every corner is perfectly squared, every pipe is properly placed,
-                        and every surface is immaculately prepared. These glimpses into our process demonstrate not just the physical
-                        transformation of spaces, but the passion and expertise that go into creating your dream bathroom.</p>
+                    <p>Whether it's a sleek, modern kitchen with innovative storage solutions,
+                        a spa-like bathroom vanity with integrated lighting, or a custom wardrobe
+                        with personalized organizational systems, our cabinetry is built to stand
+                        the test of time. We pride ourselves on creating pieces that not only serve as
+                        beautiful focal points in your home but also provide practical, intelligently
+                        designed storage that enhances your daily life. Each cabinet, drawer, and shelf
+                        is crafted with exacting standards, featuring dovetail joints, soft-close mechanisms,
+                        and customized interior configurations that reflect our unwavering commitment to
+                        quality and craftsmanship.</p>
                 </div>
             </div>
         </div>

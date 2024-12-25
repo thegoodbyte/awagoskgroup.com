@@ -25,7 +25,7 @@
                                 <div class="portfolio-item-wrapp">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/wip/baths">
+                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/wip/bath">
                                                 <div class="project-grid-item-img">
                                                     <img   src="#" data-lazy-src="/img/projects-galleries/manhattan/west-64th/galleries/wip/bath/thumbs/category-face.JPG"
                                                            class="s-img-switch wp-post-image wp-post-image" alt="seascape-villa image" />
@@ -44,14 +44,14 @@
                                 <div class="portfolio-item-wrapp">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/cabinetry">
+                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/custom-cabinetry">
                                                 <div class="project-grid-item-img">
                                                     <img   src="#" data-lazy-src="/img/projects-galleries/manhattan/west-64th/galleries/wip/cabinetry/thumbs/category-face.JPG"
                                                            class="s-img-switch wp-post-image wp-post-image" alt="european-lard-station image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
-                                                <h4 class="project-grid-item-title"><a href="Custom Cabinetry">Custom Cabinetry</a></h4>
+                                                <h4 class="project-grid-item-title"><a href="/projects/manhattan/west-64th/custom-cabinetry">Custom Cabinetry</a></h4>
                                                 <div class="project-grid-item-category">
                                                     Handcrafted Excellence, Built In</div>
 
