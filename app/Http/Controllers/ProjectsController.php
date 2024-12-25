@@ -194,19 +194,24 @@ class ProjectsController extends Controller
         $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/cabinetry';
         $viewPath = 'projects.manhattan.west-64th.wip.cabinetry';
 
-//echo __LINE__;
-//exit;
         try {
-
             return $this->returnGalleryView($viewPath, $galleryPath, 'cabinetry');
-
         } catch (\Exception $e) {
-//            echo  $e->getMessage();
-//
-//            exit;
             Log::error($e->getMessage());
-              return view('errors.error', ['message' => $e->getMessage()]);
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
 
+    public function manhattan_west_64th_st_wip_drywall() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/drywall';
+        $viewPath = 'projects.manhattan.west-64th.wip.drywall';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath, 'drywall');
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
     }
 
