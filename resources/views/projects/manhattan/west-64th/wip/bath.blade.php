@@ -21,7 +21,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">BATH </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a> > <a href = "{{ route('projects.manhattan.wip') }}">IN PROGRESS</a> > </a href = "">BATH</a> </div
                 <h2 class="title  text-alight-lft">Crafting Your Dream,<br /> Step by Step</h2>
                 <div class="content text-alight-lft">
                     <p>Behind every stunning bathroom transformation lies a story of dedication, expertise,

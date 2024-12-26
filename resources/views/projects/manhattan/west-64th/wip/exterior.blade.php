@@ -21,7 +21,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">EXTERIOR </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a> > <a href = "{{ route('projects.manhattan.wip') }}">IN PROGRESS</a> > EXTERIOR </div>
                 <h2 class="title  text-alight-lft">Transforming From Outside In</h2>
                 <div class="content text-alight-lft">
                     <p>In the vibrant tapestry of New York City's skyline, we specialize in transforming

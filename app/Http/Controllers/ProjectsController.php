@@ -163,17 +163,11 @@ class ProjectsController extends Controller
         $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/bath';
         $viewPath = 'projects.manhattan.west-64th.wip.bath';
 
-        $contentPathFile  = public_path() . $galleryPath . DIRECTORY_SEPARATOR . 'content.json';
-        ////$content = $this->readJsonFile($contentPathFile);
 
-//        echo '<pre /';
-//        print_r($content['content']['paragraphs'][1]);
-//        exit;
         try {
             return $this->returnGalleryView($viewPath, $galleryPath, 'bath');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-          //  return view('errors.404', ['message' => 'Sorens Gallery']);
             echo $e->getMessage();
         }
     }
@@ -263,6 +257,32 @@ class ProjectsController extends Controller
 
         try {
             return $this->returnGalleryView($viewPath, $galleryPath, 'kitchen');
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_west_64th_st_wip_stairs() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/stairs';
+        $viewPath = 'projects.manhattan.west-64th.wip.stairs';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath, 'stairs');
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_west_64th_st_wip_windows() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/windows';
+        $viewPath = 'projects.manhattan.west-64th.wip.windows';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath, 'windows');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             return view('errors.error', ['message' => $e->getMessage()]);

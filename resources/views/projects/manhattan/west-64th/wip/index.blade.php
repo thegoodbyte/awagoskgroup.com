@@ -207,7 +207,7 @@
                                             <div class="project-grid-item-content">
                                                 <h4 class="project-grid-item-title"><a href="/projects/manhattan/west-64th/wip/windows">Doors and Windows</a></h4>
                                                 <div class="project-grid-item-category">
-                                                    Elevating Design Step by Step</div>
+                                                    Windows of Distinction: Architectural Excellence</div>
 
                                             </div>
                                         </div>
