@@ -3,9 +3,11 @@
 <div class="container-fluid no-padd">
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
+
             @include('components.projects.gallery', [
-                'galleries' =>  $galleries
-                ])
+                 'galleries' =>  $data['galleries'],
+                 'galleryName' => $data['galleryName']
+                 ])
         </div>
     </div>
 </div>
@@ -15,7 +17,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">INTERIOR </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a>  > KITCHEN</div>
                 <h2 class="title  text-alight-lft">West 64th Street : Kitchen</h2>
                 <div class="content text-alight-lft">
                     <p>The West 64th Street Kitchen Project exemplifies our  commitment to delivering

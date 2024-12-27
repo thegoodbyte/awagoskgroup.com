@@ -4,8 +4,9 @@
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
             @include('components.projects.gallery', [
-                'galleries' =>  $galleries
-                ])
+                 'galleries' =>  $data['galleries'],
+                 'galleryName' => $data['galleryName']
+                 ])
         </div>
     </div>
 </div>
@@ -15,7 +16,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">EXTERIOR </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a>  > EXTERIOR</div>
                 <h2 class="title  text-alight-lft">W64th St: Outdoor Living NYC</h2>
                 <div class="content text-alight-lft">
                     <p>Nestled among the iconic brick facades and modern high-rises of Manhattan's Upper West Side,

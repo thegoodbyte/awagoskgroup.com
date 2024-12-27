@@ -21,7 +21,9 @@ class ProjectsController extends Controller
         $di = new DirectoryImage($galleryPath);
 
         $galleries[$galleryName] = $di->getGalleryArray();
-
+//                echo '<pre />';
+//        print_r($galleries);
+//        exit;
 
 
         $data['galleries'] = $galleries;
@@ -29,10 +31,9 @@ class ProjectsController extends Controller
 
 
 //        echo '<pre />';
-//       print_r($mixedData['galleryName']);
-//
+//        print_r($data);
 //        exit;
-        return view($viewPath,['data' =>  $data]);
+        return view($viewPath, ['data' =>  $data]);
 
     }
 
@@ -142,11 +143,19 @@ class ProjectsController extends Controller
         $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/kitchen';
         $viewPath = 'projects.manhattan.west-64th.kitchen';
         try {
-            return $this->returnGalleryView($viewPath, $galleryPath, 'kitchen');
+
+             $data = $this->returnGalleryView($viewPath, $galleryPath, 'kitchen');
+
+             return $data;
+
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'W64th: Kitchen Gallery']);
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
+
+
+
+
 
     }
 
@@ -168,7 +177,7 @@ class ProjectsController extends Controller
             return $this->returnGalleryView($viewPath, $galleryPath, 'bath');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            echo $e->getMessage();
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
     }
 

@@ -4,8 +4,9 @@
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
             @include('components.projects.gallery', [
-                'galleries' =>  $galleries
-                ])
+                 'galleries' =>  $data['galleries'],
+                 'galleryName' => $data['galleryName']
+                 ])
         </div>
     </div>
 </div>
@@ -15,7 +16,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">INTERIOR </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a>  > INTERIOR</div>
                 <h2 class="title  text-alight-lft">West 64th Street</h2>
                 <div class="content text-alight-lft">
                     <p>We propose creating a multifunctional space where you can make a choice: either

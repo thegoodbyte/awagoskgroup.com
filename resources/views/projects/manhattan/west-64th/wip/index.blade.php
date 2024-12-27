@@ -44,7 +44,7 @@
                                 <div class="portfolio-item-wrapp">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/custom-cabinetry">
+                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/wip/custom-cabinetry">
                                                 <div class="project-grid-item-img">
                                                     <img   src="#" data-lazy-src="/img/projects-galleries/manhattan/west-64th/galleries/wip/cabinetry/thumbs/category-face.JPG"
                                                            class="s-img-switch wp-post-image wp-post-image" alt="european-lard-station image" />

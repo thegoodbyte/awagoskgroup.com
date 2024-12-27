@@ -1,14 +1,9 @@
 <div class="project-detail-slider margin-lg-0t margin-sm-100t margin-xs-75b no-padd-bottom">
-    YES
     <div class="project-detail-slider-banner">
         <div class="project-detail-main-slider slick-slider" data-key="1" data-arrows="0" data-autoplay="0"
              data-speed="1000" data-autoplay-speed="0" data-fade="1" data-for=".project-detail-thumb-slider"
              data-width="0" data-slides="1">
-{{--            @php--}}
-{{--            echo '<pre />';--}}
-{{--                print_r($galleries);--}}
-{{--                exit;--}}
-{{--            @endphp--}}
+
             @if ( !empty($galleries[$galleryName]['images']))
                 @foreach($galleries[$galleryName]['images'] as $index => $image)
                     @php  $image = $galleries[$galleryName]['image_path']  . DIRECTORY_SEPARATOR . $image['filename']  @endphp
