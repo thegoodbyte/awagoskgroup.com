@@ -308,20 +308,46 @@ class ProjectsController extends Controller
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'Sorens Gallery']);
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_irving() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/irving/galleries/main/';
+        $viewPath = 'projects/manhattan/irving';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_hudson() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/hudson/galleries/main/';
+        $viewPath = 'projects/manhattan/hudson';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
     }
 
     public function manhattan_wooster_st() {
 
-        $galleryPath =  '/img/projects-galleries/brooklyn/wooster-st/galleries/main/';
+        $galleryPath =  '/img/projects-galleries/manhattan/wooster-st/galleries/main/';
         $viewPath = 'projects/brooklyn/wooster-st';
 
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'Wooster St Gallery']);
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
     }
 
@@ -334,9 +360,8 @@ class ProjectsController extends Controller
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'Wooster St: Bath Gallery']);
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
     }
-
 
 }

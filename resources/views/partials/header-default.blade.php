@@ -47,6 +47,14 @@
                                             href="/projects/manhattan/sorens">Sorens / Tribeca / Manhattan</a>
                                     </li>
 
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="/projects/manhattan/irving">Irving / Manhattan</a>
+                                    </li>
+
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="/projects/manhattan/hudson">Hudson / Manhattan</a>
+                                    </li>
+
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313">
                                         <span style = "font-weight: bold;color:#fff;padding: 3px; ">Brooklyn</span>
                                     </li>
