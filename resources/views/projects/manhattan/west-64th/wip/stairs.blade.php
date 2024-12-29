@@ -17,7 +17,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a> > <a href = "{{ route('projects.manhattan.wip') }}">IN PROGRESS</a> > </a href = "">STAIRS</a> </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a> > <a href = "{{ route('projects.manhattan.west-64th.wip.index') }}">IN PROGRESS</a> > </a href = "">STAIRS</a> </div>
                 <h2 class="title  text-alight-lft">Building Excellence,<br /> One Detail at a Time</h2>
                 <div class="content text-alight-lft">
                     <p>Our kitchen remodeling projects represent the perfect fusion of innovative design and

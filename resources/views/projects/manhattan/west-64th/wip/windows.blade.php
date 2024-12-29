@@ -17,7 +17,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a> > <a href = "{{ route('projects.manhattan.wip') }}">IN PROGRESS</a> > </a href = "">WINDOWS</a> </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a> > <a href = "{{ route('projects.manhattan.west-64th.wip.index') }}">IN PROGRESS</a> > </a href = "">WINDOWS</a> </div>
                 <h2 class="title  text-alight-lft">Windows of Distinction: <br />Architectural Excellence</h2>
                 <div class="content text-alight-lft">
                     <p>Our window installation services represent the perfect blend of technical precision and architectural

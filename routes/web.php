@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProjectsController;
+use App\Http\Controllers\ProjectsManhattanWest64thStreetController;
 use App\Http\Controllers\ServicesController;
 
 Route::get('/',[HomeController::class,'index']);
@@ -20,22 +21,21 @@ Route::get('/about-us',[HomeController::class,'about_us']);
 // Projects
 Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_park_ave']);
 
-Route::get('/projects/manhattan/west-64th',[ProjectsController::class,'manhattan_west_64th_st'])->name('projects.manhattan.west-64th');
-Route::get('/projects/manhattan/west-64th/interior',[ProjectsController::class,'manhattan_west_64th_st_interior']);
-Route::get('/projects/manhattan/west-64th/exterior',[ProjectsController::class,'manhattan_west_64th_st_exterior']);
-Route::get('/projects/manhattan/west-64th/kitchen',[ProjectsController::class,'manhattan_west_64th_st_kitchen']);
-Route::get('/projects/manhattan/west-64th/wip',[ProjectsController::class,'manhattan_west_64th_st_wip'])->name('projects.manhattan.wip');
-Route::get('/projects/manhattan/west-64th/wip/kitchen',[ProjectsController::class,'manhattan_west_64th_st_wip_kitchen']);
-Route::get('/projects/manhattan/west-64th/wip/bath',[ProjectsController::class,'manhattan_west_64th_st_wip_bath']);
-Route::get('/projects/manhattan/west-64th/wip/floors',[ProjectsController::class,'manhattan_west_64th_st_wip_floors']);
-Route::get('/projects/manhattan/west-64th/wip/custom-cabinetry',[ProjectsController::class,'manhattan_west_64th_st_wip_cabinetry']);
-Route::get('/projects/manhattan/west-64th/wip/drywall',[ProjectsController::class,'manhattan_west_64th_st_wip_drywall']);
-Route::get('/projects/manhattan/west-64th/wip/exterior',[ProjectsController::class,'manhattan_west_64th_st_wip_exterior']);
-Route::get('/projects/manhattan/west-64th/wip/floors',[ProjectsController::class,'manhattan_west_64th_st_wip_floors']);
-Route::get('/projects/manhattan/west-64th/wip/generic-work',[ProjectsController::class,'manhattan_west_64th_st_wip_generic']);
-Route::get('/projects/manhattan/west-64th/wip/interior',[ProjectsController::class,'manhattan_west_64th_st_wip_interior']);
-Route::get('/projects/manhattan/west-64th/wip/stairs',[ProjectsController::class,'manhattan_west_64th_st_wip_stairs'])->name('projects.manhattan.stairs');
-Route::get('/projects/manhattan/west-64th/wip/windows',[ProjectsController::class,'manhattan_west_64th_st_wip_windows'])->name('projects.manhattan.windows');
+Route::get('/projects/manhattan/west-64th',[ProjectsManhattanWest64thStreetController::class,'index'])->name('projects.manhattan.west-64th');
+Route::get('/projects/manhattan/west-64th/interior',[ProjectsManhattanWest64thStreetController::class,'interior'])->name('projects.manhattan.west-64th.interior');
+Route::get('/projects/manhattan/west-64th/exterior',[ProjectsManhattanWest64thStreetController::class,'exterior'])->name('projects.manhattan.west-64th.exterior');
+Route::get('/projects/manhattan/west-64th/kitchen',[ProjectsManhattanWest64thStreetController::class,'kitchen'])->name('projects.manhattan.west-64th.kitchen');
+Route::get('/projects/manhattan/west-64th/wip',[ProjectsManhattanWest64thStreetController::class,'wip_index'])->name('projects.manhattan.west-64th.wip.index');
+Route::get('/projects/manhattan/west-64th/wip/kitchen',[ProjectsManhattanWest64thStreetController::class,'wip_kitchen'])->name('projects.manhattan.west-64th.wip.kitchen');
+Route::get('/projects/manhattan/west-64th/wip/bath',[ProjectsManhattanWest64thStreetController::class,'wip_bath'])->name('projects.manhattan.west-64th.wip.bath');
+Route::get('/projects/manhattan/west-64th/wip/custom-cabinetry',[ProjectsManhattanWest64thStreetController::class,'wip_cabinetry'])->name('projects.manhattan.west-64th.wip.custom-cabinetry');
+Route::get('/projects/manhattan/west-64th/wip/drywall',[ProjectsManhattanWest64thStreetController::class,'wip_drywall'])->name('projects.manhattan.west-64th.wip.drywall');
+Route::get('/projects/manhattan/west-64th/wip/exterior',[ProjectsManhattanWest64thStreetController::class,'wip_exterior'])->name('projects.manhattan.west-64th.wip.exterior');
+Route::get('/projects/manhattan/west-64th/wip/floors',[ProjectsManhattanWest64thStreetController::class,'wip_floors'])->name('projects.manhattan.west-64th.wip.floors');
+Route::get('/projects/manhattan/west-64th/wip/generic-work',[ProjectsManhattanWest64thStreetController::class,'wip_generic'])->name('projects.manhattan.west-64th.wip.generic-work');
+Route::get('/projects/manhattan/west-64th/wip/interior',[ProjectsManhattanWest64thStreetController::class,'wip_interior'])->name('projects.manhattan.west-64th.wip.interior');
+Route::get('/projects/manhattan/west-64th/wip/stairs',[ProjectsManhattanWest64thStreetController::class,'wip_stairs'])->name('projects.manhattan.west-64th.wip.stairs');
+Route::get('/projects/manhattan/west-64th/wip/windows',[ProjectsManhattanWest64thStreetController::class,'wip_windows'])->name('projects.manhattan.west-64th.wip.windows');
 
 Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st']);
 Route::get('/projects/manhattan/riverside-blvd',[ProjectsController::class,'manhattan_riverside_blvd']);
