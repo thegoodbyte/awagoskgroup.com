@@ -68,13 +68,13 @@ class ProjectsController extends Controller
 
     public function brooklyn_warren_st() {
 
-        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/test/';
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/test';
         $viewPath = 'projects.brooklyn.warren-st';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath, 'test');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'Warren St Gallery']);
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
     }
 
@@ -84,13 +84,39 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_park_ave() {
-        $galleryPath =  '/img/projects-galleries/manhattan/park-ave/galleries/main/';
-        $viewPath = 'projects/manhattan/park-ave';
+        return view('projects.manhattan.park-ave.index');
+    }
+
+    public function manhattan_park_ave_interior() {
+        $galleryPath =  '/img/projects-galleries/manhattan/park-ave/galleries/interior';
+        $viewPath = 'projects.manhattan.park-ave';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return view('errors.404', ['message' => 'Park Ave Gallery']);
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_park_ave_exterior() {
+        $galleryPath =  '/img/projects-galleries/manhattan/park-ave/galleries/exterior';
+        $viewPath = 'projects.manhattan.park-ave';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_park_ave_wip() {
+        $galleryPath =  '/img/projects-galleries/manhattan/park-ave/galleries/wip';
+        $viewPath = 'projects.manhattan.park-ave.wip';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
         }
     }
 
@@ -111,7 +137,7 @@ class ProjectsController extends Controller
     public function manhattan_sorens() {
 
         $galleryPath = '/img/projects-galleries/manhattan/sorens/galleries/main/';
-        $viewPath = 'projects/manhattan/sorens';
+        $viewPath = 'projects.manhattan.sorens';
 
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);

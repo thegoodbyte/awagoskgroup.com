@@ -19,7 +19,10 @@ Route::get('/contact-us',[HomeController::class,'contact_us']);
 Route::get('/about-us',[HomeController::class,'about_us']);
 
 // Projects
-Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_park_ave']);
+Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_park_ave'])->name('projects.manhattan.park-ave')->name('projects.manhattan.park-ave.index');
+Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_park_ave_interior'])->name('projects.manhattan.park-ave')->name('projects.manhattan.park-ave.interior');
+Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_park_ave_exterior'])->name('projects.manhattan.park-ave')->name('projects.manhattan.park-ave.exterior');
+Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_park_ave_wip'])->name('projects.manhattan.park-ave')->name('projects.manhattan.park-ave.wip');
 
 Route::get('/projects/manhattan/west-64th',[ProjectsManhattanWest64thStreetController::class,'index'])->name('projects.manhattan.west-64th');
 Route::get('/projects/manhattan/west-64th/interior',[ProjectsManhattanWest64thStreetController::class,'interior'])->name('projects.manhattan.west-64th.interior');
