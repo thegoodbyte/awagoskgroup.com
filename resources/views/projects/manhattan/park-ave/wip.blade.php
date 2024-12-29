@@ -5,8 +5,9 @@
         <div class="col-sm-12 no-padd">
 
             @include('components.projects.gallery', [
-                'images' =>  $images
-                ])
+                 'galleries' =>  $data['galleries'],
+                 'galleryName' => $data['galleryName']
+                 ])
         </div>
     </div>
 </div>
@@ -16,19 +17,17 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft">INTERIOR / EXTERIOR</div>
-                <h2 class="title  text-alight-lft">Park Avenue /  Manhattan</h2>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.park-ave.index') }}">Park Ave</a> > In Progress </div>
+                <h2 class="title  text-alight-lft">Where Precision Meets Craftsmanship</h2>
                 <div class="content text-alight-lft">
-                    <p>We propose creating a multifunctional space where you can make a choice: either
-                        to
-                        retire or be together with everybody. The space, clear of all unnecessary
-                        items,
-                        will take you to another dimension and help you to get tuned to a calm repose.
-                        Lot’s of light and air. In the center of the room there is a functional zoning
-                        volume, a white cube, dividing the entire living room into 5 zones: active
-                        pastime
-                        area, TV area, dressing area, secluded relaxation area and the central area –
-                        relaxation area, located inside the white volume.</p>
+                    <p>During the construction phase of this high-end Park Avenue residence,
+                        our team is meticulously executing every detail of the architectural vision.
+                        The work-in-progress showcases our precise installation methods,
+                        from the custom fireplace framing and premium engineered wood flooring to the
+                        sophisticated curved wall applications and state-of-the-art HVAC integration.
+                        The temporary protection systems and methodical masking techniques demonstrate our
+                        commitment to preserving finished surfaces while maintaining the highest standards of craftsmanship
+                        throughout the renovation process.</p>
                 </div>
             </div>
         </div>
@@ -36,16 +35,13 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>Under the cube there are withdrawable soft modules, and inside the cube there is
-                        a
-                        live tree that is illuminated from the above roof window. This is a place for
-                        solitude, meditation and relaxation. Thus, with the help of withdrawable
-                        modules,
-                        you can create different zones for conversations, board games, and the one who
-                        needs to retire can go and have a rest under the tree. Also, we do not forget
-                        about
-                        a place for storing clothes. There is a cabinet along one of the many-many
-                        walls.</p>
+                    <p>The ongoing transformation highlights our expertise in complex architectural elements,
+                         as evidenced by the custom-built floating staircase with glass balustrades currently under
+                        construction, and the installation of premium marble wall cladding featuring dramatic veining
+                        patterns. Our attention to detail extends to the careful installation of curved drywall
+                        sections and precision millwork, all while maintaining clean working conditions and proper surface
+                        protection. These construction progress images reveal the intricate layers of work that go into
+                        creating a luxury Manhattan residence, where every element is carefully considered and expertly executed.</p>
                 </div>
             </div>
         </div>

@@ -89,7 +89,7 @@ class ProjectsController extends Controller
 
     public function manhattan_park_ave_interior() {
         $galleryPath =  '/img/projects-galleries/manhattan/park-ave/galleries/interior';
-        $viewPath = 'projects.manhattan.park-ave';
+        $viewPath = 'projects.manhattan.park-ave.interior';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
@@ -100,7 +100,7 @@ class ProjectsController extends Controller
 
     public function manhattan_park_ave_exterior() {
         $galleryPath =  '/img/projects-galleries/manhattan/park-ave/galleries/exterior';
-        $viewPath = 'projects.manhattan.park-ave';
+        $viewPath = 'projects.manhattan.park-ave.exterior';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
