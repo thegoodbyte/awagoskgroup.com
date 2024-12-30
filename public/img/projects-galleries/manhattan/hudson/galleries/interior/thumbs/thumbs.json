@@ -1,0 +1,34 @@
+{
+    "images": [
+        {
+            "id": "img1346",
+            "filename": "IMG_1346.JPG",
+            "tags": []
+        },
+        {
+            "id": "img5035",
+            "filename": "IMG_5035_[kitchen].JPG",
+            "tags": ["kitchen"]
+        },
+        {
+            "id": "img5039",
+            "filename": "IMG_5039.JPG",
+            "tags": []
+        },
+        {
+            "id": "img9394",
+            "filename": "IMG_9394.JPG",
+            "tags": []
+        },
+        {
+            "id": "img9397",
+            "filename": "IMG_9397.JPG",
+            "tags": []
+        },
+        {
+            "id": "img9399",
+            "filename": "IMG_9399.JPG",
+            "tags": []
+        }
+    ]
+}

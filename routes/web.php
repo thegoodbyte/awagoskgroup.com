@@ -46,7 +46,10 @@ Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhatta
 Route::get('/projects/manhattan/wooster-st/bath',[ProjectsController::class,'manhattan_wooster_st_bath']);
 Route::get('/projects/manhattan/sorens', [ProjectsController::class,'manhattan_sorens']);
 Route::get('/projects/manhattan/irving', [ProjectsController::class, 'manhattan_irving'])->name('projects.manhattan.irving');
-Route::get('/projects/manhattan/hudson', [ProjectsController::class, 'manhattan_hudson'])->name('projects.manhattan.hudson');
+
+Route::get('/projects/manhattan/hudson', [ProjectsController::class, 'manhattan_hudson'])->name('projects.manhattan.hudson.index');
+Route::get('/projects/manhattan/hudson/interior', [ProjectsController::class, 'manhattan_hudson_interior'])->name('projects.manhattan.hudson.interior');
+Route::get('/projects/manhattan/hudson/wip', [ProjectsController::class, 'manhattan_hudson_wip'])->name('projects.manhattan.hudson.wip');
 
 Route::get('/projects/brooklyn/warren-st',[ProjectsController::class,'brooklyn_warren_st']);
 Route::get('/projects/brooklyn/water-st',[ProjectsController::class,'brooklyn_water_st']);

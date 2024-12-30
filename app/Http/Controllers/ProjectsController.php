@@ -161,9 +161,26 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_hudson() {
+        return view('projects.manhattan.hudson.index');
+    }
 
-        $galleryPath =  '/img/projects-galleries/manhattan/hudson/galleries/main/';
-        $viewPath = 'projects/manhattan/hudson';
+    public function manhattan_hudson_interior() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/hudson/galleries/interior';
+        $viewPath = 'projects.manhattan.hudson.interior';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_hudson_wip() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/hudson/galleries/wip';
+        $viewPath = 'projects.manhattan.hudson.wip';
 
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
@@ -175,7 +192,7 @@ class ProjectsController extends Controller
 
     public function manhattan_wooster_st() {
 
-        $galleryPath =  '/img/projects-galleries/manhattan/wooster-st/galleries/main/';
+        $galleryPath =  '/img/projects-galleries/manhattan/wooster-st/galleries/main';
         $viewPath = 'projects/brooklyn/wooster-st';
 
         try {
@@ -188,7 +205,7 @@ class ProjectsController extends Controller
 
     public function manhattan_wooster_st_bath() {
 
-        $galleryPath =  '/img/projects-galleries/manhattan/wooster/galleries/bath/';
+        $galleryPath =  '/img/projects-galleries/manhattan/wooster/galleries/bath';
         $viewPath = 'projects/manhattan/wooster-st/bath';
 
         try {
