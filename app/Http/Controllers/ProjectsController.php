@@ -121,9 +121,25 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_riverside_blvd() {
+        return view('projects.manhattan.riverside-blvd.index');
+    }
 
-        $galleryPath =  '/img/projects-galleries/manhattan/riverside-blvd/galleries/main/';
-        $viewPath = 'projects.manhattan.riverside-blvd';
+    public function manhattan_riverside_blvd_wip() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/riverside-blvd/galleries/wip';
+        $viewPath = 'projects.manhattan.riverside-blvd.wip';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_riverside_blvd_interior() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/riverside-blvd/galleries/interior';
+        $viewPath = 'projects.manhattan.riverside-blvd.interior';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {

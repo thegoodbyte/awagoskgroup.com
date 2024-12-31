@@ -40,8 +40,12 @@ Route::get('/projects/manhattan/west-64th/wip/interior',[ProjectsManhattanWest64
 Route::get('/projects/manhattan/west-64th/wip/stairs',[ProjectsManhattanWest64thStreetController::class,'wip_stairs'])->name('projects.manhattan.west-64th.wip.stairs');
 Route::get('/projects/manhattan/west-64th/wip/windows',[ProjectsManhattanWest64thStreetController::class,'wip_windows'])->name('projects.manhattan.west-64th.wip.windows');
 
+Route::get('/projects/manhattan/riverside-blvd',[ProjectsController::class,'manhattan_riverside_blvd'])->name('projects.manhattan.riverside-blvd.index');
+Route::get('/projects/manhattan/riverside-blvd/interior',[ProjectsController::class,'manhattan_riverside_blvd_interior'])->name('projects.manhattan.riverside-blvd.interior');
+Route::get('/projects/manhattan/riverside-blvd/wip',[ProjectsController::class,'manhattan_riverside_blvd_wip'])->name('projects.manhattan.riverside-blvd.wip');
+
 Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st']);
-Route::get('/projects/manhattan/riverside-blvd',[ProjectsController::class,'manhattan_riverside_blvd']);
+
 Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st']);
 Route::get('/projects/manhattan/wooster-st/bath',[ProjectsController::class,'manhattan_wooster_st_bath']);
 Route::get('/projects/manhattan/sorens', [ProjectsController::class,'manhattan_sorens']);
