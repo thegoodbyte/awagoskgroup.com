@@ -21,7 +21,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.west-64th') }}">W64th</a> > <a href = "{{ route('projects.manhattan.west-64th.wip.index') }}">IN PROGRESS</a> > </a href = "">BATH</a> </div
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip') }}">IN PROGRESS</a> > </a href = "">BATH</a> </div>
                 <h2 class="title  text-alight-lft">Crafting Your Dream,<br /> Step by Step</h2>
                 <div class="content text-alight-lft">
                     <p>Behind every stunning bathroom transformation lies a story of dedication, expertise,
@@ -70,7 +70,7 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                West 64th, Manhattan, NYC, NY
+                                Central Park South, Manhattan, NYC, NY
                             </p>
                         </div>
                     </div>

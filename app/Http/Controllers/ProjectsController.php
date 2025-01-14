@@ -98,8 +98,53 @@ class ProjectsController extends Controller
         }
     }
 
+    public function manhattan_central_park_south_wip_drywall() {
+        $galleryPath =  '/img/projects-galleries/manhattan/central-park-south/galleries/wip/drywall';
+        $viewPath = 'projects.manhattan.central-park-south.wip.drywall';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+
+    }
+
+    public function manhattan_central_park_south_wip_generic_work() {
+        $galleryPath =  '/img/projects-galleries/manhattan/central-park-south/galleries/wip/generic';
+        $viewPath = 'projects.manhattan.central-park-south.wip.generic';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
     public function manhattan_central_park_south_wip() {
         return view('projects.manhattan.central-park-south.wip.index');
+    }
+
+    public function manhattan_central_park_south_wip_bath() {
+        $galleryPath =  '/img/projects-galleries/manhattan/central-park-south/galleries/wip/bath';
+        $viewPath = 'projects.manhattan.central-park-south.wip.bath';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_central_park_south_wip_cabinetry() {
+        $galleryPath =  '/img/projects-galleries/manhattan/central-park-south/galleries/wip/cabinetry';
+        $viewPath = 'projects.manhattan.central-park-south.main';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
     }
 
     public function manhattan_park_ave() {

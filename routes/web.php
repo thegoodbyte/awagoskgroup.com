@@ -24,7 +24,7 @@ Route::get('/projects/manhattan/central-park-south/main',[ProjectsController::cl
 Route::get('/projects/manhattan/central-park-south/wip',[ProjectsController::class,'manhattan_central_park_south_wip'])->name('projects.manhattan.central-park-south.wip');
 Route::get('/projects/manhattan/central-park-south/wip/bath',[ProjectsController::class,'manhattan_central_park_south_wip_bath'])->name('projects.manhattan.central-park-south.wip.bath');
 Route::get('/projects/manhattan/central-park-south/wip/cabinetry',[ProjectsController::class,'manhattan_central_park_south_wip_cabinetry'])->name('projects.manhattan.central-park-south.wip.cabinetry');
-Route::get('/projects/manhattan/central-park-south/wip/general_work',[ProjectsController::class,'manhattan_central_park_south_wip_general_work'])->name('projects.manhattan.central-park-south.wip.general-work');
+Route::get('/projects/manhattan/central-park-south/wip/generic_work',[ProjectsController::class,'manhattan_central_park_south_wip_generic_work'])->name('projects.manhattan.central-park-south.wip.generic-work');
 Route::get('/projects/manhattan/central-park-south/wip/kitchen',[ProjectsController::class,'manhattan_central_park_south_wip_kitchen'])->name('projects.manhattan.central-park-south.wip.kitchen');
 Route::get('/projects/manhattan/central-park-south/wip/drywall',[ProjectsController::class,'manhattan_central_park_south_wip_drywall'])->name('projects.manhattan.central-park-south.wip.drywall');
 

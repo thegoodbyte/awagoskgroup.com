@@ -7,7 +7,7 @@
             <div class="prague-categories-outer">
                 <div class="container-fluid no-padd top-banner categories fullheight light">
                     <span class="overlay"></span>
-                    <img src="/img/projects-galleries/manhattan/west-64th/galleries/exterior/08.JPG" class="s-img-switch" alt="main banner image" />
+                    <img src="/img/projects-galleries/manhattan/central-park-south/galleries/main/main-image_1600w.JPG" class="s-img-switch" alt="main banner image" />
                     <div class="content">
                         <div class="subtitle">See our work categorized bellow for the </div>
                         <h1 class="title">Central South Park</h1>
@@ -44,7 +44,7 @@
                                 <div class="portfolio-item-wrapp">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/wip">
+                                            <a class="project-grid-item-img-link" href="{{ route('projects.manhattan.central-park-south.wip') }}">
                                                 <div class="project-grid-item-img">
                                                     <img   src="#" data-lazy-src="/img/projects-galleries/manhattan/west-64th/galleries/wip/generic/_157_face.JPG"
                                                            class="s-img-switch wp-post-image wp-post-image" alt="alvar-alto-museum image" />
