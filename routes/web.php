@@ -19,6 +19,15 @@ Route::get('/contact-us',[HomeController::class,'contact_us']);
 Route::get('/about-us',[HomeController::class,'about_us']);
 
 // Projects
+Route::get('/projects/manhattan/central-park-south',[ProjectsController::class,'manhattan_central_park_south'])->name('projects.manhattan.central-park-south.index');
+Route::get('/projects/manhattan/central-park-south/main',[ProjectsController::class,'manhattan_central_park_south_main'])->name('projects.manhattan.central-park-south.main');
+Route::get('/projects/manhattan/central-park-south/wip',[ProjectsController::class,'manhattan_central_park_south_wip'])->name('projects.manhattan.central-park-south.wip');
+Route::get('/projects/manhattan/central-park-south/wip/bath',[ProjectsController::class,'manhattan_central_park_south_wip_bath'])->name('projects.manhattan.central-park-south.wip.bath');
+Route::get('/projects/manhattan/central-park-south/wip/cabinetry',[ProjectsController::class,'manhattan_central_park_south_wip_cabinetry'])->name('projects.manhattan.central-park-south.wip.cabinetry');
+Route::get('/projects/manhattan/central-park-south/wip/general_work',[ProjectsController::class,'manhattan_central_park_south_wip_general_work'])->name('projects.manhattan.central-park-south.wip.general-work');
+Route::get('/projects/manhattan/central-park-south/wip/kitchen',[ProjectsController::class,'manhattan_central_park_south_wip_kitchen'])->name('projects.manhattan.central-park-south.wip.kitchen');
+Route::get('/projects/manhattan/central-park-south/wip/drywall',[ProjectsController::class,'manhattan_central_park_south_wip_drywall'])->name('projects.manhattan.central-park-south.wip.drywall');
+
 Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_park_ave'])->name('projects.manhattan.park-ave.index');
 Route::get('/projects/manhattan/park-ave/interior',[ProjectsController::class,'manhattan_park_ave_interior'])->name('projects.manhattan.park-ave.interior');
 Route::get('/projects/manhattan/park-ave/exterior',[ProjectsController::class,'manhattan_park_ave_exterior'])->name('projects.manhattan.park-ave.exterior');

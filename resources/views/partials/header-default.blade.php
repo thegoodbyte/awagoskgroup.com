@@ -52,6 +52,10 @@
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="/projects/manhattan/central-park-south">Central Park South / Manhattan</a>
+                                    </li>
+
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
                                             href="/projects/manhattan/hudson">Hudson / Manhattan</a>
                                     </li>
 
@@ -64,7 +68,7 @@
                                     </li>
 
                                     <li id="menu-item-2336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2336"><a
-                                            href="/projects/brooklyn/warren-st/">Water St, Brooklyn</a>
+                                            href="/projects/brooklyn/water-st/">Water St, Brooklyn</a>
                                     </li>
                                 </ul>
                             </li>
