@@ -18,17 +18,17 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip') }}">IN PROGRESS</a> > GENERIC WORK </div>
-                <h2 class="title  text-alight-lft">Every Detail Tells Our Story</h2>
+                <h2 class="title  text-alight-lft">NYC's Premier Interior Transformation Specialists</h2>
                 <div class="content text-alight-lft">
-                    <p>As a premier general contractor in New York City, we orchestrate complex renovation projects
-                        with precision, expertise, and unwavering attention to detail. From structural modifications
-                        to high-end finishes, our team expertly coordinates every aspect of the construction process,
-                        ensuring seamless integration of all building systems, including HVAC, electrical, and plumbing.
-                        Our comprehensive project management approach means we handle everything from securing
-                        necessary permits and coordinating with building management to overseeing specialized
-                        trades and maintaining strict quality control. Whether we're installing custom marble
-                        fireplaces, implementing sophisticated audio-visual systems, or executing architectural
-                        millwork, our focus remains on delivering exceptional craftsmanship.</p>
+                    <p>As premier interior specialists in New York City, we bring unparalleled expertise to
+                        every aspect of interior construction and renovation. Our portfolio showcases complete
+                        interior transformations, from raw spaces to meticulously finished luxury environments.
+                        We excel in coordinating complex projects that require sophisticated integration of
+                        various elements - from precision drywall installation and custom millwork to the
+                        incorporation of striking design features like decorative glass partitions and
+                        artistic wall treatments. Each project demonstrates our ability to execute high-end
+                        finishes while managing the intricate demands of NYC construction, including the
+                        careful navigation of landmark building requirements and luxury residential specifications.</p>
                 </div>
             </div>
         </div>
@@ -36,14 +36,17 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>What sets us apart is our ability to transform architectural plans into stunning realities while
-                        navigating the unique challenges of New York City construction. Our experienced team excels at
-                        managing the logistics of urban renovation projects, from coordinating material deliveries and
-                        crane operations to ensuring compliance with strict building regulations and landmark preservation
-                        requirements. We pride ourselves on maintaining clear communication throughout the construction process,
-                        providing detailed progress updates, and ensuring that each project, whether it's a full apartment
-                        renovation or a specific architectural feature, is completed to the highest standards of quality
-                        and craftsmanship that our discerning clients expect.</p>
+                    <p>What sets us apart is our comprehensive approach to interior construction and our
+                        attention to sophisticated details. Our expertise shines through in our execution
+                        of modern design elements, such as seamless wall transitions, integrated lighting
+                        systems, and custom architectural features. The images of our work reveal the journey
+                        from basic construction to elegant completion, showcasing our ability to handle
+                        everything from structural modifications to the installation of high-end finishes.
+                        Whether it's creating sleek modern interiors with glass partitions, installing
+                        custom closet systems, or managing complete floor renovations, our team delivers
+                        results that meet the exacting standards of New York's most discerning clients.
+                        Our work consistently demonstrates why we're trusted to handle complex interior
+                        projects in one of the world's most demanding real estate markets.</p>
                 </div>
             </div>
         </div>

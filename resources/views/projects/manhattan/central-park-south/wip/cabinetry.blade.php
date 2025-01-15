@@ -18,15 +18,16 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.west-64th.wip.index') }}">IN PROGRESS</a> > CUSTOM CABINETRY </div>
-                <h2 class="title  text-alight-lft">Handcrafted Excellence, <br />Built In</h2>
+                <h2 class="title  text-alight-lft">Custom Cabinetry:<br /> Where Precision Meets Purpos</h2>
                 <div class="content text-alight-lft">
-                    <p>From luxurious kitchens to sophisticated bathrooms and elegant wardrobes,
-                        our master craftsmen create bespoke cabinetry that transforms your space into a
-                        masterpiece of both form and function. Each piece is meticulously designed and
-                        handcrafted in our workshop, where we combine time-honored woodworking techniques
-                        with modern precision tools. Our artisans work closely with you to select the finest
-                        materials, from exotic hardwoods to premium finishes, ensuring every detail aligns
-                        perfectly with your vision and lifestyle needs.</p>
+                    <p>Our custom cabinetry solutions exemplify the perfect marriage of form and function,
+                        transforming spaces into highly organized yet aesthetically pleasing environments.
+                        Each project showcases our commitment to precision craftsmanship, from floor-to-ceiling
+                        storage systems to seamlessly integrated wall units. We specialize in creating
+                        sophisticated storage solutions that maximize every inch of available space while
+                        maintaining clean, contemporary lines. Our attention to detail is evident in the perfect
+                        alignment of doors, the careful integration of lighting systems, and the flawless
+                        execution of floating shelves that appear to defy gravity.</p>
                 </div>
             </div>
         </div>
@@ -34,15 +35,15 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>Whether it's a sleek, modern kitchen with innovative storage solutions,
-                        a spa-like bathroom vanity with integrated lighting, or a custom wardrobe
-                        with personalized organizational systems, our cabinetry is built to stand
-                        the test of time. We pride ourselves on creating pieces that not only serve as
-                        beautiful focal points in your home but also provide practical, intelligently
-                        designed storage that enhances your daily life. Each cabinet, drawer, and shelf
-                        is crafted with exacting standards, featuring dovetail joints, soft-close mechanisms,
-                        and customized interior configurations that reflect our unwavering commitment to
-                        quality and craftsmanship.</p>
+                    <p>The versatility of our custom cabinetry work extends beyond traditional storage solutions.
+                        Our designs incorporate modern amenities and thoughtful features that enhance daily living.
+                        Whether it's crafting built-in wardrobes with specialized compartments, designing elegant
+                        display shelving, or creating custom walk-in closets, each project is tailored to meet
+                        specific client needs while elevating the overall aesthetic of the space.
+                        The minimalist hardware, precise gaps, and sophisticated finishes we select ensure that
+                        each installation not only serves its practical purpose but also stands as a testament
+                        to superior craftsmanship. Our work demonstrates how custom cabinetry can transform a
+                        room from merely functional to exceptionally refined.</p>
                 </div>
             </div>
         </div>

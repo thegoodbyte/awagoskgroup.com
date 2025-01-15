@@ -46,7 +46,7 @@
                                         <div class="project-grid-wrapper">
                                             <a class="project-grid-item-img-link" href="{{ route('projects.manhattan.central-park-south.wip') }}">
                                                 <div class="project-grid-item-img">
-                                                    <img   src="#" data-lazy-src="/img/projects-galleries/manhattan/west-64th/galleries/wip/generic/_157_face.JPG"
+                                                    <img   src="#" data-lazy-src="/img/projects-galleries/manhattan/central-park-south/galleries/wip/generic/category-face.JPG"
                                                            class="s-img-switch wp-post-image wp-post-image" alt="alvar-alto-museum image" />
                                                 </div>
                                             </a>

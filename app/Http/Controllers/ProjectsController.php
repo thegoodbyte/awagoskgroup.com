@@ -121,6 +121,17 @@ class ProjectsController extends Controller
         }
     }
 
+    public function manhattan_central_park_south_wip_kitchen() {
+        $galleryPath =  '/img/projects-galleries/manhattan/central-park-south/galleries/wip/kitchen';
+        $viewPath = 'projects.manhattan.central-park-south.wip.kitchen';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
     public function manhattan_central_park_south_wip() {
         return view('projects.manhattan.central-park-south.wip.index');
     }

@@ -4,10 +4,6 @@
     <div class="row-fluid no-padd ">
         <div class="col-sm-12 no-padd">
 
-{{--            @php--}}
-{{--                print_r($data['galleries']);--}}
-{{--                exit;--}}
-{{--            @endphp--}}
             @include('components.projects.gallery', [
                 'galleries' =>  $data['galleries'],
                 'galleryName' => $data['galleryName']
@@ -21,17 +17,17 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip') }}">IN PROGRESS</a> > </a href = "">BATH</a> </div>
-                <h2 class="title  text-alight-lft">Crafting Your Dream Bathroom: <br />A Behind-the-Scenes Look</h2>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip') }}">IN PROGRESS</a> > KITCHEN </div>
+                <h2 class="title  text-alight-lft">Modern Kitchen Design: Work in Progress</h2>
                 <div class="content text-alight-lft">
-                    <p>Our bathroom remodeling expertise combines innovative design with superior craftsmanship
-                        to create stunning personal sanctuaries. We understand that a modern bathroom should be
-                        both a functional space and a retreat for relaxation, which is why we carefully select
-                        premium materials and implement cutting-edge design elements in every project.
-                        From dramatic floor patterns that create visual impact to precisely installed fixtures
-                        that ensure lasting quality, our attention to detail transforms ordinary bathrooms into
-                        extraordinary spaces. The seamless integration of contemporary features, such as
-                        custom-built tubs and sleek architectural elements, showcases our commitment to excellence.</p>
+                    <p>Our kitchen design and installation process represents the perfect blend of precision planning
+                        and expert execution, transforming spaces into the heart of modern homes. The in-progress
+                        images reveal our meticulous approach to creating functional yet aesthetically pleasing kitchens,
+                        with careful attention to every detail from custom cabinetry placement to optimal workflow
+                        design. Even in the construction phase, you can see how we carefully consider the integration
+                        of natural light with strategic window placement, complemented by advanced lighting systems.
+                        The thoughtful layout of each kitchen ensures that storage solutions are abundant yet
+                        elegantly concealed, while maintaining clean lines and a spacious feel.</p>
                 </div>
             </div>
         </div>
@@ -39,15 +35,14 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>What sets our bathroom renovations apart is our ability to balance aesthetic beauty
-                        with practical functionality. Our team specializes in creating custom solutions that
-                        maximize space while delivering the sophisticated look of a high-end spa environment.
-                        The installation of premium fixtures, coupled with expert tile work and precise finishing,
-                        ensures that each bathroom we create stands as a testament to quality craftsmanship.
-                        Whether it's incorporating striking geometric floor patterns, installing modern soaking
-                        tubs, or implementing elegant storage solutions, we approach each project with the goal
-                        of exceeding our clients' expectations. The result is a perfectly executed bathroom
-                        space that combines luxury with everyday practicality.</p>
+                    <p>What makes our kitchen designs exceptional is our focus on creating spaces that balance beauty
+                        with functionality. Our projects showcase how we integrate modern amenities while maintaining
+                        architectural harmony. The work-in-progress photos demonstrate our methodical installation
+                        process, from the precise mounting of upper cabinets to the careful consideration of counter
+                        space and workflow zones. You can see how we're creating kitchens that aren't just cooking
+                        spaces but sophisticated environments where design meets practicality. Each element is
+                        carefully positioned to ensure both optimal functionality and visual appeal, resulting in
+                        kitchens that serve as both efficient workspaces and stunning centerpieces of the home.</p>
                 </div>
             </div>
         </div>

@@ -53,25 +53,24 @@ Route::get('/projects/manhattan/riverside-blvd',[ProjectsController::class,'manh
 Route::get('/projects/manhattan/riverside-blvd/interior',[ProjectsController::class,'manhattan_riverside_blvd_interior'])->name('projects.manhattan.riverside-blvd.interior');
 Route::get('/projects/manhattan/riverside-blvd/wip',[ProjectsController::class,'manhattan_riverside_blvd_wip'])->name('projects.manhattan.riverside-blvd.wip');
 
-Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st']);
-
-Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st']);
-Route::get('/projects/manhattan/wooster-st/bath',[ProjectsController::class,'manhattan_wooster_st_bath']);
-Route::get('/projects/manhattan/sorens', [ProjectsController::class,'manhattan_sorens']);
+Route::get('/projects/manhattan/wooster-st',[ProjectsController::class,'manhattan_wooster_st'])->name('projects.manhattan.wooster');
+Route::get('/projects/manhattan/wooster-st/bath',[ProjectsController::class,'manhattan_wooster_st_bath'])->name('projects.manhattan.wooster.bath');
+Route::get('/projects/manhattan/sorens', [ProjectsController::class,'manhattan_sorens'])->name('projects.manhattan.sorens');
 Route::get('/projects/manhattan/irving', [ProjectsController::class, 'manhattan_irving'])->name('projects.manhattan.irving');
 
 Route::get('/projects/manhattan/hudson', [ProjectsController::class, 'manhattan_hudson'])->name('projects.manhattan.hudson.index');
 Route::get('/projects/manhattan/hudson/interior', [ProjectsController::class, 'manhattan_hudson_interior'])->name('projects.manhattan.hudson.interior');
 Route::get('/projects/manhattan/hudson/wip', [ProjectsController::class, 'manhattan_hudson_wip'])->name('projects.manhattan.hudson.wip');
 
-Route::get('/projects/brooklyn/warren-st',[ProjectsController::class,'brooklyn_warren_st']);
-Route::get('/projects/brooklyn/water-st',[ProjectsController::class,'brooklyn_water_st']);
+Route::get('/projects/brooklyn/warren-st',[ProjectsController::class,'brooklyn_warren_st'])->name('projects.brooklyn.warren-st.index');
+Route::get('/projects/brooklyn/water-st',[ProjectsController::class,'brooklyn_water_st'])->name('projects.brooklyn.water-st.index');
 
 // services
-Route::get('/services/renovations-remodeling',[ServicesController::class,'remodeling_renovations']);
-Route::get('/services/custom-kitchens',[ServicesController::class,'custom_kitchens']);
-Route::get('/services/custom-bathrooms',[ServicesController::class,'custom_bathrooms']);
-Route::get('/services/stairways',[ServicesController::class,'stairways']);
-Route::get('/services/custom-living-spaces',[ServicesController::class,'custom_licing_spaces']);
-Route::get('/services/smart-home-integration',[ServicesController::class,'smart_home_integration']);
+Route::get('/services/renovations-remodeling',[ServicesController::class,'remodeling_renovations'])->name('services.remodeling-renovations');
+Route::get('/services/custom-kitchens',[ServicesController::class,'custom_kitchens'])->name('services.custom-kitchens');
+Route::get('/services/custom-spaces',[ServicesController::class,'custom_spaces'])->name('services.custom-spaces');
+Route::get('/services/custom-bathrooms',[ServicesController::class,'custom_bathrooms'])->name('services.custom-bathrooms');
+Route::get('/services/stairways',[ServicesController::class,'stairways'])->name('services.stairways');
+Route::get('/services/outdoor-living-spaces',[ServicesController::class,'outdoor_living_spaces'])->name('services.outdoor-living-spaces');
+Route::get('/services/smart-home-integration',[ServicesController::class,'smart_home_integration'])->name('services.smart-home-integration');
 

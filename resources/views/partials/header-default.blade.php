@@ -27,36 +27,54 @@
                                         <span style = "font-weight: bold;color:#fff;padding: 3px; ">Manhattan</span>
                                     </li>
                                     <li id="menu-item-2313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313"><a
-                                            href="/projects/manhattan/park-ave">Park Ave, Manhattan</a>
-
+                                            href="{{ route("projects.manhattan.park-ave.index") }}">Park Ave, Manhattan</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{ route("projects.manhattan.park-ave.interior") }}">Interior</a>
+                                            </li>
+                                            <li id="menu-item-2338" class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{ route("projects.manhattan.park-ave.exterior") }}">Exterior</a>
+                                            </li>
+                                        </ul>
                                     </li>
 
 
                                     <li id="menu-item-2315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2315"><a
-                                            href="/projects/manhattan/west-64th">West 64th, Manhattan</a>
+                                            href="{{ route("projects.manhattan.west-64th") }}">West 64th, Manhattan</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{ route("projects.manhattan.west-64th.kitchen") }}">Kitchen</a>
+                                            </li>
+                                            <li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{ route("projects.manhattan.west-64th.interior") }}">Interior</a>
+                                            </li>
+                                            <li id="menu-item-2338" class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{ route("projects.manhattan.west-64th.exterior") }}">Exterior</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan/wooster-st/bath">Wooster St, Manhattan (Bath) </a>
-                                    </li>
-
-                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan/riverside-blvd">Riverside Blvd, Manhattan</a>
-                                    </li>
-
-                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan/sorens">Sorens / Tribeca / Manhattan</a>
-                                    </li>
-
-                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan/irving">Irving / Manhattan</a>
-                                    </li>
-
-                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan/central-park-south">Central Park South / Manhattan</a>
+                                            href="{{ route('projects.manhattan.wooster') }}">Wooster St, Manhattan </a>
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="/projects/manhattan/hudson">Hudson / Manhattan</a>
+                                            href="{{ route('projects.manhattan.riverside-blvd.index') }}">Riverside Blvd, Manhattan</a>
+                                    </li>
+
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="{{ route('projects.manhattan.irving') }}">Sorens / Tribeca / Manhattan</a>
+                                    </li>
+
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="{{ route('projects.manhattan.irving') }}">Irving / Manhattan</a>
+                                    </li>
+
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="{{ route('projects.manhattan.central-park-south.index') }}">Central Park South / Manhattan</a>
+                                    </li>
+
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="{{ route('projects.manhattan.hudson.index') }}">Hudson / Manhattan</a>
                                     </li>
 
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313">
@@ -64,11 +82,11 @@
                                     </li>
 
                                     <li id="menu-item-2336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2336"><a
-                                            href="/projects/brooklyn/warren-st/">Warren St, Brooklyn</a>
+                                            href="{{ route('projects.brooklyn.warren-st.index') }}">Warren St, Brooklyn</a>
                                     </li>
 
                                     <li id="menu-item-2336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2336"><a
-                                            href="/projects/brooklyn/water-st/">Water St, Brooklyn</a>
+                                            href="{{ route('projects.brooklyn.water-st.index') }}">Water St, Brooklyn</a>
                                     </li>
                                 </ul>
                             </li>
@@ -77,19 +95,19 @@
                                     href="#">Services</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-2355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2355"><a
-                                            href="/services/renovations-remodeling">Remodeling and Renovations</a></li>
+                                            href="{{ route('services.remodeling-renovations') }}">Remodeling and Renovations</a></li>
                                     <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2333"><a
-                                            href="/services/custom-kitchens">Custom Kitchens</a></li>
+                                            href="{{ route('services.custom-kitchens') }}">Custom Kitchens</a></li>
                                     <li id="menu-item-2334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2334"><a
-                                            href="services/custom-living-spaces">Outdoor living spaces</a></li>
+                                            href="{{ route('services.outdoor-living-spaces') }}">Outdoor living spaces</a></li>
                                     <li id="menu-item-2332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2332"><a
-                                            href="/services/custom-bathrooms">Custom bathrooms</a></li>
+                                            href="{{ route('services.custom-bathrooms') }}">Custom bathrooms</a></li>
                                     <li id="menu-item-2356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2356"><a
-                                            href="/services/stairways">Stairways</a></li>
+                                            href="{{ route('services.stairways') }}">Stairways</a></li>
                                     <li id="menu-item-2348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2348"><a
-                                            href="/services/custom-spacesl">Custom Spaces</a></li>
+                                            href="{{ route('services.custom-spaces') }}">Custom Spaces</a></li>
                                     <li id="menu-item-2347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2347"><a
-                                            href="/services/smart-home-integration">Smart Home Integration:</a></li>
+                                            href="{{ route('services.smart-home-integration') }}">Smart Home Integration:</a></li>
                                     <li id="menu-item-2589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2589"><a
                                             href="fullscreen-projects.html">Work Fullscreen</a></li>
                                 </ul>

@@ -22,15 +22,16 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip') }}">IN PROGRESS</a> > DRYWALL </div>
-                <h2 class="title  text-alight-lft">Shaping Spaces with Precision</h2>
+                <h2 class="title  text-alight-lft">Elevating drywall work to an art form</h2>
                 <div class="content text-alight-lft">
-                    <p>Transforming architectural visions into flawless living spaces requires more than
-                        just technical skill – it demands artistry, precision, and an unwavering attention
-                        to detail. Our master drywall craftsmen bring decades of expertise to every project,
-                        skillfully crafting curved walls, custom soffits, layered ceilings, and intricate
-                        architectural details that turn ordinary rooms into extraordinary spaces. From
-                        perfectly smooth walls to expertly executed level-5 finishes, we create surfaces
-                        that serve as the perfect canvas for your home's final aesthetic.</p>
+                    <p>Our mastery of drywall installation goes far beyond the conventional,
+                        transforming architectural visions into stunning reality. We specialize in
+                        executing complex geometric designs and non-standard architectural elements that
+                        demand the highest level of precision and expertise. Our skilled artisans excel at
+                        creating dramatic angular walls, seamless curved surfaces, and sophisticated geometric
+                        patterns that serve as architectural focal points. The level of detail in our work
+                        is evident in how we handle challenging transitions, floating ceilings,
+                        and unconventional wall angles - each executed with meticulous attention to detail.</p>
                 </div>
             </div>
         </div>
@@ -38,14 +39,16 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>Behind every immaculate wall lies our commitment to excellence at every step of the process.
-                        Our team excels in creating complex geometric designs, rounded corners, and seamless
-                        transitions that elevate your space beyond the ordinary. Whether we're executing
-                        elaborate tray ceilings, custom entertainment centers, or sleek modern wall panels,
-                        our advanced techniques and meticulous attention to detail ensure that every joint,
-                        seam, and surface meets the highest standards of quality. We take pride in our ability
-                        to tackle challenging architectural elements and unusual spaces, turning your most
-                        ambitious design dreams into lived realities that you'll enjoy for years to come</p>
+                    <p>From precise lighting integration to flawless finishing around custom window frames,
+                        our team approaches each project as a piece of architectural artistry.
+                        The images of our work showcase how we manipulate drywall to create
+                        bold geometric shapes, perfectly level surfaces, and crisp edges that enhance modern
+                        architectural designs. Whether it's crafting elegant corridor transitions,
+                        implementing sophisticated ceiling details, or executing precise angular wall
+                        intersections, our expertise ensures that each element contributes to the overall
+                        architectural vision. This dedication to excellence and ability to handle complex
+                        geometrical challenges sets us apart in the industry, making us the trusted choice for
+                        architects and designers who push the boundaries of conventional design.</p>
                 </div>
             </div>
         </div>
