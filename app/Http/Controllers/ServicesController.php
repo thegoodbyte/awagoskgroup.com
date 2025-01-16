@@ -37,6 +37,10 @@ class ServicesController extends Controller
         return view('services/stairways');
     }
 
+    public function outdoor_living_spaces() {
+        return view('services/outdoor_living_spaces');
+    }
+
 
 
 }

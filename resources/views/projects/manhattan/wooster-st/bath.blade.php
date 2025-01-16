@@ -17,17 +17,18 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.wooster-st.index') }}">Wooster St</a> > INTERIOR </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.wooster-st.index') }}">Wooster St</a> > BATH </div>
 
-                <h2 class="title  text-alight-lft">Wooster Street, Manhattan</h2>
+                <h2 class="title  text-alight-lft">Bespoke Bathroom Sanctuaries</h2>
                 <div class="content text-alight-lft">
-                    <p>As New York City's premier residential remodeling firm, we transform luxury apartments into
-                        masterpieces of modern design. Our expertise is evident in our innovative approach to
-                        open-concept living, where we seamlessly integrate custom architectural elements with
-                        sophisticated finishes. The interplay of natural and ambient lighting, achieved through
-                        carefully designed ceiling coves and strategic illumination, creates dramatic yet welcoming
-                        environments. Our projects showcase distinctive features like curved walls, floating design
-                        elements, and bespoke millwork that elevate everyday living spaces into extraordinary homes.
+                    <p>Our custom bathroom designs redefine luxury in Manhattan's most prestigious residences. Each
+                        project showcases our mastery of sophisticated materials and architectural innovation, from
+                        curved terrazzo shower enclosures with integrated seating to striking copper-finished soaking
+                        tubs that serve as sculptural centerpieces. The floating vanities with seamless surfaces
+                        demonstrate our commitment to pushing design boundaries while maintaining practical
+                        functionality. Our expertise in lighting design creates dramatic effects through carefully
+                        positioned LED systems and architectural details that transform these spaces into personal
+                        spa retreats..
                     </p>
                 </div>
             </div>
@@ -36,13 +37,14 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>Each project reflects our commitment to architectural excellence and precision craftsmanship.
-                        From custom-built entertainment walls to integrated storage solutions, we create spaces that
-                        are both visually stunning and highly functional. The use of premium materials - from rich
-                        hardwood flooring to custom wooden beams - adds warmth and sophistication to our contemporary
-                        designs. Our attention to detail extends to every aspect of the space, from the subtle curves
-                        of transitional walls to the precise alignment of architectural lighting, ensuring each home
-                        we create becomes a testament to luxury urban living.</p>
+                    <p>The technical precision of our work is evident in every detail, from the gracefully curved
+                        walls to the precisely engineered plumbing systems that support custom fixtures.
+                        Each bathroom becomes a study in refined minimalism, featuring innovative elements like
+                        floating counters with hidden storage, sculptural fixtures, and bespoke finishes. The marriage
+                        of form and function is exemplified in details like the integrated shelf lighting, contemporary
+                        European fixtures, and the harmonious blend of materials – from metallic accents to custom
+                        terrazzo surfaces – creating spaces that epitomize modern luxury while providing an oasis of
+                        tranquility.</p>
                 </div>
             </div>
         </div>

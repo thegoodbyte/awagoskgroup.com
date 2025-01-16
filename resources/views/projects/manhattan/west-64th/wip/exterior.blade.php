@@ -9,7 +9,7 @@
 {{--                exit;--}}
 {{--            @endphp--}}
             @include('components.projects.gallery', [
-                'galleries' =>  $data['galleries'],
+                'galleries' =>  $data['gaslleries'],
                 'galleryName' => $data['galleryName']
                 ])
         </div>
