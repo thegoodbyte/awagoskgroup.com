@@ -17,8 +17,8 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.west-64th.wip.index') }}">IN PROGRESS</a> > CUSTOM CABINETRY </div>
-                <h2 class="title  text-alight-lft">Custom Cabinetry:<br /> Where Precision Meets Purpos</h2>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip.index') }}">IN PROGRESS</a> > CUSTOM CABINETRY </div>
+                <h2 class="title  text-alight-lft">Custom Cabinetry Excellence</h2>
                 <div class="content text-alight-lft">
                     <p>Our custom cabinetry solutions exemplify the perfect marriage of form and function,
                         transforming spaces into highly organized yet aesthetically pleasing environments.

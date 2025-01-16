@@ -149,7 +149,7 @@ class ProjectsController extends Controller
 
     public function manhattan_central_park_south_wip_cabinetry() {
         $galleryPath =  '/img/projects-galleries/manhattan/central-park-south/galleries/wip/cabinetry';
-        $viewPath = 'projects.manhattan.central-park-south.main';
+        $viewPath = 'projects.manhattan.central-park-south.wip.cabinetry';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
@@ -282,9 +282,14 @@ class ProjectsController extends Controller
     }
 
     public function manhattan_wooster_st() {
+        return view('projects.manhattan.wooster-st.index');
+    }
 
-        $galleryPath =  '/img/projects-galleries/manhattan/wooster-st/galleries/main';
-        $viewPath = 'projects/brooklyn/wooster-st';
+
+    public function manhattan_wooster_st_interior() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/wooster-st/galleries/interior';
+        $viewPath = 'projects.manhattan.wooster-st.interior';
 
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
@@ -296,8 +301,38 @@ class ProjectsController extends Controller
 
     public function manhattan_wooster_st_bath() {
 
-        $galleryPath =  '/img/projects-galleries/manhattan/wooster/galleries/bath';
-        $viewPath = 'projects/manhattan/wooster-st/bath';
+        $galleryPath =  '/img/projects-galleries/manhattan/wooster-st/galleries/bath';
+        $viewPath = 'projects.manhattan.wooster-st.bath';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_wooster_st_wip() {
+        return view('projects.manhattan.wooster-st.wip.index');
+    }
+
+    public function manhattan_wooster_st_wip_drywall() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/wooster-st/galleries/wip/drywall';
+        $viewPath = 'projects.manhattan.wooster-st.wip.drywall';
+
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_wooster_st_wip_generic() {
+
+        $galleryPath =  '/img/projects-galleries/manhattan/wooster-st/galleries/wip/generic';
+        $viewPath = 'projects.manhattan.wooster-st.wip.generic';
 
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);

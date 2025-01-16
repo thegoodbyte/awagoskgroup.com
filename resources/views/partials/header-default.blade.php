@@ -54,7 +54,15 @@
                                         </ul>
                                     </li>
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="{{ route('projects.manhattan.wooster') }}">Wooster St, Manhattan </a>
+                                            href="{{ route('projects.manhattan.wooster-st.index') }}">Wooster St, Manhattan </a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{ route("projects.manhattan.wooster-st.interior") }}">Interior</a>
+                                            </li>
+                                            <li id="menu-item-2338" class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{ route("projects.manhattan.wooster-st.bath") }}">Bath</a>
+                                            </li>
+                                        </ul>
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a

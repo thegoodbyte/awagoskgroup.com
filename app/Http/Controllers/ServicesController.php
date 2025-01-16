@@ -33,6 +33,10 @@ class ServicesController extends Controller
         return view('services/smart_home_integration');
     }
 
+    public function stairways() {
+        return view('services/stairways');
+    }
+
 
 
 }

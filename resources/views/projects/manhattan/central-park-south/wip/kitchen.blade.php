@@ -17,7 +17,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip') }}">IN PROGRESS</a> > KITCHEN </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip.index') }}">IN PROGRESS</a> > KITCHEN </div>
                 <h2 class="title  text-alight-lft">Modern Kitchen Design: Work in Progress</h2>
                 <div class="content text-alight-lft">
                     <p>Our kitchen design and installation process represents the perfect blend of precision planning

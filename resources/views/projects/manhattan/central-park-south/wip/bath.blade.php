@@ -21,7 +21,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip') }}">IN PROGRESS</a> > </a href = "">BATH</a> </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.central-park-south.index') }}">Central Park South</a> > <a href = "{{ route('projects.manhattan.central-park-south.wip.index') }}">IN PROGRESS</a> > </a href = "">BATH</a> </div>
                 <h2 class="title  text-alight-lft">Crafting Your Dream Bathroom: <br />A Behind-the-Scenes Look</h2>
                 <div class="content text-alight-lft">
                     <p>Our bathroom remodeling expertise combines innovative design with superior craftsmanship

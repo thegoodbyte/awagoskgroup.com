@@ -8,14 +8,16 @@
             <div class="prague-footer-main-block">
                 <div class="prague-logo">
                     <a href="/">
-                        <img src="#" data-lazy-src="/img/home/logo-white.png" class="attachment-full size-full"
-                             alt="logo" /> AWA Gosk Group</a>
+                        <img src="#" data-lazy-src="/img/home/logo/logo_100w.png" class="attachment-full size-full"
+                             alt="logo" /> AWA Gosk Group, Inc.</a>
                 </div>
 
                 <div class="footer-main-content">
-                    <p>The company principle of Architecture-Studio is the collective conception. From the very
-                        beginning, the practice has believed in the virtues of exchange, crossing ideas, common
-                        effort, shared knowledge and enthusiasm.</p>
+                    <p>"Based in New York City, we specialize in premium residential renovations,
+                        collaborating with leading architects to transform luxury spaces into exceptional living
+                        environments. Our expertise in high-end remodeling and commitment to architectural
+                        excellence ensures that each project delivers an extraordinary living experience worthy of
+                        Manhattan's most discerning residents.</p>
                 </div>
 
             </div>
