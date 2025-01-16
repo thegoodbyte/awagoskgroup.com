@@ -19,7 +19,7 @@
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.manhattan.wooster-st.index') }}">Wooster St</a> > INTERIOR </div>
 
-                <h2 class="title  text-alight-lft">Wooster Street, Manhattan</h2>
+                <h2 class="title  text-alight-lft">Crafting Manhattan's Finest Living Spaces</h2>
                 <div class="content text-alight-lft">
                     <p>As New York City's premier residential remodeling firm, we transform luxury apartments into
                         masterpieces of modern design. Our expertise is evident in our innovative approach to

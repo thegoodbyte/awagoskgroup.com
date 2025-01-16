@@ -25,7 +25,7 @@
 
                                 <p></p>
 
-                                </p></p>
+
 
                             </div>
                         <div class="col-xs-12">
