@@ -80,7 +80,78 @@ class ProjectsController extends Controller
 
     public function brooklyn_water_st() {
 
-        return view('projects.brooklyn.water-st');
+        return view('projects.brooklyn.water-st.index');
+    }
+
+    public function brooklyn_water_st_exterior() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/exterior';
+        $viewPath = 'projects.brooklyn.water-st.exterior';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_water_st_main() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/main';
+        $viewPath = 'projects.brooklyn.water-st.main';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_water_st_stairs() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/stairs';
+        $viewPath = 'projects.brooklyn.water-st.stairs';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_water_st_wip() {
+
+        return view('projects.brooklyn.water-st.wip.index');
+    }
+
+    public function brooklyn_water_st_wip_cabinetry() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/wip/cabinetry';
+        $viewPath = 'projects.brooklyn.water-st.galleries.wip.cabinetry';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_water_st_wip_generic() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/wip/generic';
+        $viewPath = 'projects.brooklyn.water-st.galleries.wip.generic';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_water_st_wip_stairs() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/wip/stairs';
+        $viewPath = 'projects.brooklyn.water-st.galleries.wip.stairs';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
     }
 
     public function manhattan_central_park_south() {

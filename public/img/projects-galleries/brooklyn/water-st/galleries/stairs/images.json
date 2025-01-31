@@ -1,0 +1,24 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "filename": "IMG_3210_[stairs].JPG",
+            "category": "stairs"
+        },
+        {
+            "id": 2,
+            "filename": "IMG_6970_[stairs].JPG",
+            "category": "stairs"
+        },
+        {
+            "id": 3,
+            "filename": "IMG_6972_[stairs].JPG",
+            "category": "stairs"
+        },
+        {
+            "id": 4,
+            "filename": "IMG_6974_[stairs].JPG",
+            "category": "stairs"
+        }
+    ]
+}
