@@ -108,7 +108,7 @@
                                                 <div class="project-grid-wrapper">
                                                     <a class="project-grid-item-img-link" href="{{  route('projects.brooklyn.water-st.wip.index') }}">
                                                         <div class="project-grid-item-img">
-                                                            <img   src="#" data-lazy-src="/img/projects-galleries/brooklyn/water-st/galleries/wip/thumbs/category-face.JPG"
+                                                            <img   src="#" data-lazy-src="/img/projects-galleries/brooklyn/water-st/galleries/wip/generic/thumbs/category-face.JPG"
                                                                    class="s-img-switch wp-post-image wp-post-image" alt="cultural-complex-centre" />
                                                         </div>
                                                     </a>

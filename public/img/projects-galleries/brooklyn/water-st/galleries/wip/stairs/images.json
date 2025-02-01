@@ -1,0 +1,34 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "filename": "IMG_0769_[stairs].JPG",
+            "category": "stairs"
+        },
+        {
+            "id": 2,
+            "filename": "IMG_0770_[stairs].JPG",
+            "category": "stairs"
+        },
+        {
+            "id": 3,
+            "filename": "IMG_6388_[stairs].JPG",
+            "category": "stairs"
+        },
+        {
+            "id": 4,
+            "filename": "IMG_6389_[stairs].JPG",
+            "category": "stairs"
+        },
+        {
+            "id": 5,
+            "filename": "IMG_6391_[stairs].JPG",
+            "category": "stairs"
+        },
+        {
+            "id": 6,
+            "filename": "IMG_6989_[stairs].JPG",
+            "category": "stairs"
+        }
+    ]
+}

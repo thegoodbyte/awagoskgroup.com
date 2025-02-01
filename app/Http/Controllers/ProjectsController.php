@@ -123,7 +123,7 @@ class ProjectsController extends Controller
 
     public function brooklyn_water_st_wip_cabinetry() {
         $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/wip/cabinetry';
-        $viewPath = 'projects.brooklyn.water-st.galleries.wip.cabinetry';
+        $viewPath = 'projects.brooklyn.water-st.wip.cabinetry';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
@@ -134,7 +134,7 @@ class ProjectsController extends Controller
 
     public function brooklyn_water_st_wip_generic() {
         $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/wip/generic';
-        $viewPath = 'projects.brooklyn.water-st.galleries.wip.generic';
+        $viewPath = 'projects.brooklyn.water-st.wip.generic';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
@@ -145,7 +145,7 @@ class ProjectsController extends Controller
 
     public function brooklyn_water_st_wip_stairs() {
         $galleryPath =  '/img/projects-galleries/brooklyn/water-st/galleries/wip/stairs';
-        $viewPath = 'projects.brooklyn.water-st.galleries.wip.stairs';
+        $viewPath = 'projects.brooklyn.water-st.wip.stairs';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
