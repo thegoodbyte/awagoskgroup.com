@@ -67,11 +67,140 @@ class ProjectsController extends Controller
 
 
     public function brooklyn_warren_st() {
+        return view('projects.brooklyn.warren-st.index');
+    }
 
-        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/test';
-        $viewPath = 'projects.brooklyn.warren-st';
+    public function brooklyn_warren_st_exterior() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/exterior';
+        $viewPath = 'projects.brooklyn.warren-st.exterior';
         try {
-            return $this->returnGalleryView($viewPath, $galleryPath, 'test');
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_main() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/main';
+        $viewPath = 'projects.brooklyn.water-st.main';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_bath() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/bath';
+        $viewPath = 'projects.brooklyn.warren-st.bath';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip() {
+
+        return view('projects.brooklyn.warren-st.wip.index');
+    }
+
+    public function brooklyn_warren_st_wip_bath() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/bath';
+        $viewPath = 'projects.brooklyn.warren-st.wip.bath';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip_cabinetry() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/cabinetry';
+        $viewPath = 'projects.brooklyn.warren-st.wip.cabinetry';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip_doors_windows() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/doors_windows';
+        $viewPath = 'projects.brooklyn.warren-st.wip.doors-windows';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip_exterior() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/exterior';
+        $viewPath = 'projects.brooklyn.warren-st.wip.exterior';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip_fireplace() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/fireplace';
+        $viewPath = 'projects.brooklyn.warren-st.wip.fireplace';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip_floors() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/floors';
+        $viewPath = 'projects.brooklyn.warren-st.wip.floors';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip_generic() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/generic';
+        $viewPath = 'projects.brooklyn.warren-st.wip.generic';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip_stairs() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/stairs';
+        $viewPath = 'projects.brooklyn.warren-st.wip.stairs';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function brooklyn_warren_st_wip_trimwork() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/trimwork';
+        $viewPath = 'projects.brooklyn.warren-st.wip.trims';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             return view('errors.error', ['message' => $e->getMessage()]);

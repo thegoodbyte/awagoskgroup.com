@@ -126,6 +126,8 @@ class ProjectsManhattanWest64thStreetController extends ProjectsController
         }
     }
 
+
+
     public function wip_floors() {
 
         $galleryPath =  '/img/projects-galleries/manhattan/west-64th/galleries/wip/floors';

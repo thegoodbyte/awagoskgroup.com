@@ -23,14 +23,14 @@
                                 <div class="portfolio-item-wrapp">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/interior">
+                                            <a class="project-grid-item-img-link" href="{{ route('projects.manhattan.west-64th.interior') }}">
                                                 <div class="project-grid-item-img">
                                                     <img   src="#" data-lazy-src="/img/projects-galleries/manhattan/west-64th/galleries/interior/17.JPG"
                                                            class="s-img-switch wp-post-image wp-post-image" alt="seascape-villa image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
-                                                <h4 class="project-grid-item-title"><a href="/projects/manhattan/west-64th/interior">INTERIOR</a></h4>
+                                                <h4 class="project-grid-item-title"><a href="{{ route('projects.manhattan.west-64th.interior') }}">INTERIOR</a></h4>
                                                 <div class="project-grid-item-category">
                                                     Dream living delivered </div>
 
@@ -42,14 +42,14 @@
                                 <div class="portfolio-item-wrapp">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="/projects/manhattan/west-64th/exterior">
+                                            <a class="project-grid-item-img-link" href="{{ route('projects.manhattan.west-64th.exterior') }}">
                                                 <div class="project-grid-item-img">
                                                     <img   src="#" data-lazy-src="/img/projects-galleries/manhattan/west-64th/galleries/exterior/404.JPG"
                                                            class="s-img-switch wp-post-image wp-post-image" alt="european-lard-station image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
-                                                <h4 class="project-grid-item-title"><a href="european-lard-station.html">EXTERIOR WORK</a></h4>
+                                                <h4 class="project-grid-item-title"><a href="{{ route('projects.manhattan.west-64th.exterior') }}">EXTERIOR WORK</a></h4>
                                                 <div class="project-grid-item-category">
                                                     Expanding NYC Living Space </div>
 
