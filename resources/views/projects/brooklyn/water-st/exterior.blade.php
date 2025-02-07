@@ -22,13 +22,9 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.water-st.index') }}">Water St</a> Exterior </div>
-                <h2 class="title  text-alight-lft">Skyline Serenity: Luxury Terrace Transformation in Manhattan</h2>
+                <h2 class="title  text-alight-lft">Brooklyn Skyline Terrace Specialists</h2>
                 <div class="content text-alight-lft">
-                    <p>Our expert team has meticulously executed this high-end terrace renovation,
-                        featuring premium porcelain pavers laid in a precise grid pattern to maximize the space's modern aesthetic.
-                        The seamless integration of concrete architectural elements and sleek glass barriers creates
-                        an sophisticated transition between interior and exterior spaces,
-                        while preserving stunning views of the Manhattan skyline and East River.</p>
+                    <p>Our exterior remodeling expertise transforms urban spaces into stunning outdoor sanctuaries with Manhattan skyline views. We specialize in creating sophisticated rooftop terraces and balconies that maximize the dramatic cityscapes while providing intimate entertainment spaces. Our projects feature premium materials like architectural pavers, custom privacy walls, and integrated outdoor kitchens, all engineered to meet strict building codes while delivering uncompromising style and functionality.</p>
                 </div>
             </div>
         </div>
@@ -36,11 +32,7 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>The renovation showcases our commitment to superior craftsmanship through custom-built storage
-                        solutions and carefully planned entertainment areas. The sophisticated minimalist design incorporates
-                        concealed utilities and weatherproof features, ensuring both functionality and aesthetic appeal.
-                        The project exemplifies our ability to transform urban outdoor spaces into luxurious extensions
-                        of New York's premier residences.</p>
+                    <p>From waterproofing and drainage systems to lighting and custom amenities, we handle every aspect of exterior transformation with meticulous attention to detail. Our designs incorporate durable materials that withstand urban weather conditions while maintaining their aesthetic appeal. We excel at optimizing limited outdoor spaces through thoughtful layout planning and multi-functional design elements, creating seamless transitions between indoor and outdoor living areas that capture Brooklyn's unique position as a front-row seat to Manhattan's iconic skyline.</p>
                 </div>
             </div>
         </div>
@@ -69,7 +61,7 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Water Street, Brooklyn, NYC, NY
+                                Water Street, Brooklyn, NY
                             </p>
                         </div>
                     </div>

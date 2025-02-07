@@ -24,7 +24,7 @@
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.water-st.index') }}">Water St</a> Main Gallery </div>
                 <h2 class="title  text-alight-lft">The Art of Integration: NYC Modern Library Design</h2>
                 <div class="content text-alight-lft">
-                    <p>Our latest Manhattan project exemplifies the seamless fusion of contemporary design with practical
+                    <p>Our latest Brooklyn project exemplifies the seamless fusion of contemporary design with practical
                         functionality. The space features meticulously crafted built-in shelving units that maximize
                         storage while maintaining an open, airy atmosphere. The integrated HVAC system and recessed
                         lighting demonstrate our expertise in combining technical requirements with clean architectural lines.</p>

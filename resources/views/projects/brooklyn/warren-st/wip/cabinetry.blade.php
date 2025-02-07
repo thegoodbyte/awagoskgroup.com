@@ -22,13 +22,9 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Cabinetry </div>
-                <h2 class="title  text-alight-lft">Modern Living: The Art of Built-In Design</h2>
+                <h2 class="title  text-alight-lft">NYC Custom Storage [WIP]</h2>
                 <div class="content text-alight-lft">
-                    <p>Our latest Manhattan residential project demonstrates the evolution of custom cabinetry from
-                        raw construction to refined completion. The installation process reveals our methodical
-                        approach to creating perfectly integrated storage solutions, incorporating state-of-the-art
-                        hardware and precisely engineered components. Each phase showcases our dedication to achieving
-                        flawless alignment and superior functionality.</p>
+                    <p>This custom cabinetry project showcases a sophisticated blend of form and function, featuring floor-to-ceiling storage solutions in a clean, modern aesthetic. The light wood tones and sleek hardware create a seamless integration with the space, while specialized features like built-in appliance housing and pull-out drawers maximize utility. The attention to detail is evident in the precision of the cabinet doors' alignment and the thoughtful integration with existing architectural elements.</p>
                 </div>
             </div>
         </div>
@@ -36,11 +32,7 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>The comprehensive scope encompasses everything from sleek kitchen cabinetry to sophisticated
-                        closet systems, all executed with unwavering attention to detail. Our team's expertise is
-                        evident in the precise mounting techniques, careful hardware selection, and meticulous
-                        finishing work that transforms basic spaces into sophisticated storage solutions tailored
-                        to our clients' exacting standards.</p>
+                    <p>The installation process demonstrates meticulous craftsmanship, from the careful measurements ensuring perfect fits to the professional-grade mounting systems used throughout. The project incorporates a variety of storage solutions, including full-height wardrobes with adjustable shelving, specialized drawer systems, and custom millwork that transforms previously underutilized spaces into functional storage areas. The end result promises to deliver both aesthetic appeal and practical organization that elevates the entire living space.</p>
                 </div>
             </div>
         </div>

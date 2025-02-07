@@ -22,12 +22,9 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Stairs </div>
-                <h2 class="title  text-alight-lft">Stairways to Sophistication</h2>
+                <h2 class="title  text-alight-lft">Borough Oak Stories [WIP]</h2>
                 <div class="content text-alight-lft">
-                    <p>Our custom staircase installation showcases the seamless progression from raw construction to refined elegance.
-                        Through expert craftsmanship, we transformed a basic stairwell into a sophisticated architectural feature.
-                        The clean lines and precise angles demonstrate our commitment to excellence, while the strategically placed
-                        lighting enhances both safety and aesthetic appeal.</p>
+                    <p>The flooring installation demonstrates exceptional attention to detail, from foundation preparation to final finishing. The process begins with careful subfloor preparation and electric radiant heat installation, ensuring both comfort and durability. The wide-plank white oak flooring is expertly installed with precision cuts around existing architectural elements, while maintaining consistent grain patterns and natural character throughout the space. The light, contemporary finish enhances the wood's natural beauty while complementing the home's overall aesthetic.</p>
                 </div>
             </div>
         </div>
@@ -35,10 +32,12 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>The meticulous attention to detail is evident in the flawless drywall
-                        finishing and premium paint application. The modern handrail design complements the minimalist aesthetic,
-                        creating a cohesive look that appeals to our discerning clientele. This staircase exemplifies our ability
-                        to deliver high-end residential features that meet the exacting standards of New York's luxury market.</p>
+                    <p>The scope extends beyond basic installation to include custom stair treads and precise
+                        transitions between spaces, showcasing the versatility of the material and installation expertise.
+                        The integration of radiant heating systems beneath the hardwood required particular attention to
+                        acclimation and installation techniques, ensuring optimal performance and longevity. The final
+                        product achieves a seamless blend of functionality and refined aesthetics, with careful attention
+                        paid to every detail from expansion gaps to final trim work.</p>
                 </div>
             </div>
         </div>

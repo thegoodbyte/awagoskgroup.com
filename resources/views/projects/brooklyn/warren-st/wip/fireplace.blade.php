@@ -22,12 +22,9 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Stairs </div>
-                <h2 class="title  text-alight-lft">Stairways to Sophistication</h2>
+                <h2 class="title  text-alight-lft">Brooklyn Hearths [WIP]</h2>
                 <div class="content text-alight-lft">
-                    <p>Our custom staircase installation showcases the seamless progression from raw construction to refined elegance.
-                        Through expert craftsmanship, we transformed a basic stairwell into a sophisticated architectural feature.
-                        The clean lines and precise angles demonstrate our commitment to excellence, while the strategically placed
-                        lighting enhances both safety and aesthetic appeal.</p>
+                    <p>The fireplace restoration project showcases a delicate balance of historical preservation and structural rehabilitation. The ornate Victorian marble mantel, with its intricate carved details and classical arch design, is being carefully restored to its original grandeur. The process involves meticulous cleaning and repair of the decorative elements, while ensuring the structural integrity of both the mantel and the surrounding masonry work.</p>
                 </div>
             </div>
         </div>
@@ -35,10 +32,8 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>The meticulous attention to detail is evident in the flawless drywall
-                        finishing and premium paint application. The modern handrail design complements the minimalist aesthetic,
-                        creating a cohesive look that appeals to our discerning clientele. This staircase exemplifies our ability
-                        to deliver high-end residential features that meet the exacting standards of New York's luxury market.</p>
+                    <p>The comprehensive restoration extends beyond aesthetics to include essential functional improvements. Particular attention is being paid to the proper integration with new flooring materials, reinforcement of the hearth structure, and careful preservation of the original architectural details. The project demonstrates the challenges of maintaining historical elements while adapting the space for modern use,
+                        all while adhering to NYC building codes and landmark preservation requirements.</p>
                 </div>
             </div>
         </div>

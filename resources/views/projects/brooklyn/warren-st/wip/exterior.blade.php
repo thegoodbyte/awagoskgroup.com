@@ -22,12 +22,14 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Stairs </div>
-                <h2 class="title  text-alight-lft">Stairways to Sophistication</h2>
+                <h2 class="title  text-alight-lft">NYC Exteriors [WIP]</h2>
                 <div class="content text-alight-lft">
-                    <p>Our custom staircase installation showcases the seamless progression from raw construction to refined elegance.
-                        Through expert craftsmanship, we transformed a basic stairwell into a sophisticated architectural feature.
-                        The clean lines and precise angles demonstrate our commitment to excellence, while the strategically placed
-                        lighting enhances both safety and aesthetic appeal.</p>
+                    <p>The exterior renovation project demonstrates comprehensive structural and aesthetic improvements,
+                        with meticulous attention to foundation and masonry work. The scope includes precise concrete
+                        form work with properly spaced rebar reinforcement, detailed block foundation installation, and
+                        careful integration of drainage and waterproofing systems. Steel beam installations and structural
+                        supports show careful engineering consideration, while the brick repointing and facade
+                        restoration maintain the building's historic character.</p>
                 </div>
             </div>
         </div>
@@ -35,10 +37,13 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>The meticulous attention to detail is evident in the flawless drywall
-                        finishing and premium paint application. The modern handrail design complements the minimalist aesthetic,
-                        creating a cohesive look that appeals to our discerning clientele. This staircase exemplifies our ability
-                        to deliver high-end residential features that meet the exacting standards of New York's luxury market.</p>
+                    <p>The project highlights the complex challenges of urban exterior renovation, from technical
+                        underpinning requirements to precise measurements and structural reinforcements. Each phase
+                        of work - from foundation waterproofing to the installation of new drainage systems - is
+                        executed with careful attention to NYC building codes and preservation requirements. The
+                        transformation of the existing brick facade through careful cleaning and restoration,
+                        coupled with modern waterproofing techniques, ensures both historical preservation and
+                        long-term durability.</p>
                 </div>
             </div>
         </div>

@@ -22,12 +22,15 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Bath </div>
-                <h2 class="title  text-alight-lft">Stairways to Sophistication</h2>
+                <h2 class="title  text-alight-lft">Urban Oasis [WIP]</h2>
                 <div class="content text-alight-lft">
-                    <p>Our custom staircase installation showcases the seamless progression from raw construction to refined elegance.
-                        Through expert craftsmanship, we transformed a basic stairwell into a sophisticated architectural feature.
-                        The clean lines and precise angles demonstrate our commitment to excellence, while the strategically placed
-                        lighting enhances both safety and aesthetic appeal.</p>
+                    <p>The bathroom remodel showcases a meticulous attention to detail, from the ground up. Starting
+                        with a proper foundation, the team installed cement board and electric radiant floor heating,
+                        ensuring both durability and comfort. The space features a striking combination of tile work,
+                        including light gray shower tiles in a clean grid pattern, a dramatic marble-look accent wall,
+                        and designer geometric tiles that create an artistic statement. The custom-built shower niche
+                        and bench demonstrate thoughtful functionality while maintaining the space's elegant aesthetic.
+                    </p>
                 </div>
             </div>
         </div>
@@ -35,10 +38,13 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>The meticulous attention to detail is evident in the flawless drywall
-                        finishing and premium paint application. The modern handrail design complements the minimalist aesthetic,
-                        creating a cohesive look that appeals to our discerning clientele. This staircase exemplifies our ability
-                        to deliver high-end residential features that meet the exacting standards of New York's luxury market.</p>
+                    <p>The finished bathroom harmoniously blends modern amenities with sophisticated design elements.
+                        The floating wood vanity with its dark stone countertop provides a warm contrast to the cool
+                        tones of the tile work. Matte black fixtures, including the shower controls, towel bars, and
+                        door hardware, add contemporary touches throughout. The glass shower enclosure maintains an
+                        open feel while protecting the rest of the space, and the large window, framed by geometric
+                        patterned tile, brings natural light into the renovated space, highlighting the quality of
+                        craftsmanship in every detail.</p>
                 </div>
             </div>
         </div>

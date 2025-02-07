@@ -82,7 +82,7 @@ Route::get('/projects/brooklyn/warren-st/wip/fireplace',[ProjectsController::cla
 Route::get('/projects/brooklyn/warren-st/wip/floors',[ProjectsController::class,'brooklyn_warren_st_wip_floors'])->name('projects.brooklyn.warren-st.wip.floors');
 Route::get('/projects/brooklyn/warren-st/wip/generic',[ProjectsController::class,'brooklyn_warren_st_wip_generic'])->name('projects.brooklyn.warren-st.wip.generic');
 Route::get('/projects/brooklyn/warren-st/wip/stairs',[ProjectsController::class,'brooklyn_warren_st_wip_stairs'])->name('projects.brooklyn.warren-st.wip.stairs');
-Route::get('/projects/brooklyn/warren-st/wip/trimwork',[ProjectsController::class,'brooklyn_warren_st_wip_trimwork'])->name('projects.brooklyn.warren-st.wip.trimwork');
+Route::get('/projects/brooklyn/warren-st/wip/millwork',[ProjectsController::class,'brooklyn_warren_st_wip_millwork'])->name('projects.brooklyn.warren-st.wip.millwork');
 
 
 Route::get('/projects/brooklyn/water-st',[ProjectsController::class,'brooklyn_water_st'])->name('projects.brooklyn.water-st.index');

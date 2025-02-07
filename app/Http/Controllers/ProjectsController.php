@@ -207,9 +207,9 @@ class ProjectsController extends Controller
         }
     }
 
-    public function brooklyn_warren_st_wip_trimwork() {
-        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/trimwork';
-        $viewPath = 'projects.brooklyn.warren-st.wip.trimwork';
+    public function brooklyn_warren_st_wip_millwork() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/millwork';
+        $viewPath = 'projects.brooklyn.warren-st.wip.millwork';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {

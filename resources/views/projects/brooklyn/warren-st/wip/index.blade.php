@@ -171,14 +171,14 @@
                                 <div class="portfolio-item-wrapp">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="{{  route('projects.brooklyn.warren-st.wip.trimwork') }}">
+                                            <a class="project-grid-item-img-link" href="{{  route('projects.brooklyn.warren-st.wip.millwork') }}">
                                                 <div class="project-grid-item-img">
-                                                    <img   src="#" data-lazy-src="/img/projects-galleries/brooklyn/warren-st/galleries/wip/trimwork/thumbs/category-face.JPG"
+                                                    <img   src="#" data-lazy-src="/img/projects-galleries/brooklyn/warren-st/galleries/wip/millwork/thumbs/category-face.JPG"
                                                            class="s-img-switch wp-post-image wp-post-image" alt="seascape-villa image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
-                                                <h4 class="project-grid-item-title"><a href="{{  route('projects.brooklyn.warren-st.wip.trimwork') }}">TRIMWORK</a></h4>
+                                                <h4 class="project-grid-item-title"><a href="{{  route('projects.brooklyn.warren-st.wip.millwork') }}">MILLWORK</a></h4>
                                                 <div class="project-grid-item-category">
                                                     Architectural Accents [WIP]</div>
 

@@ -9,8 +9,8 @@
                     <span class="overlay"></span>
                     <img src="/img/projects-galleries/brooklyn/warren-st/galleries/bath/index-image.JPG" class="s-img-switch" alt="main banner image" />
                     <div class="content">
-                        <div class="subtitle">Urban Oasis: Seamless Integration of Style and Space</div>
-                        <h1 class="title">Water Street :: Brooklyn</h1>
+                        <div class="subtitle">Brooklyn's Premier Luxury Apartment Transformation</div>
+                        <h1 class="title">Warren Street :: Brooklyn</h1>
                     </div>
                 </div>
 
@@ -19,26 +19,28 @@
                         <div class="col-xs-12 padding-lg-20t">
 
                             <p>
-                                Our latest luxury project seamlessly merges indoor refinement with outdoor grandeur through a
-                                sophisticated terrace renovation. The space features premium porcelain pavers arranged in a
-                                precise grid pattern, complemented by custom concrete barriers that frame spectacular Manhattan
-                                skyline views. The design incorporates concealed storage solutions and entertainment areas
-                                while maintaining clean architectural lines throughout.
+                                Our high-end apartment renovations seamlessly blend Brooklyn's architectural heritage with
+                                contemporary luxury living. From custom-crafted bathroom sanctuaries featuring artisanal
+                                tiles and matte black fixtures to chef-inspired kitchens with modern floating breakfast nooks,
+                                we transform every space with meticulous attention to detail. Our expertise shines through
+                                in the thoughtful integration of original brownstone elements with modern amenities,
+                                whether it's installing floor-to-ceiling windows that flood spaces with natural light
+                                or designing statement curved staircases with elegant wainscoting and custom millwork.
+
                             </p>
 
                             <p>
-                                From the custom media room with wide-plank flooring to the meticulously crafted all-white
-                                staircase, every element reflects our commitment to superior craftsmanship. The project
-                                demonstrates our expertise in transforming urban spaces into cohesive living environments.
-                                The indoor-outdoor flow creates a harmonious transition between the sophisticated interior
-                                and the stunning terrace, exemplifying our ability to deliver high-end solutions for New
-                                York's most discerning clients.
+                                Each project showcases our commitment to sophisticated design and superior craftsmanship.
+                                We specialize in creating harmonious living spaces that balance luxury with functionality –
+                                from bespoke built-in seating areas adorned with designer upholstery to striking geometric
+                                tile work in spa-like bathrooms. Our renovations feature premium materials and innovative
+                                solutions, such as custom wood-clad ceiling details, architecturally significant lighting
+                                fixtures, and modern horizontal slat fencing for outdoor spaces. Every renovation
+                                reflects our understanding of both contemporary urban living and the timeless character
+                                of Brooklyn's historic homes.
                             </p>
 
-                            <p>The result is a masterful blend of functionality and aesthetic excellence, where every
-                                detail – from the precise joinery to the thoughtful lighting placement – contributes to
-                                an elevated living experience. This project showcases our capability to reimagine luxury
-                                urban spaces while maintaining the highest standards of design and execution.</p>
+
                         </div>
 
                         <div class="col-xs-12">
@@ -78,7 +80,7 @@
                                                     <div class="project-grid-item-content">
                                                         <h4 class="project-grid-item-title"><a href="{{  route('projects.brooklyn.warren-st.exterior') }}">EXTERIOR</a></h4>
                                                         <div class="project-grid-item-category">
-                                                            Manhattan Terrace Luxury Redefined</div>
+                                                            Backyard Transformation Experts</div>
 
                                                     </div>
                                                 </div>
@@ -98,7 +100,7 @@
                                                     <div class="project-grid-item-content">
                                                         <h4 class="project-grid-item-title"><a href="{{  route('projects.brooklyn.warren-st.bath') }}">BATH GALLERY</a></h4>
                                                         <div class="project-grid-item-category">
-                                                            Stairway to Sophistication</div>
+                                                            Custom Bath Artisans Brooklyn</div>
 
                                                     </div>
                                                 </div>
@@ -117,7 +119,7 @@
                                                     <div class="project-grid-item-content">
                                                         <h4 class="project-grid-item-title"><a href="{{  route('projects.brooklyn.warren-st.wip.index') }}">IN PROGRESS GALLERY</a></h4>
                                                         <div class="project-grid-item-category">
-                                                            Stairway to Sophistication</div>
+                                                            In Progress Gallery</div>
 
                                                     </div>
                                                 </div>

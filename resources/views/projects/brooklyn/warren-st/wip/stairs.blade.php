@@ -22,12 +22,13 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Stairs </div>
-                <h2 class="title  text-alight-lft">Stairways to Sophistication</h2>
+                <h2 class="title  text-alight-lft">Brooklyn's Stair Mastery: Custom Interior & Exterior Staircase Specialists</h2>
                 <div class="content text-alight-lft">
-                    <p>Our custom staircase installation showcases the seamless progression from raw construction to refined elegance.
-                        Through expert craftsmanship, we transformed a basic stairwell into a sophisticated architectural feature.
-                        The clean lines and precise angles demonstrate our commitment to excellence, while the strategically placed
-                        lighting enhances both safety and aesthetic appeal.</p>
+                    <p>Our stair construction expertise spans both interior and exterior projects, showcasing meticulous
+                        craftsmanship in every detail. From elegant curved staircases with custom railings to durable
+                        concrete exterior steps, we handle the complete process from structural framing to final finishing.
+                        Each project demonstrates our commitment to precision, whether it's installing modern floating
+                        treads, crafting traditional wooden stairs, or building robust brownstone entry steps.</p>
                 </div>
             </div>
         </div>
@@ -35,10 +36,11 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>The meticulous attention to detail is evident in the flawless drywall
-                        finishing and premium paint application. The modern handrail design complements the minimalist aesthetic,
-                        creating a cohesive look that appeals to our discerning clientele. This staircase exemplifies our ability
-                        to deliver high-end residential features that meet the exacting standards of New York's luxury market.</p>
+                    <p>We specialize in the unique challenges of Brooklyn's residential architecture, including historic
+                        home renovations and modern transformations. Our comprehensive stair services include structural
+                        reinforcement, custom millwork, precise installation of risers and treads, and expert metalwork
+                        for railings. Every staircase is built to meet or exceed building codes while delivering the
+                        perfect blend of functionality and aesthetic appeal that our Brooklyn clients demand.</p>
                 </div>
             </div>
         </div>

@@ -77,7 +77,7 @@
                                                     <div class="project-grid-item-content">
                                                         <h4 class="project-grid-item-title"><a href="{{  route('projects.brooklyn.water-st.main') }}">MAIN GALLERY</a></h4>
                                                         <div class="project-grid-item-category">
-                                                            Shaping Spaces with Precision</div>
+                                                            Overall projects [WIP]</div>
 
                                                     </div>
                                                 </div>
@@ -115,7 +115,7 @@
                                                     <div class="project-grid-item-content">
                                                         <h4 class="project-grid-item-title"><a href="{{  route('projects.brooklyn.water-st.wip.index') }}">IN PROGRESS GALLERY</a></h4>
                                                         <div class="project-grid-item-category">
-                                                            Shaping Spaces with Precision</div>
+                                                            As we Work ...</div>
 
                                                     </div>
                                                 </div>

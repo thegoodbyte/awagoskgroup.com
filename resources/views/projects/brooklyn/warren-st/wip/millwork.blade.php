@@ -22,12 +22,16 @@
             <div class="heading no-padd-top-bottom left dark">
 
                 <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Stairs </div>
-                <h2 class="title  text-alight-lft">Trimwork: Architectural Accents [WIP]</h2>
+                <h2 class="title  text-alight-lft">Brooklyn's Premier Historic Millwork & Custom Trim Craftsmen</h2>
                 <div class="content text-alight-lft">
-                    <p>Our custom staircase installation showcases the seamless progression from raw construction to refined elegance.
-                        Through expert craftsmanship, we transformed a basic stairwell into a sophisticated architectural feature.
-                        The clean lines and precise angles demonstrate our commitment to excellence, while the strategically placed
-                        lighting enhances both safety and aesthetic appeal.</p>
+                    <p>Our millwork and custom trim expertise showcases the perfect blend of historic
+                        preservation and modern craftsmanship. The images demonstrate our meticulous attention
+                        to detail in crown molding installation, custom door casings, curved architectural details,
+                        and period-appropriate trim work that defines Brooklyn's distinctive brownstone character.
+                        From elegant crown molding with multiple profiles to precision-curved wall transitions and
+                        detailed window casings, our work honors the architectural heritage while incorporating modern
+                        installation techniques.
+                    </p>
                 </div>
             </div>
         </div>
@@ -35,10 +39,13 @@
             <div class="heading no-padd-top-bottom left dark">
                 <div class="subtitle display-none-md"> </div>
                 <div class="content text-alight-lft  no-marg-767 ">
-                    <p>The meticulous attention to detail is evident in the flawless drywall
-                        finishing and premium paint application. The modern handrail design complements the minimalist aesthetic,
-                        creating a cohesive look that appeals to our discerning clientele. This staircase exemplifies our ability
-                        to deliver high-end residential features that meet the exacting standards of New York's luxury market.</p>
+
+                <p>We take pride in every aspect of interior trim carpentry, from material selection to the final finish.
+                    Our expertise includes installing curved moldings that follow radius walls and stairs, custom-built
+                    door and window casings, wainscoting, crown molding, baseboards, and architectural panels. Each project
+                    receives the same level of dedication to craftsmanship that Brooklyn's historic homes deserve,
+                    ensuring that new millwork seamlessly integrates with existing architectural elements while meeting
+                    modern building standards.</p>
                 </div>
             </div>
         </div>
