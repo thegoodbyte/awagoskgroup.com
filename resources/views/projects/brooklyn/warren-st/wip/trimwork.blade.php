@@ -21,8 +21,8 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.water-st.index') }}">Water St > </a> <a href = "{{ route('projects.brooklyn.water-st.wip.index') }}">In Progress > </a> Stairs </div>
-                <h2 class="title  text-alight-lft">Stairways to Sophistication</h2>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Stairs </div>
+                <h2 class="title  text-alight-lft">Trimwork: Architectural Accents [WIP]</h2>
                 <div class="content text-alight-lft">
                     <p>Our custom staircase installation showcases the seamless progression from raw construction to refined elegance.
                         Through expert craftsmanship, we transformed a basic stairwell into a sophisticated architectural feature.
@@ -67,7 +67,7 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Water St, Brooklyn, NYC, NY
+                                Warren St, Brooklyn, NY
                             </p>
                         </div>
                     </div>

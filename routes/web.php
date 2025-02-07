@@ -76,6 +76,7 @@ Route::get('/projects/brooklyn/warren-st/wip',[ProjectsController::class,'brookl
 Route::get('/projects/brooklyn/warren-st/wip/bath',[ProjectsController::class,'brooklyn_warren_st_wip_bath'])->name('projects.brooklyn.warren-st.wip.bath');
 Route::get('/projects/brooklyn/warren-st/wip/cabinetry',[ProjectsController::class,'brooklyn_warren_st_wip_cabinetry'])->name('projects.brooklyn.warren-st.wip.cabinetry');
 Route::get('/projects/brooklyn/warren-st/wip/doors-windows',[ProjectsController::class,'brooklyn_warren_st_wip_doors_windows'])->name('projects.brooklyn.warren-st.wip.doors-windows');
+Route::get('/projects/brooklyn/warren-st/wip/drywall',[ProjectsController::class,'brooklyn_warren_st_wip_drywall'])->name('projects.brooklyn.warren-st.wip.drywall');
 Route::get('/projects/brooklyn/warren-st/wip/exterior',[ProjectsController::class,'brooklyn_warren_st_wip_exterior'])->name('projects.brooklyn.warren-st.wip.exterior');
 Route::get('/projects/brooklyn/warren-st/wip/fireplace',[ProjectsController::class,'brooklyn_warren_st_wip_fireplace'])->name('projects.brooklyn.warren-st.wip.fireplace');
 Route::get('/projects/brooklyn/warren-st/wip/floors',[ProjectsController::class,'brooklyn_warren_st_wip_floors'])->name('projects.brooklyn.warren-st.wip.floors');

@@ -21,7 +21,7 @@
         <div class="col-sm-6 no-padd-inner">
             <div class="heading no-padd-top-bottom left dark">
 
-                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.water-st.index') }}">Water St > </a> <a href = "{{ route('projects.brooklyn.water-st.wip.index') }}">In Progress > </a> Cabinetry </div>
+                <div class="subtitle  text-alight-lft"><a href = "{{ route('projects.brooklyn.warren-st.index') }}">Warren St > </a> <a href = "{{ route('projects.brooklyn.warren-st.wip.index') }}">In Progress > </a> Cabinetry </div>
                 <h2 class="title  text-alight-lft">Modern Living: The Art of Built-In Design</h2>
                 <div class="content text-alight-lft">
                     <p>Our latest Manhattan residential project demonstrates the evolution of custom cabinetry from
@@ -69,7 +69,7 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Water St, Brooklyn, NYC, NY
+                                Warren St, Brooklyn,NY
                             </p>
                         </div>
                     </div>

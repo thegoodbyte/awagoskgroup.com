@@ -1,0 +1,29 @@
+{
+    "images": [
+        {
+            "id": "img_001",
+            "filename": "001.JPG",
+            "type": "image"
+        },
+        {
+            "id": "img_002",
+            "filename": "002.JPG",
+            "type": "image"
+        },
+        {
+            "id": "img_003",
+            "filename": "003.JPG",
+            "type": "image"
+        },
+        {
+            "id": "img_004",
+            "filename": "004.JPG",
+            "type": "image"
+        },
+        {
+            "id": "img_005",
+            "filename": "005.JPG",
+            "type": "image"
+        }
+    ]
+}

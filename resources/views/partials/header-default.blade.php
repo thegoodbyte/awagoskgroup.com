@@ -70,7 +70,7 @@
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="{{ route('projects.manhattan.irving') }}">Sorens / Tribeca / Manhattan</a>
+                                            href="{{ route('projects.manhattan.sorens') }}">Sorens / Tribeca / Manhattan</a>
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a

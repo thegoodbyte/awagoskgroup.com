@@ -130,6 +130,17 @@ class ProjectsController extends Controller
         }
     }
 
+    public function brooklyn_warren_st_wip_drywall() {
+        $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/drywall';
+        $viewPath = 'projects.brooklyn.warren-st.wip.drywall';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
     public function brooklyn_warren_st_wip_doors_windows() {
         $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/doors_windows';
         $viewPath = 'projects.brooklyn.warren-st.wip.doors-windows';
@@ -198,7 +209,7 @@ class ProjectsController extends Controller
 
     public function brooklyn_warren_st_wip_trimwork() {
         $galleryPath =  '/img/projects-galleries/brooklyn/warren-st/galleries/wip/trimwork';
-        $viewPath = 'projects.brooklyn.warren-st.wip.trims';
+        $viewPath = 'projects.brooklyn.warren-st.wip.trimwork';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {
