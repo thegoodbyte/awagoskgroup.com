@@ -16,7 +16,7 @@ Route::get('/paralax',[HomeController::class,'paralax']);
 
 
 Route::get('/contact-us',[HomeController::class,'contact_us']);
-Route::get('/about-us',[HomeController::class,'about_us']);
+Route::get('/about-us',[HomeController::class,'about_us'])->name('about-us');
 
 // Projects
 Route::get('/projects/manhattan/central-park-south',[ProjectsController::class,'manhattan_central_park_south'])->name('projects.manhattan.central-park-south.index');
@@ -95,6 +95,7 @@ Route::get('/projects/brooklyn/water-st/wip/generic',[ProjectsController::class,
 Route::get('/projects/brooklyn/water-st/wip/stairs',[ProjectsController::class,'brooklyn_water_st_wip_stairs'])->name('projects.brooklyn.water-st.wip.stairs');
 
 // services
+Route::get('/services',[ServicesController::class,'index'])->name('services.index');
 Route::get('/services/renovations-remodeling',[ServicesController::class,'remodeling_renovations'])->name('services.remodeling-renovations');
 Route::get('/services/custom-kitchens',[ServicesController::class,'custom_kitchens'])->name('services.custom-kitchens');
 Route::get('/services/custom-spaces',[ServicesController::class,'custom_spaces'])->name('services.custom-spaces');

@@ -23,7 +23,12 @@
 
                             <div class="col-xs-12 padding-lg-20t">
 
-                                <p></p>
+                                <p>This sophisticated renovation embraces minimalist design principles, transforming the space with a clean,
+                                    open-concept approach. Warm wooden beams and columns provide natural contrast to crisp white walls,
+                                    while strategically placed lighting creates soft, inviting zones. The design emphasizes spatial fluidity,
+                                    with carefully positioned architectural elements that define different areas without compromising the
+                                    overall sense of openness. Large windows flood the interior with natural light, enhancing the sense
+                                    of spaciousness and creating a serene, contemporary living environment that feels both elegant and functional.</p>
 
 
 

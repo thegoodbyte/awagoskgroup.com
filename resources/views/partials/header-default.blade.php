@@ -103,21 +103,20 @@
                                     href="#">Services</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-2355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2355"><a
-                                            href="{{ route('services.remodeling-renovations') }}">Remodeling and Renovations</a></li>
+                                            href="{{ route('services.index') }}">Remodeling and Renovations</a></li>
                                     <li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2333"><a
-                                            href="{{ route('services.custom-kitchens') }}">Custom Kitchens</a></li>
+                                            href="{{ route('services.index') }}">Custom Kitchens</a></li>
                                     <li id="menu-item-2334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2334"><a
-                                            href="{{ route('services.outdoor-living-spaces') }}">Outdoor living spaces</a></li>
+                                            href="{{ route('services.index') }}">Outdoor living spaces</a></li>
                                     <li id="menu-item-2332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2332"><a
-                                            href="{{ route('services.custom-bathrooms') }}">Custom bathrooms</a></li>
+                                            href="{{ route('services.index') }}">Custom bathrooms</a></li>
                                     <li id="menu-item-2356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2356"><a
-                                            href="{{ route('services.stairways') }}">Stairways</a></li>
+                                            href="{{ route('services.index') }}">Stairways</a></li>
                                     <li id="menu-item-2348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2348"><a
-                                            href="{{ route('services.custom-spaces') }}">Custom Spaces</a></li>
+                                            href="{{ route('services.index') }}">Custom Spaces</a></li>
                                     <li id="menu-item-2347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2347"><a
-                                            href="{{ route('services.smart-home-integration') }}">Smart Home Integration:</a></li>
-                                    <li id="menu-item-2589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2589"><a
-                                            href="fullscreen-projects.html">Work Fullscreen</a></li>
+                                            href="{{ route('services.index') }}">Custom Cabinets</a></li>
+
                                 </ul>
                             </li>
 
@@ -154,22 +153,22 @@
 
             <ul class="social-content">
                 <li>
-                    <a target="_blank" href="https://www.behance.net/foxthemes">
+                    <a target="_blank" href="https://www.behance.net/awagoskgroup">
                         <i aria-hidden="true" class="fa fa-behance"></i>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://twitter.com/foxthemes_offic">
+                    <a target="_blank" href="https://x.com/awagoskgroup">
                         <i aria-hidden="true" class="fa fa-twitter"></i>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.facebook.com/foxthemes.page/">
+                    <a target="_blank" href="https://www.facebook.com/awagoskgroup/">
                         <i aria-hidden="true" class="fa fa-facebook"></i>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.pinterest.com/foxthemes/">
+                    <a target="_blank" href="https://www.pinterest.com/awagoskgroup">
                         <i aria-hidden="true" class="fa fa-pinterest-p"></i>
                     </a>
                 </li>
