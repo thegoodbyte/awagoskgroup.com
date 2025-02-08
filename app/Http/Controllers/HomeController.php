@@ -39,7 +39,7 @@ class HomeController extends Controller
     }
 
     public function contact_us() {
-
+        return view('home/contact_us');
     }
 
 
