@@ -46,20 +46,20 @@
                                             href="{{ route('projects.manhattan.riverside-blvd.index') }}">Riverside Blvd, Manhattan</a>
                                     </li>
 
+{{--                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a--}}
+{{--                                            href="{{ route('projects.manhattan.sorens') }}">Sorens / Tribeca / Manhattan</a>--}}
+{{--                                    </li>--}}
+
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="{{ route('projects.manhattan.sorens') }}">Sorens / Tribeca / Manhattan</a>
+                                            href="{{ route('projects.manhattan.irving') }}">Irving, Manhattan</a>
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="{{ route('projects.manhattan.irving') }}">Irving / Manhattan</a>
+                                            href="{{ route('projects.manhattan.central-park-south.index') }}">Central Park South, Manhattan</a>
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="{{ route('projects.manhattan.central-park-south.index') }}">Central Park South / Manhattan</a>
-                                    </li>
-
-                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
-                                            href="{{ route('projects.manhattan.hudson.index') }}">Hudson / Manhattan</a>
+                                            href="{{ route('projects.manhattan.hudson.index') }}">Hudson / Tribeca, Manhattan</a>
                                     </li>
 
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313">
