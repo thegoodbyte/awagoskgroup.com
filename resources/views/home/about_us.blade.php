@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="team-outer" style=" height:465px">
-                    <img src="#" data-lazy-src="/img/home/about/AWAGOSK-wojtek_500w.jpeg" alt="girl image" class="prague-team-img s-img-switch">
+                    <img src="#" data-lazy-src="/img/home/about/AWAGOSK-wojtek_500w.jpg" alt="girl image" class="prague-team-img s-img-switch">
 
                 </div>
 
