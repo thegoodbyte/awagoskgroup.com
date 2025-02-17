@@ -113,10 +113,8 @@
                                     <div class="project-list-wrapper">
 
                                         <div class="project-list-img">
-                                            <!-- 51f1b143659493.57f77d5c9619a -->
-                                            <a href="{{ route ('projects.manhattan.west-64th') }}" target="_self">
-                                                <img src="/img/home/frontpage/west-64th.JPG" data-lazy-src="/img/home/frontpage/west-64th.JPG" class="s-img-switch"
-                                                                                                        alt="West 64the Street" /></a>
+                                            <img src="/img/home/frontpage/WEST-64TH-2.JPG" data-lazy-src="/img/home/frontpage/WEST-64TH-2.JPG" class="s-img-switch"
+                                                 alt="yabroudi-villa image" />
                                         </div>
 
                                         <div class="project-list-content">
