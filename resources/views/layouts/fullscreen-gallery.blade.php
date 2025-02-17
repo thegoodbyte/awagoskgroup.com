@@ -34,7 +34,7 @@
 <header class="prague-header simple sticky-menu sticky-mobile-menu light ">
     <!--LOGO-->
     <div class="prague-logo">
-        <a href="index.html">
+        <a href="/">
             <img src="/img/home/logo-white.png" class="image_logo" alt="logo" /></a>
     </div>
     <!--/LOGO-->
@@ -50,7 +50,7 @@
                     <nav>
                         <ul class="main-menu">
                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a
-                                    href="index.html">Home</a>
+                                    href="/">Home</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-1599 current_page_item"><a
                                             href="index.html">Main Home</a></li>

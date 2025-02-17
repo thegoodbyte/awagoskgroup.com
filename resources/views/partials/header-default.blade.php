@@ -2,7 +2,7 @@
 <header class="prague-header simple sticky-menu sticky-mobile-menu dark">
 
     <div class="prague-logo">
-        <a href="index.html">
+        <a href="/">
             <img src="/img/home/logo/logo_100w.png" class="image_logo" alt="logo" /></a>
     </div>
 

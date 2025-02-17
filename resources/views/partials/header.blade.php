@@ -3,7 +3,7 @@
 <header class="prague-header simple sticky-menu sticky-mobile-menu light ">
     <!--LOGO-->
     <div class="prague-logo">
-        <a href="index.html">
+        <a href="/">
             <img src="/img/home/logo/logo_200w.png" class="image_logo" alt="logo" /></a>
     </div>
     <!--/LOGO-->
@@ -22,7 +22,7 @@
                                     href="/">Home</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1599 current_page_item"><a
-                                            href="index.html">Main Home</a></li>
+                                            href="/">Main Home</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="minimalist-home.html">Minimalist
                                             Home</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="onepage-home.html">OnePage
