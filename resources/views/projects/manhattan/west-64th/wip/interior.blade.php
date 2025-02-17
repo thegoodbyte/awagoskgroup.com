@@ -62,7 +62,7 @@
                             YEAR </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                2024
+                                2023
                             </p>
                         </div>
                     </div>
@@ -78,28 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-detail-block-wrapper">
-                    <div class="project-detail-block-item">
-                        <div class="project-detail-block-title">
-                            CREATIVE DIRECTOR </div>
-                        <div class="project-detail-block-descr">
-                            <p>
-                                Wojciech Gosk
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-detail-block-wrapper">
-                    <div class="project-detail-block-item">
-                        <div class="project-detail-block-title">
-                            VISUALIZATION </div>
-                        <div class="project-detail-block-descr">
-                            <p>
-                                Wojciech Gosk
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

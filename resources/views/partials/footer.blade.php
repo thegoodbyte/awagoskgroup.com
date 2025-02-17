@@ -26,7 +26,7 @@
                 <h6 class="footer-info-block-title">GET IN TOUCH</h6>
 
                 <div class="footer-info-block-content">
-                    <p><a href="tel:+1 718 863 0943">+1 718 863 0943</a></p>
+{{--                    <p><a href="tel:+1 xxxxxxxxx">+1xxxxxxxx</a></p>--}}
                     <p><a href="mailto:prague-architects@info.com">info@awagoskgroup.com</a></p>
                     <p>123 Grand Ave, Maspeth, New York, 11378</p>
                 </div>

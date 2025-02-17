@@ -77,7 +77,7 @@
                                                     <div class="project-grid-item-content">
                                                         <h4 class="project-grid-item-title"><a href="{{  route('projects.brooklyn.water-st.main') }}">MAIN GALLERY</a></h4>
                                                         <div class="project-grid-item-category">
-                                                            Overall projects [WIP]</div>
+                                                            Overall project</div>
 
                                                     </div>
                                                 </div>

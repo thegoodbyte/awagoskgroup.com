@@ -52,8 +52,6 @@
                                 <rect style="-webkit-mask: url(#coming_mask_0); mask: url(#coming_mask_0);" class="base"
                                       x="0" y="0" width="100%" height="100%"></rect>
                             </svg>
-
-
                         </div>
 
                     </div>
@@ -66,14 +64,9 @@
                 <div class="subtitle ">CONTACT US</div>
                 <h2 class="title">Let's start a new project</h2>
                 <div class="content ">
-                    <p>Give us a call</p>
-
-                    <h2>718 863 0943</h2>
 
                     <p>
-
                         Drop us a line</p>
-
                     <h2>info@awagoskgroup.com</h2>
                 </div>
             </div>

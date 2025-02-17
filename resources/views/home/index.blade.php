@@ -150,7 +150,7 @@
 
                                         <div class="project-list-content">
 
-                                            <div class="project-list-category">2023</div>
+                                            <div class="project-list-category">2016</div>
 
 
                                             <h3 class="project-list-title"><a href="{{ route('projects.manhattan.wooster-st.index') }}"
@@ -186,7 +186,7 @@
 
                                         <div class="project-list-content">
 
-                                            <div class="project-list-category">2023</div>
+                                            <div class="project-list-category">2018</div>
 
                                             <h3 class="project-list-title"><a href="{{ route('projects.manhattan.park-ave.index') }}" target="_self">Park ave</a></h3>
                                             <div class="project-list-excerpt">
@@ -219,7 +219,7 @@
 
                                         <div class="project-list-content">
 
-                                            <div class="project-list-category">2024</div>
+                                            <div class="project-list-category">2017</div>
 
 
                                             <h3 class="project-list-title"><a href="{{ route('projects.manhattan.hudson.index') }}"

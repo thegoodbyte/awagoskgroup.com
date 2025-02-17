@@ -55,7 +55,7 @@
                             YEAR </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                2023
+                                2016
                             </p>
                         </div>
                     </div>

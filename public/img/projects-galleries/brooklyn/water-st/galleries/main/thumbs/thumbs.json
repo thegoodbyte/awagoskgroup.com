@@ -2,32 +2,37 @@
     "images": [
         {
             "id": 1,
-            "filename": "IMG_3104_[exterior].JPG",
+            "filename": "01.JPG",
             "category": "exterior"
         },
         {
             "id": 2,
-            "filename": "IMG_3105_[exterior].JPG",
+            "filename": "02.JPG",
             "category": "exterior"
         },
         {
             "id": 3,
-            "filename": "IMG_3107_[exterior].JPG",
+            "filename": "03.JPG",
             "category": "exterior"
         },
         {
             "id": 4,
-            "filename": "IMG_3209_[exterior].JPG",
+            "filename": "04.JPG",
             "category": "exterior"
         },
         {
             "id": 5,
-            "filename": "IMG_3211_[exterior].JPG",
+            "filename": "05.JPG",
             "category": "exterior"
         },
         {
             "id": 6,
-            "filename": "IMG_3920_[exterior].JPG",
+            "filename": "06.JPG",
+            "category": "exterior"
+        },
+        {
+            "id": 7,
+            "filename": "07.JPG",
             "category": "exterior"
         }
     ]

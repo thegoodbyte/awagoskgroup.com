@@ -83,5 +83,7 @@
         </div>
     </div>
 </div>
-
+<!-- share project -->
+@include('partials.share-project')
+<!-- Eof share-project -->
 <!--/MAIN BODY-->

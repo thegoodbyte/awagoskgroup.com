@@ -1,74 +1,46 @@
 {
     "images": [
         {
-            "id": 1,
+            "id": "img03",
+            "filename": "03.JPG",
+            "type": "JPG",
+            "tags": []
+        },
+        {
+            "id": "img04",
             "filename": "04.JPG",
-            "category": "uncategorized"
+            "type": "JPG",
+            "tags": []
         },
         {
-            "id": 2,
+            "id": "img05",
             "filename": "05.JPG",
-            "category": "uncategorized"
+            "type": "JPG",
+            "tags": []
         },
         {
-            "id": 3,
-            "filename": "IMG_0766.JPG",
-            "category": "uncategorized"
+            "id": "img08",
+            "filename": "08.JPG",
+            "type": "JPG",
+            "tags": []
         },
         {
-            "id": 4,
-            "filename": "IMG_0767.JPG",
-            "category": "uncategorized"
+            "id": "img09",
+            "filename": "09.JPG",
+            "type": "JPG",
+            "tags": []
         },
         {
-            "id": 5,
-            "filename": "IMG_0768.JPG",
-            "category": "uncategorized"
+            "id": "img10",
+            "filename": "10.JPG",
+            "type": "JPG",
+            "tags": []
         },
         {
-            "id": 6,
-            "filename": "IMG_3106_[exterior].JPG",
-            "category": "exterior"
-        },
-        {
-            "id": 7,
-            "filename": "IMG_3205.JPG",
-            "category": "uncategorized"
-        },
-        {
-            "id": 8,
-            "filename": "IMG_3206_[drywall].JPG",
-            "category": "drywall"
-        },
-        {
-            "id": 9,
-            "filename": "IMG_3208_[exterior].JPG",
-            "category": "exterior"
-        },
-        {
-            "id": 10,
-            "filename": "IMG_5550.JPG",
-            "category": "uncategorized"
-        },
-        {
-            "id": 11,
-            "filename": "IMG_6971.JPG",
-            "category": "uncategorized"
-        },
-        {
-            "id": 12,
-            "filename": "IMG_6975_[kitchen].JPG",
-            "category": "kitchen"
-        },
-        {
-            "id": 13,
-            "filename": "IMG_6977.JPG",
-            "category": "uncategorized"
-        },
-        {
-            "id": 14,
-            "filename": "IMG_6992.JPG",
-            "category": "uncategorized"
+            "id": "img12",
+            "filename": "11.JPG",
+            "type": "JPG",
+            "tags": []
         }
     ]
 }
