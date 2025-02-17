@@ -395,9 +395,37 @@ class ProjectsController extends Controller
         }
     }
 
+
+
     public function manhattan_park_ave_wip() {
         $galleryPath =  '/img/projects-galleries/manhattan/park-ave/galleries/wip';
         $viewPath = 'projects.manhattan.park-ave.wip';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_park_ave_69th_street_index() {
+        return view('projects.manhattan.park-ave-69th-street.index');
+    }
+
+    public function manhattan_park_ave_69th_street_wip() {
+        $galleryPath =  '/img/projects-galleries/manhattan/park-ave-69th-street/galleries/wip';
+        $viewPath = 'projects.manhattan.park-ave-69th-street.wip';
+        try {
+            return $this->returnGalleryView($viewPath, $galleryPath);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return view('errors.error', ['message' => $e->getMessage()]);
+        }
+    }
+
+    public function manhattan_park_ave_69th_street_main() {
+        $galleryPath =  '/img/projects-galleries/manhattan/park-ave-69th-street/galleries/main';
+        $viewPath = 'projects.manhattan.park-ave-69th-street.main';
         try {
             return $this->returnGalleryView($viewPath, $galleryPath);
         } catch (\Exception $e) {

@@ -64,7 +64,7 @@
                             YEAR </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                2023
+                                2016
                             </p>
                         </div>
                     </div>
@@ -75,51 +75,17 @@
                             LOCATION </div>
                         <div class="project-detail-block-descr">
                             <p>
-                                Central Ave, Manhattan, NYC, NY
+                                Central Park South, Manhattan, NYC, NY
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="project-detail-block-wrapper">
-                    <div class="project-detail-block-item">
-                        <div class="project-detail-block-title">
-                            CREATIVE DIRECTOR </div>
-                        <div class="project-detail-block-descr">
-                            <p>
-                                Wojciech Gosk
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-detail-block-wrapper">
-                    <div class="project-detail-block-item">
-                        <div class="project-detail-block-title">
-                            VISUALIZATION </div>
-                        <div class="project-detail-block-descr">
-                            <p>
-                                Wojciech Gosk
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
 </div>
-<div class="container project-detail-simple margin-lg-125b margin-sm-75b">
-    <div class=" prague-share-icons">
-        <div class="prague-share-label">SHARE PROJECT</div>
-
-        <button data-share="http://www.facebook.com/sharer.php?u=alto-furniture.html&amp;t=Awa Gosk Group" class="icon fa fa-facebook"></button>
-
-        <button data-share="http://twitter.com/home/?status=Awa Gosk Group - alto-furniture.html" class="icon fa fa-twitter"></button>
-
-        <button data-share="http://www.linkedin.com/shareArticle?mini=true&amp;title=Awa Gosk Group&amp;url=projects"
-                class="icon fa fa-linkedin"></button>
-
-        <button data-share="http://pinterest.com/pin/create/button/?url=alto-furniture.html&media=img/Awa Gosk Group/29d9cd46052073.58467b6d8b26b-e1542297883242.jpg"
-                class="icon fa fa-pinterest-p"></button>
-
-    </div>
-</div>
+<!-- share project -->
+@include('partials.share-project')
+<!-- Eof share-project -->
 <!--/MAIN BODY-->

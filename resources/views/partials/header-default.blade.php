@@ -28,41 +28,18 @@
                                     </li>
                                     <li id="menu-item-2313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2313"><a
                                             href="{{ route("projects.manhattan.park-ave.index") }}">Park Ave, Manhattan</a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{ route("projects.manhattan.park-ave.interior") }}">Interior</a>
-                                            </li>
-                                            <li id="menu-item-2338" class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{ route("projects.manhattan.park-ave.exterior") }}">Exterior</a>
-                                            </li>
-                                        </ul>
                                     </li>
 
 
                                     <li id="menu-item-2315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2315"><a
                                             href="{{ route("projects.manhattan.west-64th") }}">West 64th, Manhattan</a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{ route("projects.manhattan.west-64th.kitchen") }}">Kitchen</a>
-                                            </li>
-                                            <li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{ route("projects.manhattan.west-64th.interior") }}">Interior</a>
-                                            </li>
-                                            <li id="menu-item-2338" class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{ route("projects.manhattan.west-64th.exterior") }}">Exterior</a>
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
                                             href="{{ route('projects.manhattan.wooster-st.index') }}">Wooster St, Manhattan </a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{ route("projects.manhattan.wooster-st.interior") }}">Interior</a>
-                                            </li>
-                                            <li id="menu-item-2338" class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{ route("projects.manhattan.wooster-st.bath") }}">Bath</a>
-                                            </li>
-                                        </ul>
+                                    </li>
+
+                                    <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a
+                                            href="{{ route('projects.manhattan.park-ave-69th-street.index') }}">Park Ave / 69th St, Manhattan </a>
                                     </li>
 
                                     <li id="menu-item-2318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2318"><a

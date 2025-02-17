@@ -28,6 +28,10 @@ Route::get('/projects/manhattan/central-park-south/wip/generic_work',[ProjectsCo
 Route::get('/projects/manhattan/central-park-south/wip/kitchen',[ProjectsController::class,'manhattan_central_park_south_wip_kitchen'])->name('projects.manhattan.central-park-south.wip.kitchen');
 Route::get('/projects/manhattan/central-park-south/wip/drywall',[ProjectsController::class,'manhattan_central_park_south_wip_drywall'])->name('projects.manhattan.central-park-south.wip.drywall');
 
+Route::get('/projects/manhattan/park-ave-69th-st',[ProjectsController::class,'manhattan_park_ave_69th_street_index'])->name('projects.manhattan.park-ave-69th-street.index');
+Route::get('/projects/manhattan/park-ave-69th-st/main',[ProjectsController::class,'manhattan_park_ave_69th_street_main'])->name('projects.manhattan.park-ave-69th-street.main');
+Route::get('/projects/manhattan/park-ave-69th-st/wip',[ProjectsController::class,'manhattan_park_ave_69th_street_wip'])->name('projects.manhattan.park-ave-69th-street.wip');
+
 Route::get('/projects/manhattan/park-ave',[ProjectsController::class,'manhattan_park_ave'])->name('projects.manhattan.park-ave.index');
 Route::get('/projects/manhattan/park-ave/interior',[ProjectsController::class,'manhattan_park_ave_interior'])->name('projects.manhattan.park-ave.interior');
 Route::get('/projects/manhattan/park-ave/exterior',[ProjectsController::class,'manhattan_park_ave_exterior'])->name('projects.manhattan.park-ave.exterior');
