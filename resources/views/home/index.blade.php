@@ -115,7 +115,7 @@
                                         <div class="project-list-img">
                                             <!-- 51f1b143659493.57f77d5c9619a -->
                                             <a href="{{ route ('projects.manhattan.west-64th') }}" target="_self">
-                                                <img src="#" data-lazy-src="/img/home/frontpage/west-64th.JPG" class="s-img-switch"
+                                                <img src="/img/home/frontpage/west-64th.JPG" data-lazy-src="/img/home/frontpage/west-64th.JPG" class="s-img-switch"
                                                                                                         alt="West 64the Street" /></a>
                                         </div>
 
@@ -144,7 +144,7 @@
                                     <div class="project-list-wrapper">
 
                                         <div class="project-list-img">
-                                            <img src="#" data-lazy-src="/img/home/frontpage/wooster-st.JPG"
+                                            <img src="/img/home/frontpage/wooster-st.JPG" data-lazy-src="/img/home/frontpage/wooster-st.JPG"
                                                  class="s-img-switch" alt="Project #2" />
                                         </div>
 
@@ -154,7 +154,7 @@
 
 
                                             <h3 class="project-list-title"><a href="{{ route('projects.manhattan.wooster-st.index') }}"
-                                                                              target="_self">Wooster Street</a></h3>
+                                                                              target="_self">Wooster Street, Manhattan</a></h3>
                                             <div class="project-list-excerpt">
                                                 <p>This contemporary renovation showcases a masterful blend of minimalist design and
                                                     innovative spatial planning. Characterized by clean lines, warm wooden accents,
@@ -180,7 +180,7 @@
                                     <div class="project-list-wrapper">
 
                                         <div class="project-list-img">
-                                            <img src="#" data-lazy-src="/img/home/frontpage/park-ave.jpg" class="s-img-switch"
+                                            <img src="/img/home/frontpage/park-ave.JPG" data-lazy-src="/img/home/frontpage/park-ave.JPG" class="s-img-switch"
                                                  alt="yabroudi-villa image" />
                                         </div>
 
@@ -188,7 +188,7 @@
 
                                             <div class="project-list-category">2018</div>
 
-                                            <h3 class="project-list-title"><a href="{{ route('projects.manhattan.park-ave.index') }}" target="_self">Park ave</a></h3>
+                                            <h3 class="project-list-title"><a href="{{ route('projects.manhattan.park-ave.index') }}" target="_self">Park Ave, Manhattan</a></h3>
                                             <div class="project-list-excerpt">
                                                 <p>In this stunning Park Avenue residence, we collaborated closely with architects to
                                                     create a sophisticated urban sanctuary that seamlessly blends contemporary luxury with f
@@ -213,7 +213,7 @@
                                     <div class="project-list-wrapper">
 
                                         <div class="project-list-img">
-                                            <img src="#" data-lazy-src="/img/home/frontpage/hudson.JPG"
+                                            <img src="/img/home/frontpage/hudson.JPG" data-lazy-src="/img/home/frontpage/hudson.JPG"
                                                  class="s-img-switch" alt="cultural-complex-centre image" />
                                         </div>
 
@@ -223,7 +223,7 @@
 
 
                                             <h3 class="project-list-title"><a href="{{ route('projects.manhattan.hudson.index') }}"
-                                                                              target="_self">Hudson</a></h3>
+                                                                              target="_self">Hudson St, Manhattan</a></h3>
                                             <div class="project-list-excerpt">
                                                 <p>In this remarkable Manhattan loft renovation, we transformed an industrial space into a sophisticated modern residence,
                                                     showcasing our expertise in high-end construction through custom millwork, architectural steel and glass partitions,
@@ -242,7 +242,6 @@
                                 </div>
                             </div>
 
-
                         </div>
                     </div>
                 </div>
@@ -250,99 +249,3 @@
         </div>
     </div>
 </div>
-
-
-
-{{--<div class="heading  left dark container">--}}
-
-{{--    <div class="subtitle ">TESTIMONIALS</div>--}}
-{{--    <h2 class="title">They love us.</h2>--}}
-
-{{--</div>--}}
-
-{{--<div class="container">--}}
-
-{{--    <div class="row  row-fluid margin-lg-10t margin-lg-145b margin-sm-70b">--}}
-
-{{--        <div class="testimonials-wrapper  no-figure">--}}
-{{--            <div class="testimonials-swiper swiper-container" data-speed='2000' data-loop='1' data-autoplay='3000'--}}
-{{--                 data-center='0' data-mode='vertical' data-slides-per-view='1' data-lg-slides='1,0' data-md-slides='1,0'--}}
-{{--                 data-sm-slides='1,0' data-xs-slides='1,0'>--}}
-{{--                <!-- Additional required wrapper -->--}}
-{{--                <div class="swiper-wrapper">--}}
-{{--                    <div class="swiper-slide">--}}
-{{--                        <div class="testimonials-item">--}}
-
-{{--                            <span class="testimonials-icon fa fa fa-quote-right"></span>--}}
-
-{{--                            <blockquote class="testimonials-description">--}}
-{{--                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut--}}
-{{--                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco--}}
-{{--                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in--}}
-{{--                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat--}}
-{{--                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>--}}
-{{--                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>--}}
-{{--                            </blockquote>--}}
-{{--                            <h4 class="testimonials-author">Mark Eganberg</h4>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                    <div class="swiper-slide">--}}
-{{--                        <div class="testimonials-item">--}}
-
-{{--                            <span class="testimonials-icon fa fa fa-quote-right"></span>--}}
-
-{{--                            <blockquote class="testimonials-description">--}}
-{{--                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut--}}
-{{--                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco--}}
-{{--                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in--}}
-{{--                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat--}}
-{{--                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>--}}
-{{--                            </blockquote>--}}
-{{--                            <h4 class="testimonials-author">Jennifer Hilbertson</h4>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                    <div class="swiper-slide">--}}
-{{--                        <div class="testimonials-item">--}}
-
-{{--                            <span class="testimonials-icon fa fa fa-quote-right"></span>--}}
-
-{{--                            <blockquote class="testimonials-description">--}}
-{{--                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut--}}
-{{--                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco--}}
-{{--                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in--}}
-{{--                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat--}}
-{{--                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>--}}
-{{--                            </blockquote>--}}
-{{--                            <h4 class="testimonials-author">Lesley Grand</h4>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                    <div class="swiper-slide">--}}
-{{--                        <div class="testimonials-item">--}}
-
-{{--                            <span class="testimonials-icon fa fa fa-quote-right"></span>--}}
-
-{{--                            <blockquote class="testimonials-description">--}}
-{{--                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut--}}
-{{--                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco--}}
-{{--                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in--}}
-{{--                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat--}}
-{{--                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>--}}
-{{--                            </blockquote>--}}
-{{--                            <h4 class="testimonials-author">John Frick</h4>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                </div>--}}
-
-{{--                <!-- If we need pagination -->--}}
-{{--                <div class="testimonials-pagination-wrapper">--}}
-{{--                    <div class="swiper-pagination"></div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</div>--}}
